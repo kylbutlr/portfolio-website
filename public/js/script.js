@@ -9,7 +9,7 @@ $(function(){
   $(".header-div, .footer-button").click(function(e){
     if ($(".projects-window").is(":hidden")){
       $(".projects-window").stop().delay(500).fadeIn(1000)
-      $(".footer-div").stop().animate({bottom: 14},1000)
+      $(".footer-div").stop().animate({bottom: 12},1000)
     } else {
       $(".projects-window").fadeOut(500)
       $(".footer-div").stop().animate({bottom: -110},1000)
@@ -18,7 +18,7 @@ $(function(){
   function scrollHorizontally(e) {
       e = window.event || e;
       var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)))
-      document.getElementById('scrollDiv').scrollLeft -= (delta*120) // Multiplied by 40
+      document.getElementById('scrollDiv').scrollLeft -= (delta*120) // (*40)
       e.preventDefault()
   }
   if (document.getElementById('scrollDiv').addEventListener) {
