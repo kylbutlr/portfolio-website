@@ -1,0 +1,92 @@
+body {
+  background: #eeeeee;
+  margin: 0;
+  overflow: hidden;
+}
+h1 {
+  color: #eeeeee;
+  cursor: default;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  letter-spacing: 1vh;
+  margin: 0;
+}
+h6 {
+  color: #eeeeee;
+  cursor: default;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25vh;
+  font-weight: normal;
+  letter-spacing: 1vw;
+  margin: 0;
+  text-align: center;
+  text-shadow: 5px 5px 15px  black;
+}
+.background {
+  background: #eeeeee;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.navigation-div {
+  background: #111111;
+  box-shadow: 0 5px 15px -2px black;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  left: -5vw;
+  top: 0;
+  margin: 0;
+  padding: 0 5vw;
+  position: absolute;
+  width: 100vw;
+}
+.header-div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 10vh;
+  margin: 0 5vw;
+}
+.middle-nav-div {
+  flex: 100%;
+  height: 10vh;
+  margin: 0;
+}
+.socials-div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 10vh;
+  margin: 0 5vw;
+}
+.socials-div img {
+  height: 5vh;
+  padding: 0 1vh;
+  position: relative;
+  top: 0.4vh;
+  width: 5vh;
+}
+.main-div {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+  overflow: auto;
+  margin: 10vh auto 5vh;
+  justify-content: center;
+  width: 100vw;
+}
+.footer-div {
+  background: #111111;
+  box-shadow: 0 -5px 15px -2px black;
+  bottom: 0;
+  height: 5vh;
+  left: -5vw;
+  margin: 0;
+  padding: 0 5vw;
+  position: absolute;
+  width: 100vw;
+}
