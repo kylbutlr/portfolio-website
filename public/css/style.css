@@ -1,5 +1,5 @@
 body {
-  background: #eeeeee;
+  background: #111111;
   margin: 0;
   overflow: hidden;
 }
@@ -67,7 +67,7 @@ h6 {
   height: 5vh;
   padding: 0 1vh;
   position: relative;
-  top: 0.4vh;
+  top: 0.25vh;
   width: 5vh;
 }
 .main-div {
