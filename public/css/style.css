@@ -1,7 +1,13 @@
 body {
-  background: #111111;
+  background: #000000;
+  color: #eeeeee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vh;
   margin: 0;
   overflow: hidden;
+}
+a{
+  color: #eeeeee;
 }
 h1 {
   color: #eeeeee;
@@ -11,23 +17,12 @@ h1 {
   letter-spacing: 1vh;
   margin: 0;
 }
-h6 {
-  color: #eeeeee;
-  cursor: default;
-  font-family: 'Roboto', sans-serif;
-  font-size: 25vh;
-  font-weight: normal;
-  letter-spacing: 1vw;
-  margin: 0;
-  text-align: center;
-  text-shadow: 5px 5px 15px  black;
-}
 .background {
   background: #eeeeee;
   height: 100%;
   position: fixed;
   right: 0;
-  top: 0;
+  bottom: 5vh;
   width: 100%;
   z-index: -1;
 }
@@ -80,13 +75,41 @@ h6 {
   width: 100vw;
 }
 .footer-div {
-  background: #111111;
+  background: #111111ee;
   box-shadow: 0 -5px 15px -2px black;
-  bottom: 0;
-  height: 5vh;
+  bottom: -128px;
+  height: 20vh;
   left: -5vw;
   margin: 0;
   padding: 0 5vw;
   position: absolute;
   width: 100vw;
+}
+.footer-button {
+  background: #111111;
+  cursor: pointer;
+  font-size: 2vh;
+  height: 2.5vh;
+  letter-spacing: 2.5vw;
+  text-align: center;
+  width: 100vw;
+}
+.projects-window {
+  height: 10vh;
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2.5vh 0 5vh;
+  width: 100vw;
+}
+.project-div {
+  width: 1000%;
+}
+.project {
+  float: left;
+  height: 10vh;
+  margin: 0 1vw;
+  padding: 0 1vw;
+  text-align: center;
+  width: 10vw;
 }

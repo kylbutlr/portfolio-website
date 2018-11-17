@@ -1,7 +1,18 @@
+
 $(function(){
-  $("h6").hide().delay(3000).fadeToggle(1000)
-  $(".footer-div").hide().delay(500).slideToggle(1000)
-  $(".navigation-div").hide().delay(500).slideToggle(1000)
-  $(".header-div").hide().delay(2000).fadeToggle(1000)
-  $(".socials-div").hide().delay(2000).fadeToggle(1000)
+  $(".projects-window").hide()
+  $(".background").hide().delay(1500).fadeToggle(2000)
+  $(".header-div").hide().delay(500).fadeToggle(1000)
+  $(".socials-div").hide().delay(500).fadeToggle(1000)
+
+  $(".footer-button").click(function(e){
+    if ($(".projects-window").is(":hidden")){
+      $(".projects-window").stop().delay(500).fadeIn(1000)
+      $(".footer-div").stop().animate({bottom: 0},1000)
+    }
+    else {
+      $(".projects-window").fadeOut(500)
+      $(".footer-div").stop().animate({bottom: -128},1000)
+    }
+  })
 })
