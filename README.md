@@ -1,2 +1,2 @@
-# website
+# Website
 My Website (WIP)
