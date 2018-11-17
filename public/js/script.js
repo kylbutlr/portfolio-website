@@ -1,7 +1,7 @@
 
 $(function(){
   $(".projects-window").hide()
-  $(".background").hide().delay(1000).fadeToggle(1500)
+  $(".background").hide().delay(1000).fadeToggle(2500)
   $(".header-div").hide().delay(500).fadeToggle(1000)
   $(".socials-div").hide().delay(500).fadeToggle(1000)
   $("h2").hide().delay(500).fadeToggle(1000)
