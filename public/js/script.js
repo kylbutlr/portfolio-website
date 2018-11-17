@@ -6,9 +6,9 @@ $(function(){
   $(".socials-div").hide().delay(500).fadeToggle(1000)
   $("h2").hide().delay(500).fadeToggle(1000)
 
-  $(".header-div, .footer-button").click(function(e){
+  $(".footer-button").click(function(e){
     if ($(".projects-window").is(":hidden")){
-      $(".projects-window").stop().delay(500).fadeIn(1000)
+      $(".projects-window").stop().delay(500).fadeIn(500)
       $(".footer-div").stop().animate({bottom: 12},1000)
     } else {
       $(".projects-window").fadeOut(500)

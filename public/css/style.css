@@ -27,7 +27,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 4vh;
   font-weight: normal;
-  margin: 0;
+  margin: 2.5vh 0;
 }
 .background {
   background: #eeeeee;
@@ -53,7 +53,7 @@ h3 {
 }
 .header-div {
   align-items: center;
-  cursor: pointer;
+  cursor: default;
   display: flex;
   flex: 1;
   height: 10vh;
@@ -75,7 +75,7 @@ h3 {
   height: 5vh;
   padding: 0 1vh;
   position: relative;
-  top: 0.25vh;
+  top: 0.5vh;
   width: 5vh;
 }
 .main-div {
@@ -90,7 +90,7 @@ h3 {
 .footer-div {
   background: #111111dd;
   box-shadow: 0 -5px 15px -2px black;
-  bottom: -110px;
+  bottom: -15vh;
   height: 20vh;
   left: -5vw;
   margin: 0;
@@ -108,12 +108,18 @@ h3 {
   bottom: 1vh;
   height: 3vh;
   margin: 0 auto;
+  opacity: 0.5;
   padding: 1vh 0;
   position: relative;
+  transition: opacity 0.5s;
   width: 5vw;
+}
+.footer-button:hover > .menu-bars {
+  opacity: 1;
 }
 .bars {
   background-color: #eeeeee;
+  border-radius: 5px;
   height: 0.4vh;
   margin: 0.9vh 0;
   width: auto;
@@ -130,7 +136,7 @@ h3 {
 .projects-div {
   height: 10vh;
   margin: 0 1vw;
-  width: 121vw;
+  width: 111vw;
 }
 .project {
   float: left;
@@ -139,7 +145,8 @@ h3 {
   outline: 2px solid #eeeeee55;
   padding: 0;
   text-align: center;
-  width: 10vw;
+  width: 20vw;
+  vertical-align: middle;
 }
 #scrollDiv::-webkit-scrollbar-track
 {
