@@ -17,6 +17,19 @@ h1 {
   letter-spacing: 1vh;
   margin: 0;
 }
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vh;
+  font-weight: normal;
+  letter-spacing: 2.5vw;
+  margin: 0;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vh;
+  font-weight: normal;
+  margin: 0;
+}
 .background {
   background: #eeeeee;
   height: 100%;
@@ -75,7 +88,7 @@ h1 {
   width: 100vw;
 }
 .footer-div {
-  background: #111111ee;
+  background: #111111dd;
   box-shadow: 0 -5px 15px -2px black;
   bottom: -128px;
   height: 20vh;
@@ -88,9 +101,7 @@ h1 {
 .footer-button {
   background: #111111;
   cursor: pointer;
-  font-size: 2vh;
   height: 2.5vh;
-  letter-spacing: 2.5vw;
   text-align: center;
   width: 100vw;
 }
@@ -109,7 +120,8 @@ h1 {
   float: left;
   height: 10vh;
   margin: 0 1vw;
-  padding: 0 1vw;
+  outline: 1px solid #eeeeee55;
+  padding: 0;
   text-align: center;
   width: 10vw;
 }
