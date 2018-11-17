@@ -8,9 +8,11 @@ $(function(){
 
   $(".footer-button").click(function(e){
     if ($(".projects-window").is(":hidden")){
+      $(".menu-bars").addClass("full-opacity")
       $(".projects-window").stop().delay(500).fadeIn(500)
       $(".footer-div").stop().animate({bottom: 12},1000)
     } else {
+      $(".menu-bars").removeClass("full-opacity")
       $(".projects-window").fadeOut(500)
       $(".footer-div").stop().animate({bottom: -110},1000)
     }
