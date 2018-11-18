@@ -40,6 +40,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 4vh;
   font-weight: normal;
+  letter-spacing: 0.5vh;
   margin: 2.5vh 0;
   text-transform: uppercase;
 }
