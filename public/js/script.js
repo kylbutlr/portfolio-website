@@ -1,12 +1,13 @@
-
 $(function(){
   $(".projects-window").hide()
   $(".background").hide().delay(1000).fadeToggle(3000)
   $(".header-div").hide().delay(500).fadeToggle(1500)
   $(".socials-div").hide().delay(500).fadeToggle(1500)
-  $("h2").hide().delay(500).fadeToggle(1000)
+  setTimeout(function() {
+    $(".footer-button").trigger('click')
+  }, 3000)
 
-  $(".footer-button").click(function(e){
+  $(".footer-button").on("click", function(){
     if ($(".projects-window").is(":hidden")){
       $(".menu-bars").addClass("full-opacity")
       $(".projects-window").stop().delay(500).fadeIn(500)
@@ -17,6 +18,7 @@ $(function(){
       $(".footer-div").stop().animate({bottom: -110},750)
     }
   })
+  
   function scrollHorizontally(e) {
       e = window.event || e;
       var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)))
