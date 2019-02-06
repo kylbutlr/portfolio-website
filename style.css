@@ -191,6 +191,9 @@ h5 {
   width: 20vw;
   vertical-align: middle;
 }
+.project:hover {
+  box-shadow: 0 0 10px #eeeeee
+}
 .full-opacity {
   opacity: 1;
 }

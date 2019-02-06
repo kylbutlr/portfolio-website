@@ -29,12 +29,18 @@ $(function() {
       $('.footer-div')
         .stop()
         .animate({ bottom: 12 }, 750);
+      setTimeout(function() {
+        $('.menu-bars').removeClass('full-opacity');
+      }, 750);
     } else {
-      $('.menu-bars').removeClass('full-opacity');
+      $('.menu-bars').addClass('full-opacity');
       $('.projects-window').fadeOut(500);
       $('.footer-div')
         .stop()
         .animate({ bottom: -100 }, 750);
+      setTimeout(function() {
+        $('.menu-bars').removeClass('full-opacity');
+      }, 750);
     }
   });
 
