@@ -15,7 +15,7 @@ $(function(){
     } else {
       $(".menu-bars").removeClass("full-opacity");
       $(".projects-window").fadeOut(500);
-      $(".footer-div").stop().animate({bottom: -110},750);
+      $(".footer-div").stop().animate({bottom: -100},750);
     }
   });
   
