@@ -1,3 +1,22 @@
+.p1 {
+  background-image: url('./images/thumbs/notes-transparent.png');
+}
+.p2 {
+  background-image: url('./images/thumbs/todolist-transparent.png');
+}
+.p3 {
+  background-image: url('./images/thumbs/alarmtimer-transparent.png');
+}
+.p4 {
+  background-image: url('./images/thumbs/flexslideshow-transparent.png');
+}
+.p5 {
+  background-image: url('./images/thumbs/tiprecorder-transparent.png');
+}
+.p1, .p2, .p3, .p4, .p5 {
+  background-size: 100%;
+  background-color: rgba(0,0,0, 0.5);
+}
 body {
   background: #000000;
   color: #eeeeee;
@@ -41,7 +60,8 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 3vh;
+  font-size: 4vh;
+  text-shadow: 2px 2px 4px black;
   letter-spacing: 0.5vh;
   margin: 3vh 0;
   text-transform: uppercase;
@@ -159,7 +179,7 @@ h5 {
 .projects-div {
   height: 10vh;
   margin: 0 1vw;
-  width: 133vw;
+  width: 111vw; /* <- 22vw per project */
 }
 .project {
   float: left;
