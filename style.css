@@ -253,7 +253,7 @@ h6 {
   opacity: 1;
   transition: opacity 1s;
 }
-.socials-div a:hover,
+/*.socials-div a:hover,
 .socials-div .email:hover {
   animation: mild-shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
   backface-visibility: hidden;
@@ -271,7 +271,7 @@ h6 {
 .menu-bars:active {
   transform: scaleX(0.9);
   transition: all 0.1s ease;
-}
+}*/
 
 /* Animations */
 @keyframes mild-shake {
