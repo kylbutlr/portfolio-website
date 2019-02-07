@@ -197,6 +197,14 @@ h5 {
   cursor: pointer;
   margin: 0 1vh;
 }
+.copytip {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: default;
+  margin: -2.5vh 3vh;
+  color: #eeeeee88;
+}
 .copied {
   position: absolute;
   opacity: 0;
