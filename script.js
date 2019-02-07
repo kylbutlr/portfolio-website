@@ -72,20 +72,23 @@ $(function() {
       $('.menu-bars').addClass('full-opacity');
       $('.projects-window')
         .stop()
-        .delay(250)
-        .fadeIn(750);
+        .delay(500)
+        .fadeIn(500);
       $('.footer-div')
         .stop()
-        .animate({ bottom: '+=112' }, 1000, 'easeOutQuart');
+        .animate({ bottom: '+=112' }, 1000, 'easeInOutCubic');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
     } else {
       $('.menu-bars').addClass('full-opacity');
-      $('.projects-window').fadeOut(500);
+      $('.projects-window')
+        .stop()
+        .delay(250)
+        .fadeOut(500);
       $('.footer-div')
         .stop()
-        .animate({ bottom: '-=112' }, 1000, 'easeOutQuart');
+        .animate({ bottom: '-=112' }, 1000, 'easeInOutCubic');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
