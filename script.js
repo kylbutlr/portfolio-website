@@ -13,8 +13,7 @@ $(function() {
     .delay(500)
     .fadeToggle(1500);
   setTimeout(function() {
-    if ($('.menu-bars').hasClass('full-opacity')) {
-    } else {
+    if ($('.projects-window').is(':hidden')) {
       $('.footer-button').trigger('click');
     }
   }, 3000);
