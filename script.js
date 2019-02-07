@@ -27,15 +27,18 @@ $(function() {
     if ($('.copied').hasClass('full-opacity') === false) {
       let tempTimeout;
       $('.copied').addClass('full-opacity');
+      $('.email').addClass('no-cursor');
       $('.socials-div').mouseleave(function() {
         clearTimeout(tempTimeout);
         $('.socials-div').off('mouseleave');
+        $('.email').removeClass('no-cursor');
         setTimeout(function() {
           $('.copied').removeClass('full-opacity');
-        }, 1000);
+        }, 500);
       });
       tempTimeout = setTimeout(function() {
         $('.copied').removeClass('full-opacity');
+        $('.email').removeClass('no-cursor');
         $('.socials-div').off('mouseleave');
       }, 3000);
     }

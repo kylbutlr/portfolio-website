@@ -215,6 +215,9 @@ h5 {
 .full-opacity {
   opacity: 1;
 }
+.no-cursor {
+  cursor: none;
+}
 
 /* Fancy Effects */
 #scrollDiv::-webkit-scrollbar-track {
