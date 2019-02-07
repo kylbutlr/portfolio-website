@@ -19,6 +19,20 @@ $(function() {
     }
   }, 3000);
 
+  $('.email').on('click', function() {
+    let $temp = $('<input>');
+    $('body').append($temp);
+    $temp.val($('#email').text()).select();
+    document.execCommand('copy');
+    $temp.remove();
+    if ($('.copied').hasClass('full-opacity') === false) {
+      $('.copied').addClass('full-opacity');
+    }
+    setTimeout(function() {
+      $('.copied').removeClass('full-opacity');
+    }, 4000);
+  });
+
   $('.footer-button').on('click', function() {
     if ($('.projects-window').is(':hidden')) {
       $('.menu-bars').addClass('full-opacity');
@@ -46,7 +60,7 @@ $(function() {
 
   function scrollHorizontally(e) {
     e = window.event || e;
-    var delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
+    let delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
     document.getElementById('scrollDiv').scrollLeft -= delta * 120; // (*40)
     e.preventDefault();
   }
