@@ -72,11 +72,11 @@ $(function() {
       $('.menu-bars').addClass('full-opacity');
       $('.projects-window')
         .stop()
-        .delay(500)
-        .fadeIn(500);
+        .delay(250)
+        .fadeIn(750);
       $('.footer-div')
         .stop()
-        .animate({ bottom: 12 }, 750);
+        .animate({ bottom: '+=112' }, 1000, 'easeOutQuart');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
@@ -85,7 +85,7 @@ $(function() {
       $('.projects-window').fadeOut(500);
       $('.footer-div')
         .stop()
-        .animate({ bottom: -100 }, 750);
+        .animate({ bottom: '-=112' }, 1000, 'easeOutQuart');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
