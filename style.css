@@ -1,21 +1,15 @@
-.p1 {
-  background-image: url('./images/thumbs/notes-transparent.png');
-}
-.p2 {
-  background-image: url('./images/thumbs/todolist-transparent.png');
-}
-.p3 {
-  background-image: url('./images/thumbs/alarmtimer-transparent.png');
-}
-.p4 {
-  background-image: url('./images/thumbs/flexslideshow-transparent.png');
-}
-.p5 {
-  background-image: url('./images/thumbs/tiprecorder-transparent.png');
-}
-.p1, .p2, .p3, .p4, .p5 {
-  background-size: 100%;
-}
+.p1 { background-image: url('./images/thumbs/notes-25.png'); }
+.p1:hover { background-image: url('./images/thumbs/notes-50.png'); }
+.p2 { background-image: url('./images/thumbs/todolist-25.png'); }
+.p2:hover { background-image: url('./images/thumbs/todolist-50.png'); }
+.p3 { background-image: url('./images/thumbs/alarmtimer-25.png'); }
+.p3:hover { background-image: url('./images/thumbs/alarmtimer-50.png'); }
+.p4 { background-image: url('./images/thumbs/flexslideshow-25.png'); }
+.p4:hover { background-image: url('./images/thumbs/flexslideshow-50.png'); }
+.p5 { background-image: url('./images/thumbs/tiprecorder-25.png'); }
+.p5:hover { background-image: url('./images/thumbs/tiprecorder-50.png'); }
+.p1, .p2, .p3, .p4, .p5 { background-size: 100%; }
+
 body {
   background: #000000;
   color: #eeeeee;
