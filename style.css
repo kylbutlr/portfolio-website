@@ -5,7 +5,7 @@
 .p2 h4 { background: url('./images/thumbs/todolist-50.png') no-repeat -999px -999px; }
 .p2:hover { background-image: url('./images/thumbs/todolist-50.png'); }
 .p3 { background-image: url('./images/thumbs/alarmtimer-25.png'); }
-.p2 h4 { background: url('./images/thumbs/alarmtimer-50.png') no-repeat -999px -999px; }
+.p3 h4 { background: url('./images/thumbs/alarmtimer-50.png') no-repeat -999px -999px; }
 .p3:hover { background-image: url('./images/thumbs/alarmtimer-50.png'); }
 .p4 { background-image: url('./images/thumbs/flexslideshow-25.png'); }
 .p4 h4 { background: url('./images/thumbs/flexslideshow-50.png') no-repeat -999px -999px; }
