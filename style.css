@@ -254,12 +254,15 @@ h5 {
 }
 .project:active {
   transform: scale(0.975);
-  transition: all 0.1s ease;
+  transition: all 0.05s ease;
 }
-.menu-bars:active,
 .email:active,
 .socials-div a:active {
   transform: scale(0.925);
+  transition: all 0.1s ease;
+}
+.menu-bars:active {
+  transform: scaleX(0.9);
   transition: all 0.1s ease;
 }
 
