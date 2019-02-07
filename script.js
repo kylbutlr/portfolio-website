@@ -28,31 +28,38 @@ $(function() {
       let tempTimeout;
       $('.copied').addClass('full-opacity');
       $('.socials-div').mouseleave(function() {
-        $('.copied').removeClass('full-opacity');
-        $('.socials-div').off('mouseleave');
         clearTimeout(tempTimeout);
+        $('.socials-div').off('mouseleave');
+        setTimeout(function() {
+          $('.copied').removeClass('full-opacity');
+        }, 1000);
       });
       tempTimeout = setTimeout(function() {
         $('.copied').removeClass('full-opacity');
         $('.socials-div').off('mouseleave');
-      }, 4000);
+      }, 3000);
     }
   });
 
   $('.email').hover(function() {
-    if ($('.copytip').hasClass('full-opacity') === false) {
+    if (
+      $('.copytip').hasClass('full-opacity') === false &&
+      $('.email').is(':hover')
+    ) {
       let tempTimeout;
       $('.email').mouseleave(function() {
-        $('.email').off('mouseleave');
         clearTimeout(tempTimeout);
         $('.copytip').removeClass('full-opacity');
+        $('.email').off('mouseleave');
       });
       tempTimeout = setTimeout(function() {
-        $('.copytip').addClass('full-opacity');
-        setTimeout(function() {
-          $('.email').off('mouseleave');
-          $('.copytip').removeClass('full-opacity');
-        }, 3000);
+        if ($('.copied').hasClass('full-opacity') === false) {
+          $('.copytip').addClass('full-opacity');
+          setTimeout(function() {
+            $('.copytip').removeClass('full-opacity');
+            $('.email').off('mouseleave');
+          }, 3000);
+        }
       }, 2000);
     }
   });

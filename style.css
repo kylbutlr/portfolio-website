@@ -175,19 +175,20 @@ h5 {
 }
 .projects-div {
   height: 10vh;
-  margin: 0 1vw;
-  width: 111vw; /* <- 22vw per project */
+  margin: 0 0.5vw;
+  width: 105.5vw; /* <- 21vw per project */
 }
 .project {
   float: left;
   height: 10vh;
-  margin: 0 1vw;
-  outline: 2px solid #eeeeee88;
+  margin: 0 0.5vw;
+  box-shadow: 0 0 0 1px #eeeeee88;
   padding: 0;
   text-align: center;
   width: 20vw;
   vertical-align: middle;
-  transition: all 0.25s ease;
+  transition: all 0.2s ease;
+  border-radius: 5vh;
 }
 .email {
   opacity: 0;
@@ -236,7 +237,7 @@ h5 {
 }
 .project:hover {
   transform: scale(1.025);
-  box-shadow: 0 0 10px #eeeeee;
+  box-shadow: 0 0 10px 1px #eeeeee;
 }
 .socials-div:hover > .email {
   opacity: 1;
@@ -245,9 +246,18 @@ h5 {
 .socials-div a:hover,
 .socials-div .email:hover {
   animation: mild-shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-  /*transform: translate3d(0, 0, 0);*/
   backface-visibility: hidden;
   perspective: 1000px;
+}
+.project:active {
+  transform: scale(0.975);
+  transition: all 0.1s ease;
+}
+.menu-bars:active,
+.email:active,
+.socials-div a:active {
+  transform: scale(0.925);
+  transition: all 0.1s ease;
 }
 
 /* Animations */
