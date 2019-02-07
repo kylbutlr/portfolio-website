@@ -67,6 +67,12 @@ h4 {
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+  font-size: 2vh;
+  letter-spacing: 0.25vh;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   font-size: 1.5vh;
   letter-spacing: 0.25vh;
 }
@@ -201,7 +207,7 @@ h5 {
   opacity: 0;
   transition: opacity 0.5s;
   cursor: default;
-  margin: -2.5vh 3vh;
+  margin: -2.5vh 5.2vh;
   color: #eeeeee88;
 }
 .copied {
@@ -209,7 +215,7 @@ h5 {
   opacity: 0;
   transition: opacity 0.5s;
   cursor: default;
-  margin: 2.5vh 0.75vh;
+  margin: 2.5vh 2.9vh;
   color: #eeeeee88;
 }
 .full-opacity {
