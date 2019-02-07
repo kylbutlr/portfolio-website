@@ -26,8 +26,10 @@ body {
 a {
   color: #eeeeee;
 }
+h1, h2, h3 {
+  text-shadow: 4px 4px 4px black;
+}
 h1 {
-  color: #eeeeee;
   font-family: 'Roboto', sans-serif;
   font-size: 6vh;
   letter-spacing: 1vh;
@@ -35,13 +37,12 @@ h1 {
   padding: 0;
 }
 h2 {
-  color: #eeeeee;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 6vh;
-  letter-spacing: 0;
+  letter-spacing: 0.5vh;
   margin: 0;
-  padding: 0 0.7vh 0 0;
+  padding: 0 0.3vh 0 0;
   position: relative;
   top: -0.5vh;
 }
@@ -58,10 +59,10 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 3vh;
-  text-shadow: 2px 2px 4px black;
+  font-size: 2.5vh;
+  text-shadow: 2px 2px 2px black;
   letter-spacing: 0.5vh;
-  margin: 3vh 0;
+  margin: 3.5vh 0;
   text-transform: uppercase;
 }
 h5 {
@@ -86,7 +87,7 @@ h6 {
   z-index: -1;
 }
 .navigation-div {
-  background: #111111;
+  background-image: linear-gradient(to bottom, #1e1e1e, #111111);
   box-shadow: 0 5px 15px -2px black;
   display: flex;
   flex-direction: row;
@@ -148,7 +149,7 @@ h6 {
   width: 100vw;
 }
 .footer-button {
-  background: #111111;
+  background-image: linear-gradient(to bottom, #1e1e1e, #111111);
   cursor: pointer;
   height: 5vh;
   width: 100vw;
