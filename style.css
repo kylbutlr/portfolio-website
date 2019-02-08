@@ -203,7 +203,7 @@ h6 {
   cursor: pointer;
   margin: 0 1vh;
 }
-.copytip {
+.copyTip {
   position: absolute;
   opacity: 0;
   transition: opacity 0.5s;

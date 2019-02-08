@@ -36,6 +36,9 @@ $(function() {
           $('.copied').removeClass('full-opacity');
         }, 500);
       });
+      setTimeout(function() {
+        $('.copyTip').removeClass('full-opacity');
+      }, 250);
       tempTimeout = setTimeout(function() {
         $('.copied').removeClass('full-opacity');
         $('.email').removeClass('no-cursor');
@@ -46,24 +49,24 @@ $(function() {
 
   $('.email').hover(function() {
     if (
-      $('.copytip').hasClass('full-opacity') === false &&
+      $('.copyTip').hasClass('full-opacity') === false &&
       $('.email').is(':hover')
     ) {
       let tempTimeout;
       $('.email').mouseleave(function() {
         clearTimeout(tempTimeout);
-        $('.copytip').removeClass('full-opacity');
+        $('.copyTip').removeClass('full-opacity');
         $('.email').off('mouseleave');
       });
       tempTimeout = setTimeout(function() {
         if ($('.copied').hasClass('full-opacity') === false) {
-          $('.copytip').addClass('full-opacity');
+          $('.copyTip').addClass('full-opacity');
           setTimeout(function() {
-            $('.copytip').removeClass('full-opacity');
+            $('.copyTip').removeClass('full-opacity');
             $('.email').off('mouseleave');
           }, 3000);
         }
-      }, 2000);
+      }, 1000);
     }
   });
 
