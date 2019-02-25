@@ -1,19 +1,22 @@
-.p1 { background-image: url('./images/thumbs/notes-25.png'); }
-.p1 h4 { background: url('./images/thumbs/notes-50.png') no-repeat -999px -999px; }
-.p1:hover { background-image: url('./images/thumbs/notes-50.png'); }
-.p2 { background-image: url('./images/thumbs/todolist-25.png'); }
-.p2 h4 { background: url('./images/thumbs/todolist-50.png') no-repeat -999px -999px; }
-.p2:hover { background-image: url('./images/thumbs/todolist-50.png'); }
+.p1 { background-image: url('./images/thumbs/tiprecorder-25.png'); }
+.p1 h4 { background: url('./images/thumbs/tiprecorder-50.png') no-repeat -999px -999px; }
+.p1:hover { background-image: url('./images/thumbs/tiprecorder-50.png'); }
+.p2 { background-image: url('./images/thumbs/flexslideshow-25.png'); }
+.p2 h4 { background: url('./images/thumbs/flexslideshow-50.png') no-repeat -999px -999px; }
+.p2:hover { background-image: url('./images/thumbs/flexslideshow-50.png'); }
 .p3 { background-image: url('./images/thumbs/alarmtimer-25.png'); }
 .p3 h4 { background: url('./images/thumbs/alarmtimer-50.png') no-repeat -999px -999px; }
 .p3:hover { background-image: url('./images/thumbs/alarmtimer-50.png'); }
-.p4 { background-image: url('./images/thumbs/flexslideshow-25.png'); }
-.p4 h4 { background: url('./images/thumbs/flexslideshow-50.png') no-repeat -999px -999px; }
-.p4:hover { background-image: url('./images/thumbs/flexslideshow-50.png'); }
-.p5 { background-image: url('./images/thumbs/tiprecorder-25.png'); }
-.p5 h4 { background: url('./images/thumbs/tiprecorder-50.png') no-repeat -999px -999px; }
-.p5:hover { background-image: url('./images/thumbs/tiprecorder-50.png'); }
-.p1, .p2, .p3, .p4, .p5 { background-size: 100%; }
+.p4 { background-image: url('./images/thumbs/todolist-25.png'); }
+.p4 h4 { background: url('./images/thumbs/todolist-50.png') no-repeat -999px -999px; }
+.p4:hover { background-image: url('./images/thumbs/todolist-50.png'); }
+.p5 { background-image: url('./images/thumbs/notesapi-25.png'); }
+.p5 h4 { background: url('./images/thumbs/notesapi-50.png') no-repeat -999px -999px; }
+.p5:hover { background-image: url('./images/thumbs/notesapi-50.png'); }
+.p6 { background-image: url('./images/thumbs/notesreact-25.png'); }
+.p6 h4 { background: url('./images/thumbs/notesreact-50.png') no-repeat -999px -999px; }
+.p6:hover { background-image: url('./images/thumbs/notesreact-50.png'); }
+.p1, .p2, .p3, .p4, .p5, .p6 { background-size: 100%; }
 
 body {
   background: #000000;
@@ -183,7 +186,7 @@ h6 {
 .projects-div {
   height: 10vh;
   margin: 0 0.5vw;
-  width: 105.5vw; /* <- 21vw per project */
+  width: 126.5vw; /* <- 21vw per project */
 }
 .project {
   float: left;
