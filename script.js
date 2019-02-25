@@ -79,7 +79,7 @@ $(function() {
         .fadeIn(500);
       $('.footer-div')
         .stop()
-        .animate({ bottom: '+=112' }, 1000, 'easeInOutCubic');
+        .animate({ bottom: '+=112' }, 1000, 'easeInOutQuart');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
@@ -91,7 +91,7 @@ $(function() {
         .fadeOut(500);
       $('.footer-div')
         .stop()
-        .animate({ bottom: '-=112' }, 1000, 'easeInOutCubic');
+        .animate({ bottom: '-=112' }, 1000, 'easeInOutQuart');
       setTimeout(function() {
         $('.menu-bars').removeClass('full-opacity');
       }, 750);
