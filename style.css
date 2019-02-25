@@ -195,7 +195,7 @@ h6 {
   width: 20vw;
   vertical-align: middle;
   transition: all 0.2s ease;
-  border-radius: 5vh;
+  border-radius: 2.5vh;
 }
 .email {
   opacity: 0;
