@@ -89,7 +89,7 @@ h6 {
   z-index: -1;
 }
 .navigation-div {
-  background-image: linear-gradient(to bottom, #1e1e1e, #111111);
+  background-image: linear-gradient(to bottom, #191919, #111111);
   box-shadow: 0 5px 15px -2px black;
   display: flex;
   flex-direction: row;
@@ -151,7 +151,7 @@ h6 {
   width: 100vw;
 }
 .footer-button {
-  background-image: linear-gradient(to bottom, #1e1e1e, #111111);
+  background-image: linear-gradient(to bottom, #191919, #111111);
   cursor: pointer;
   height: 5vh;
   width: 100vw;
