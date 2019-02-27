@@ -102,9 +102,9 @@ h6 {
   width: 100vw;
 }
 .header-div {
+  display: none;
   align-items: center;
   cursor: default;
-  display: flex;
   flex: 1;
   height: 10vh;
   margin: 0 5vw;
@@ -115,6 +115,7 @@ h6 {
   margin: 0;
 }
 .socials-div {
+  display: none;
   align-items: center;
   display: flex;
   flex: 1;

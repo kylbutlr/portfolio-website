@@ -5,10 +5,12 @@ $(function() {
     .delay(1500)
     .fadeToggle(3000);
   $('.header-div')
+    .css("display", "flex")
     .hide()
     .delay(500)
     .fadeToggle(1500);
   $('.socials-div')
+    .css("display", "flex")
     .hide()
     .delay(500)
     .fadeToggle(1500);
