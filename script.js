@@ -2,7 +2,7 @@ $(function() {
   $('.projects-window').hide();
   $('.background')
     .hide()
-    .delay(1000)
+    .delay(1500)
     .fadeToggle(3000);
   $('.header-div')
     .hide()
