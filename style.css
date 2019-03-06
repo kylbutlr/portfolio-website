@@ -27,8 +27,8 @@ html {
   background: #000000;
   color: #eeeeee;
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
-  width: 100vw;
+  height: calc(100%);
+  width: 100%;
   overflow: hidden;
 }
 a {
