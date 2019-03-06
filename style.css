@@ -134,7 +134,7 @@ h6 {
   height: 4.5vh;
   position: relative;
   top: 0.5vh;
-  width: 4.5vh;
+  width: auto;
 }
 .main-div {
   align-items: center;
@@ -297,6 +297,13 @@ h6 {
   }
 }
 
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+
+  html {
+    font-size: 150%;
+  }
+
+}
 
 @media (hover :hover) {
 
