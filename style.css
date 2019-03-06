@@ -309,10 +309,10 @@ h6 {
 
 }
 
-@media (hover :hover) {
+@media (hover: hover) {
 
   .email {
-    opacity: 0;
+    opacity: 0.25;
   }
   .footer-button:hover > .menu-bars {
     opacity: 1;
