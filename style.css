@@ -18,12 +18,14 @@
 .p6:hover { background-image: url('./images/thumbs/notesreact-50.png'); }
 .p1, .p2, .p3, .p4, .p5, .p6 { background-size: 100%; }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
   background: #000000;
   color: #eeeeee;
   font-family: 'Roboto', sans-serif;
-  font-size: 4vh;
-  margin: 0;
   overflow: hidden;
 }
 a {
@@ -34,16 +36,14 @@ h1, h2, h3 {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 6vh;
-  letter-spacing: 1vh;
-  margin: 0;
-  padding: 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 6vh;
-  letter-spacing: 0.5vh;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
   margin: 0;
   padding: 0 0.3vh 0 0;
   position: relative;
@@ -52,8 +52,8 @@ h2 {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 2vh;
-  letter-spacing: 0.5vh;
+  font-size: 0.8rem;
+  letter-spacing: 0.25rem;
   margin: 0;
   padding: 0;
   position: relative;
@@ -62,29 +62,29 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 2.5vh;
+  font-size: 1rem;
   text-shadow: 2px 2px 2px black;
-  letter-spacing: 0.5vh;
+  letter-spacing: 0.25rem;
   margin: 3.5vh 0;
   text-transform: uppercase;
 }
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 2vh;
-  letter-spacing: 0.25vh;
+  font-size: 0.8rem;
+  letter-spacing: 0.125rem;
 }
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: 1.5vh;
-  letter-spacing: 0.25vh;
+  font-size: 0.6rem;
+  letter-spacing: 0.125rem;
 }
 .background {
   height: 100%;
   position: fixed;
   right: 0;
-  bottom: 25vh;
+  bottom: 20vh;
   width: 100%;
   z-index: -1;
 }
@@ -96,7 +96,6 @@ h6 {
   height: 10vh;
   left: -5vw;
   top: 0;
-  margin: 0;
   padding: 0 5vw;
   position: absolute;
   width: 100vw;
@@ -175,7 +174,6 @@ h6 {
   width: auto;
 }
 .projects-window {
-  display: border-box;
   height: 10vh;
   margin: 0;
   overflow-x: auto;
@@ -196,12 +194,12 @@ h6 {
   padding: 0;
   text-align: center;
   width: 20vw;
-  vertical-align: middle;
+  vertical-align: center;
   transition: all 0.2s ease;
   border-radius: 2.5vh;
 }
 .email {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s;
   cursor: pointer;
   margin: 0 1vh;
@@ -245,36 +243,90 @@ h6 {
 #scrollDiv::-webkit-scrollbar-thumb:hover {
   background-color: #eeeeeebb;
 }
-.footer-button:hover > .menu-bars {
-  opacity: 1;
+
+
+@media only screen and (max-width: 767px) {
+  
+  html {
+    font-size: 80%;
+  }
+  .navigation-div {
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    justify-content: center;
+    word-spacing: 100vw;
+  }
+  .header-div {
+    padding: 2vh 0 0;
+  }
+  .socials-div {
+    padding: 0 0 2vh;
+    align-self: flex-end;
+  }
+  .middle-nav-div {
+    display: none;
+  }
+  .menu-bars {
+    width: 10vw;
+  }
+  .footer-div {
+    height: 25vh;
+    bottom: -25vh;
+  }
+  .project {
+    height: 12vh;
+    width: 30vw;
+    border-radius: 1vh;
+  }
+  .projects-window {
+    height: 12vh;
+  }
+  .projects-div {
+    height: 12vh;
+    width: 188.5vw; /* <- 30.5vw per project */
+    padding-left: 2.5vw;
+  }
 }
-.project:hover {
-  transform: scale(1.025);
-  box-shadow: 0 0 10px 1px #eeeeee;
+
+
+@media (hover :hover) {
+
+  .email {
+    opacity: 0;
+  }
+  .footer-button:hover > .menu-bars {
+    opacity: 1;
+  }
+  .project:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px 1px #eeeeee;
+  }
+  .socials-div:hover > .email {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  /*.socials-div a:hover,
+  .socials-div .email:hover {
+    animation: mild-shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  .project:active {
+    transform: scale(0.975);
+    transition: all 0.05s ease;
+  }
+  .email:active,
+  .socials-div a:active {
+    transform: scale(0.925);
+    transition: all 0.1s ease;
+  }
+  .menu-bars:active {
+    transform: scaleX(0.9);
+    transition: all 0.1s ease;
+  }*/
+
 }
-.socials-div:hover > .email {
-  opacity: 1;
-  transition: opacity 1s;
-}
-/*.socials-div a:hover,
-.socials-div .email:hover {
-  animation: mild-shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-.project:active {
-  transform: scale(0.975);
-  transition: all 0.05s ease;
-}
-.email:active,
-.socials-div a:active {
-  transform: scale(0.925);
-  transition: all 0.1s ease;
-}
-.menu-bars:active {
-  transform: scaleX(0.9);
-  transition: all 0.1s ease;
-}*/
 
 /* Animations */
 @keyframes mild-shake {
