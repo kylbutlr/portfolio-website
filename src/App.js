@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Link, Element, scroller } from "react-scroll";
+import { Link, Element, scroller } from 'react-scroll';
+import Projects from './Projects';
 
 const tabs = {
   HOME: 1,
@@ -17,8 +18,8 @@ class App extends Component {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
       delay: 0,
-      smooth: 'easeInOutQuart'
-    })
+      smooth: 'easeInOutQuart',
+    });
   }
   render() {
     return (
@@ -31,118 +32,73 @@ class App extends Component {
             <h3>kylbutlr</h3>
           </div>
           <div className='contact-link'>
-            <Link activeClass="active" to="contact-element" spy={true} smooth={true} duration={500} ><h4>contact</h4></Link>
+            <Link activeClass='active' to='contact-element' spy={true} smooth={true} duration={500}>
+              <h4>contact</h4>
+            </Link>
           </div>
         </div>
+        <div className='divider first-divider' />
 
         {/* Body */}
         <div className='Body'>
-          <div className='divider' />
-          <div className='welcome'>
-            <div className='headshot' />
-            <h6>
-              I'm <span className='bold'>Kyle Butler</span>, a junior web developer currently
-              working in Los Angeles, CA.
-            </h6>
-          </div>
-          <div className='divider' />
-          <div className='bio'>
-            <p>
-              I specialize in <span className='bold'>React</span>,{' '}
-              <span className='bold'>JavaScript</span>, and <span className='bold'>CSS + HTML</span>
-              .
-            </p>
-            <p>
-              I have also had experience working with <span className='bold'>SQL</span>,{' '}
-              <span className='bold'>Java</span>, <span className='bold'>Python</span>, and{' '}
-              <span className='bold'>PHP</span>, and look forward to learning and utilizing many
-              more languages and frameworks throughout my career.
-            </p>
-          </div>
-          <div className='divider' />
-          <div className='projects'>
-            <h5>PROJECTS</h5>
-            <div className='project1'>
-              <a href='https://github.com/kylbutlr/notes-app-react'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Notes App (React)</h6>
-                  </div>
-                </div>
-              </a>
+          <div className='main-app'>
+            <div className='welcome'>
+              <div className='headshot' />
+              <h6>
+                I'm <span className='bold'>Kyle Butler</span>, a junior web developer currently
+                working in Los Angeles, CA.
+              </h6>
             </div>
-            <div className='project2'>
-              <a href='https://github.com/kylbutlr/notes-app-api'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Notes App (API)</h6>
-                  </div>
-                </div>
-              </a>
+            <div className='divider' />
+            <div className='bio'>
+              <p>
+                I specialize in <span className='bold'>React</span>,{' '}
+                <span className='bold'>JavaScript</span>, and{' '}
+                <span className='bold'>CSS + HTML</span>.
+              </p>
+              <p>
+                I have also had experience working with <span className='bold'>SQL</span>,{' '}
+                <span className='bold'>Java</span>, <span className='bold'>Python</span>, and{' '}
+                <span className='bold'>PHP</span>, and look forward to learning and utilizing many
+                more languages and frameworks throughout my career.
+              </p>
             </div>
-            <div className='project3'>
-              <a href='https://github.com/kylbutlr/todo-list'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Todo List App</h6>
-                  </div>
-                </div>
-              </a>
+            <div className='divider' />
+            <div className='projects-underneath'>
+              <Projects />
+              <div className='divider' />
             </div>
-            <div className='project4'>
-              <a href='https://github.com/kylbutlr/alarm-timer'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Alarm & Timer</h6>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className='project5'>
-              <a href='https://github.com/kylbutlr/flex-slideshow'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Flex Slideshow</h6>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className='project6'>
-              <a href='https://github.com/kylbutlr/tip-recorder'>
-                <div className='project-image'>
-                  <div className='project-info'>
-                    <h6>Tip Recorder</h6>
-                  </div>
-                </div>
-              </a>
+            <div className='contact'>
+              <Element name='contact-element' className='element'>
+                <h5>CONTACT</h5>
+              </Element>
+              <div className='socials'>
+                <a href='mailto:kylbutlr@gmail.com'>
+                  <div className='icon social-email' />
+                </a>
+                <a href='https://github.com/kylbutlr'>
+                  <div className='icon social-github' />
+                </a>
+                <a href='https://www.linkedin.com/in/kylbutlr/'>
+                  <div className='icon social-linkedin' />
+                </a>
+                <a href='https://www.instagram.com/kylbutlr/'>
+                  <div className='icon social-instagram' />
+                </a>
+              </div>
+              <p>
+                Feel free to reach out at:{' '}
+                <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
+              </p>
             </div>
           </div>
-          <div className='divider' />
-          <div className='contact'>
-            <Element name='contact-element' className='element'>
-            <h5>CONTACT</h5></Element>
-            <div className='socials'>
-              <a href='mailto:kylbutlr@gmail.com'>
-                <div className='icon social-email' />
-              </a>
-              <a href='https://github.com/kylbutlr'>
-                <div className='icon social-github' />
-              </a>
-              <a href='https://www.linkedin.com/in/kylbutlr/'>
-                <div className='icon social-linkedin' />
-              </a>
-              <a href='https://www.instagram.com/kylbutlr/'>
-                <div className='icon social-instagram' />
-              </a>
-            </div>
-            <p>
-              Feel free to reach out at: <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
-            </p>
+          <div className='side-app'>
+            <Projects />
           </div>
-          <div className='divider last-divider' />
-          <div className='footer'>
-            <p>© 2019 KYLE BUTLER</p>
-          </div>
+        </div>
+        <div className='divider last-divider' />
+        <div className='Footer'>
+          <p>© 2019 KYLE BUTLER</p>
         </div>
       </div>
     );
