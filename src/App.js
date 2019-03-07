@@ -53,10 +53,10 @@ class App extends Component {
               .
             </p>
             <p>
-              I have also had past experience working with <span className='bold'>SQL</span>,{' '}
+              I have also had experience working with <span className='bold'>SQL</span>,{' '}
               <span className='bold'>Java</span>, <span className='bold'>Python</span>, and{' '}
               <span className='bold'>PHP</span>, and look forward to learning and utilizing many
-              more languages and front-ends throughout my career.
+              more languages and frameworks throughout my career.
             </p>
           </div>
           <div className='divider' />
@@ -64,42 +64,60 @@ class App extends Component {
             <h5>PROJECTS</h5>
             <div className='project1'>
               <a href='https://github.com/kylbutlr/notes-app-react'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/notes-app-react'>
+                <div className='project-info'>
                   <h6>Notes App (React)</h6>
                 </div>
               </a>
             </div>
             <div className='project2'>
               <a href='https://github.com/kylbutlr/notes-app-api'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/notes-app-api'>
+                <div className='project-info'>
                   <h6>Notes App (API)</h6>
                 </div>
               </a>
             </div>
             <div className='project3'>
               <a href='https://github.com/kylbutlr/todo-list'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/notes-app-api'>
+                <div className='project-info'>
                   <h6>Todo List App</h6>
                 </div>
               </a>
             </div>
             <div className='project4'>
               <a href='https://github.com/kylbutlr/alarm-timer'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/notes-app-api'>
+                <div className='project-info'>
                   <h6>Alarm & Timer</h6>
                 </div>
               </a>
             </div>
             <div className='project5'>
               <a href='https://github.com/kylbutlr/flex-slideshow'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/notes-app-api'>
+                <div className='project-info'>
                   <h6>Flex Slideshow</h6>
                 </div>
               </a>
             </div>
             <div className='project6'>
               <a href='https://github.com/kylbutlr/tip-recorder'>
-                <div className='project-image'>
+                <div className='project-image'/>
+              </a>
+              <a href='https://github.com/kylbutlr/tip-recorder'>
+                <div className='project-info'>
                   <h6>Tip Recorder</h6>
                 </div>
               </a>
@@ -109,23 +127,23 @@ class App extends Component {
           <div className='contact'>
             <Element name='contact-element' className='element'>
             <h5>CONTACT</h5></Element>
+            <div className='socials'>
+              <a href='mailto:kylbutlr@gmail.com'>
+                <div className='icon social-email' />
+              </a>
+              <a href='https://github.com/kylbutlr'>
+                <div className='icon social-github' />
+              </a>
+              <a href='https://www.linkedin.com/in/kylbutlr/'>
+                <div className='icon social-linkedin' />
+              </a>
+              <a href='https://www.instagram.com/kylbutlr/'>
+                <div className='icon social-instagram' />
+              </a>
+            </div>
             <p>
               Feel free to reach out at: <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
             </p>
-            <div className='socials'>
-              <a href='mailto:kylbutlr@gmail.com'>
-                <div className='social-email' />
-              </a>
-              <a href='https://github.com/kylbutlr'>
-                <div className='social-github' />
-              </a>
-              <a href='https://www.linkedin.com/in/kylbutlr/'>
-                <div className='social-linkedin' />
-              </a>
-              <a href='https://www.instagram.com/kylbutlr/'>
-                <div className='social-instagram' />
-              </a>
-            </div>
           </div>
           <div className='divider last-divider' />
           <div className='footer'>

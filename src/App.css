@@ -17,6 +17,8 @@
 
 html {
   font-size: 1rem;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h6 {
@@ -68,18 +70,19 @@ p {
 }
 
 .Header {
-  height: 10%;
+  height: 7.5%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 2.5%;
 }
 
 .title {
   display: flex;
   align-items: center;
   width: 50%;
-  padding: 2vh 4vw;
+  padding: 1vh 4vw;
 }
 
 .title h1, 
@@ -92,12 +95,12 @@ p {
 
 .title h2 {
   position: relative;
-  bottom: 0.25rem;
+  bottom: 0.15rem;
 }
 
 .title h3 {
   position: relative;
-  top: 0.125rem;
+  top: 0.15rem;
 }
 
 .contact-link {
@@ -105,7 +108,16 @@ p {
   align-items: center;
   justify-content: flex-end;
   width: 50%;
-  padding: 2vh 4vw;
+  padding: 1vh 6vw;
+}
+
+.contact-link h4 {
+  font-size: 150%;
+  position: relative;
+  top: 0.2rem;
+  cursor: pointer;
+  padding-left: 0.2rem;
+  padding-right: 0.3rem;
 }
 
 .Body {
@@ -115,16 +127,11 @@ p {
 
 .Body div {
   margin: 0 auto;
-  padding: 1vh 4vw;
-}
-
-.Body h5 {
-  text-align: center;
+  /*padding: 1vh 4vw;*/
 }
 
 .Body p {
-  text-align: center;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -134,14 +141,11 @@ p {
   width: 80%;
 }
 
-.welcome {
-  padding-top: 4vh !important;
-  padding-bottom: 2vh !important;
-
-}
+.welcome,
 .bio {
   padding-top: 2vh !important;
-  padding-bottom: 4vh !important;
+  padding-bottom: 2vh !important;
+
 }
 
 .bio p:first-child {
@@ -152,9 +156,10 @@ p {
   background-image: url(./images/headshot.png); 
   background-size: 100%;
   border-radius: 100%;
+  border: 1px #11111140 solid;
   margin-bottom: 1vh !important;
-  height: 35vw;
-  width: 30vw;
+  height: 50vw;
+  width: 50vw;
 }
 
 .divider {
@@ -170,34 +175,47 @@ p {
   width: 75%;
 }
 
-.projects div {
-  height: 100%;
+.projects {
+  padding-bottom: 1vh;
+}
+
+.projects h5 {
+  padding: 0.5vh 0 1vh;
 }
 
 .projects a {
-  text-align: center;
   text-decoration: none;
-  color: #ececec;
-  font-size: 150%;
-  text-shadow: 0.125rem 0.25rem 0.125rem black;
 }
 
-.projects a .project-image h6 {
-  margin: 7.5vh auto 0;
+.projects h6 {
+  padding-bottom: 1vh;
+  text-decoration: none;
+  color: #111;
+  font-size: 125%;
 }
 
-.projects a .project-image {
+.project-image {
   background-size: 100%;
   height: 20vh;
   width: 90%;
+  border: 1px #11111140 solid;
 }
 
-.contact p {
-  padding-top: 1vh;
+.project-info {
+  padding: 0.25vh 0 0.5vh;
+}
+
+.contact h5 {
+  padding: 0.5vh 0 1vh;
 }
 
 .contact a {
   color: #111;
+}
+
+.contact p {
+  font-size: 0.9rem;
+  padding: 1vh 0 0.5vh;
 }
 
 .socials {
@@ -207,10 +225,11 @@ p {
   width: 60%;
 }
 
-.socials div {
+.icon {
   background-size: 100%;
-  width: 4vw;
-  height: 4.5vh;
+  background-repeat: no-repeat;
+  width: 12.5vw;
+  height: 12.5vw;
 }
 
 .social-email { background-image: url(./images/icons/gmail.png); }
@@ -219,6 +238,6 @@ p {
 .social-instagram { background-image: url(./images/icons/instagram.png); }
 
 .footer p {
-  text-align: center;
   font-size: 0.75rem;
+  padding: 1vh 0 1vh;
 }
