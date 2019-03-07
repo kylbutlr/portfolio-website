@@ -1,0 +1,513 @@
+.project1 .project-image { background-image: url('./images/thumbs/notes-react_75.png'); }
+.project1 .project-image h6 { background: url('./images/thumbs/notes-react_100.png') no-repeat -999px -999px; }
+.project1 .project-image:hover { background-image: url('./images/thumbs/notes-react_100.png'); }
+.project2 .project-image { background-image: url('./images/thumbs/notes-api_75.png'); }
+.project2 .project-image h6 { background: url('./images/thumbs/notes-api_100.png') no-repeat -999px -999px; }
+.project2 .project-image:hover { background-image: url('./images/thumbs/notes-api_100.png'); }
+.project3 .project-image { background-image: url('./images/thumbs/todo-list_75.png'); }
+.project3 .project-image h6 { background: url('./images/thumbs/todo-list_100.png') no-repeat -999px -999px; }
+.project3 .project-image:hover { background-image: url('./images/thumbs/todo-list_100.png'); }
+.project4 .project-image { background-image: url('./images/thumbs/alarm-timer_75.png'); }
+.project4 .project-image h6 { background: url('./images/thumbs/alarm-timer_100.png') no-repeat -999px -999px; }
+.project4 .project-image:hover { background-image: url('./images/thumbs/alarm-timer_100.png'); }
+.project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_75.png'); }
+.project5 .project-image h6 { background: url('./images/thumbs/flex-slideshow_100.png') no-repeat -999px -999px; }
+.project5 .project-image:hover { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
+.project6 .project-image { background-image: url('./images/thumbs/tip-recorder_75.png'); }
+.project6 .project-image h6 { background: url('./images/thumbs/tip-recorder_100.png') no-repeat -999px -999px; }
+.project6 .project-image:hover { background-image: url('./images/thumbs/tip-recorder_100.png'); }
+
+@media only screen and (max-width: 1023px) {
+  .project1 .project-image { background-image: url('./images/thumbs/notes-react_100.png'); }
+  .project2 .project-image { background-image: url('./images/thumbs/notes-api_100.png'); }
+  .project3 .project-image { background-image: url('./images/thumbs/todo-list_100.png'); }
+  .project4 .project-image { background-image: url('./images/thumbs/alarm-timer_100.png'); }
+  .project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
+  .project6 .project-image { background-image: url('./images/thumbs/tip-recorder_100.png'); }
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTMedium.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+  text-align: center;
+  overflow-x: hidden;
+  background: #f3d7cf;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-height: calc(100%);
+}
+
+h1, h2, h3, h4, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 125%;
+}
+
+h5 {
+  font-size: 150%;
+}
+
+h6 {
+  font-size: 125%;
+}
+
+p {
+  font-size: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.App {
+  font-family: 'Futura';
+  letter-spacing: -0.025rem;
+  background: #f3d7cf;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Header {
+  height: 7.5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5%;
+}
+
+.title,p,h1,h2,h3,h4,h5 { 
+  cursor: default;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 1vh 4vw;
+}
+
+.title h1, 
+.title h2, 
+.title h3,
+.contact-link h4 {
+  letter-spacing: -0.05rem;
+  padding: 0 0.25vw;
+}
+
+.title h2 {
+  position: relative;
+  bottom: 0.15rem;
+}
+
+.title h3 {
+  position: relative;
+  top: 0.15rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 1vh 6vw;
+}
+
+.contact-link h4 {
+  font-size: 150%;
+  position: relative;
+  top: 0.2rem;
+  cursor: pointer;
+  padding-left: 0.1rem;
+  padding-right: 0.2rem;
+  border-bottom: 2px  #111 solid;
+  line-height: 80%;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Body p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.welcome,
+.bio {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.welcome h6 {
+  padding-top: 1vh;
+}
+
+.bio p:first-child {
+  padding-bottom: 1vh;
+}
+
+.headshot { 
+  background-image: url(./images/headshot.png); 
+  background-size: 100%;
+  border-radius: 100%;
+  border: 1px #11111140 solid;
+  height: 50vw;
+  width: 50vw;
+}
+
+.divider {
+  border-top: 1px #111 solid;
+  padding: 0;
+  height: 0%;
+  width: 25%;
+  opacity: 0.25;
+}
+
+.first-divider,
+.last-divider {
+  width: 75%;
+}
+
+.projects-underneath {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.projects div {
+  width: 100%;
+}
+
+.projects h5 {
+  padding: 0.5vh 0 1vh;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.project-image {
+  background-size: 100%;
+  height: 22.5vh;
+  width: 90%;
+  border: 1px #11111140 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2vh;
+}
+
+.project-info {
+  background: #111111bf;
+  height: 25%;
+  width: 100%;
+  padding: 0;
+  border-top: 1px #11111140 solid;
+}
+
+.project-info h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ececec;
+  font-size: 125%;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  height: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.contact h5 {
+  padding: 0.5vh 0 1vh;
+}
+
+.contact a {
+  color: #111;
+}
+
+.contact p {
+  font-size: 90%;
+  padding: 1vh 0 1vh;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.icon {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 12.5vw;
+  height: 12.5vw;
+}
+
+.social-email { background-image: url(./images/icons/gmail.png); }
+.social-github { background-image: url(./images/icons/github.png); }
+.social-linkedin { background-image: url(./images/icons/linkedin.png); }
+.social-instagram { background-image: url(./images/icons/instagram.png); }
+
+.Footer {
+  width: 100%;
+}
+
+.Footer p {
+  font-size: 75%;
+  padding: 1vh 0;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.side-app {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 333px) {
+
+  .bio p:first-child {
+    width: 100%;
+  }
+
+  .project-image {
+    height: 20vh;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .App {
+    font-size: 140%;
+  }
+
+  .Body {
+    width: 80%;
+  }
+
+  .headshot {
+    height: 25vw;
+    width: 25vw;
+  }
+
+  .projects {
+    width: 60%;
+  }
+
+  .project-image {
+    height: 25vh;
+  }
+
+  .socials {
+    width: 60%;
+  }
+
+  .icon {
+    width: 8vw;
+    height: 8vw;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .App {
+    width: 95%;
+    font-size: 120%;
+  }
+  
+  .Body {
+    width: 80%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .main-app {
+    width: 40%
+  }
+
+  .side-app {
+    display: flex;
+    width: 60%;
+  }
+  
+  .projects {
+    width: 80%;
+  }
+
+  .projects h5 {
+    padding-top: 1vh;
+  }
+
+  .projects-underneath {
+    display: none;
+  }
+
+  .divider {
+    width: 50%;
+  }
+
+  .first-divider,
+  .last-divider {
+    width: 75%;
+  }
+
+  .headshot {
+    height: 20vw;
+    width: 20vw;
+  }
+
+  .project-image {
+    height: 30vh;
+  }
+
+  .icon {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+
+  .project-image {
+    transition: all 0.25s ease;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .Body {
+    width: 70%;
+  }
+
+  .headshot {
+    height: 15vw;
+    width: 15vw;
+  }
+  
+  .icon {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+  .Body {
+    width: 60%;
+  }
+
+  .headshot {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .project-image {
+    height: 20vh;
+  }
+
+  .icon {
+    width: 4vw;
+    height: 4vw;
+  }
+
+}
+
+@media only screen and (min-width: 2600px) {
+
+  .Body {
+    width: 100%;
+  }
+
+  .headshot {
+    height: 7.5vw;
+    width: 7.5vw;
+  }
+
+  .icon {
+    width: 3vw;
+    height: 3vw;
+  }
+
+}
