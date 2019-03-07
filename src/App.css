@@ -383,6 +383,7 @@ p {
   }
   
   .Body {
+    width: 80%;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -455,11 +456,7 @@ p {
     height: 15vw;
     width: 15vw;
   }
-
-  .project-image {
-    height: 25vh;
-  }
-
+  
   .icon {
     width: 5vw;
     height: 5vw;
