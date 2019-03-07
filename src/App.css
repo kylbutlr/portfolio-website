@@ -1,6 +1,9 @@
 .project1 .project-image { background-image: url(./images/thumbs/notes-react_100.png); }
 .project2 .project-image { background-image: url(./images/thumbs/notes-api_100.png); }
 .project3 .project-image { background-image: url(./images/thumbs/todo-list_100.png); }
+.project4 .project-image { background-image: url(./images/thumbs/alarm-timer_100.png); }
+.project5 .project-image { background-image: url(./images/thumbs/flex-slideshow_100.png); }
+.project6 .project-image { background-image: url(./images/thumbs/tip-recorder_100.png); }
 
 @font-face {
   font-family: 'Futura';
@@ -37,7 +40,7 @@ h4 {
 }
 
 h5 {
-  font-size: 100%;
+  font-size: 125%;
 }
 
 h6 {
@@ -94,7 +97,7 @@ p {
 
 .title h3 {
   position: relative;
-  top: 0.15rem;
+  top: 0.125rem;
 }
 
 .contact-link {
@@ -112,7 +115,7 @@ p {
 
 .Body div {
   margin: 0 auto;
-  padding: 1vh 4vw 2vh;
+  padding: 1vh 4vw;
 }
 
 .Body h5 {
@@ -127,7 +130,31 @@ p {
 
 .welcome {
   display: flex;
+  flex-direction: column;
   width: 80%;
+}
+
+.welcome {
+  padding-top: 4vh !important;
+  padding-bottom: 2vh !important;
+
+}
+.bio {
+  padding-top: 2vh !important;
+  padding-bottom: 4vh !important;
+}
+
+.bio p:first-child {
+  padding-bottom: 1vh;
+}
+
+.headshot { 
+  background-image: url(./images/headshot.png); 
+  background-size: 100%;
+  border-radius: 100%;
+  margin-bottom: 1vh !important;
+  height: 35vw;
+  width: 30vw;
 }
 
 .divider {
@@ -152,11 +179,11 @@ p {
   text-decoration: none;
   color: #ececec;
   font-size: 150%;
-  text-shadow: 0.2rem 0.2rem 0.2rem black;
+  text-shadow: 0.125rem 0.25rem 0.125rem black;
 }
 
 .projects a .project-image h6 {
-  margin: 12.5vh auto 0;
+  margin: 7.5vh auto 0;
 }
 
 .projects a .project-image {
@@ -164,6 +191,32 @@ p {
   height: 20vh;
   width: 90%;
 }
+
+.contact p {
+  padding-top: 1vh;
+}
+
+.contact a {
+  color: #111;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.socials div {
+  background-size: 100%;
+  width: 4vw;
+  height: 4.5vh;
+}
+
+.social-email { background-image: url(./images/icons/gmail.png); }
+.social-github { background-image: url(./images/icons/github.png); }
+.social-linkedin { background-image: url(./images/icons/linkedin.png); }
+.social-instagram { background-image: url(./images/icons/instagram.png); }
 
 .footer p {
   text-align: center;
