@@ -1,33 +1,171 @@
+.project1 .project-image { background-image: url(./images/thumbs/notes-react_100.png); }
+.project2 .project-image { background-image: url(./images/thumbs/notes-api_100.png); }
+.project3 .project-image { background-image: url(./images/thumbs/todo-list_100.png); }
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/FuturaPTMedium.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 125%;
+}
+
+h5 {
+  font-size: 100%;
+}
+
+h6 {
+  font-size: 125%;
+}
+
+p {
+  font-size: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .App {
+  font-family: 'Futura';
+  letter-spacing: -0.025rem;
+  background: #f3d7cf;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: calc(100%);
+}
+
+.Header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 2vh 4vw;
+}
+
+.title h1, 
+.title h2, 
+.title h3,
+.contact-link h4 {
+  letter-spacing: -0.05rem;
+  padding: 0 0.25vw;
+}
+
+.title h2 {
+  position: relative;
+  bottom: 0.25rem;
+}
+
+.title h3 {
+  position: relative;
+  top: 0.15rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 2vh 4vw;
+}
+
+.Body {
+  height: 90%;
+  width: 100%;
+}
+
+.Body div {
+  margin: 0 auto;
+  padding: 1vh 4vw 2vh;
+}
+
+.Body h5 {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Body p {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.divider {
+  border-top: 1px #111 solid;
+  padding: 0 !important;
+  height: 0%;
+  width: 25%;
+  opacity: 0.25;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divider:first-child,
+.last-divider {
+  width: 75%;
+}
+
+.projects div {
+  height: 100%;
+}
+
+.projects a {
+  text-align: center;
+  text-decoration: none;
+  color: #ececec;
+  font-size: 150%;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+.projects a .project-image h6 {
+  margin: 12.5vh auto 0;
+}
+
+.projects a .project-image {
+  background-size: 100%;
+  height: 20vh;
+  width: 90%;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.75rem;
 }
