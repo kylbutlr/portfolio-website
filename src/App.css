@@ -1,20 +1,14 @@
 .project1 .project-image { background-image: url('./images/thumbs/notes-react_75.png'); }
-.project1 .project-image h6 { background: url('./images/thumbs/notes-react_100.png') no-repeat -999px -999px; }
 .project1 .project-image:hover { background-image: url('./images/thumbs/notes-react_100.png'); }
 .project2 .project-image { background-image: url('./images/thumbs/notes-api_75.png'); }
-.project2 .project-image h6 { background: url('./images/thumbs/notes-api_100.png') no-repeat -999px -999px; }
 .project2 .project-image:hover { background-image: url('./images/thumbs/notes-api_100.png'); }
 .project3 .project-image { background-image: url('./images/thumbs/todo-list_75.png'); }
-.project3 .project-image h6 { background: url('./images/thumbs/todo-list_100.png') no-repeat -999px -999px; }
 .project3 .project-image:hover { background-image: url('./images/thumbs/todo-list_100.png'); }
 .project4 .project-image { background-image: url('./images/thumbs/alarm-timer_75.png'); }
-.project4 .project-image h6 { background: url('./images/thumbs/alarm-timer_100.png') no-repeat -999px -999px; }
 .project4 .project-image:hover { background-image: url('./images/thumbs/alarm-timer_100.png'); }
 .project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_75.png'); }
-.project5 .project-image h6 { background: url('./images/thumbs/flex-slideshow_100.png') no-repeat -999px -999px; }
 .project5 .project-image:hover { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
 .project6 .project-image { background-image: url('./images/thumbs/tip-recorder_75.png'); }
-.project6 .project-image h6 { background: url('./images/thumbs/tip-recorder_100.png') no-repeat -999px -999px; }
 .project6 .project-image:hover { background-image: url('./images/thumbs/tip-recorder_100.png'); }
 
 @media only screen and (max-width: 1023px) {
@@ -334,6 +328,11 @@ p {
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.loading {
+  height: 100%;
+  margin: 200% 0;
 }
 
 @media only screen and (max-width: 333px) {
