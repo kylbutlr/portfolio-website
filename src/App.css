@@ -32,6 +32,10 @@ h1, h2, h3, h4, h6 {
   font-weight: normal;
 }
 
+h5 {
+  letter-spacing: 0.05rem;
+}
+
 h1 {
   font-size: 200%;
 }
@@ -73,17 +77,18 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+  max-height: calc(100%);
   margin: 0 auto;
 }
 
 .Header {
-  height: 7.5%;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2.5%;
+  padding-top: 1vh;
 }
 
 .title,p,h1,h2,h3,h4,h5 { 
@@ -142,7 +147,7 @@ p {
 }
 
 .Body p {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -163,8 +168,13 @@ p {
   padding-top: 1vh;
 }
 
-.bio p:first-child {
-  padding-bottom: 1vh;
+.bio .divider {
+  width: 50%;
+  margin: 2vh auto;
+}
+
+.bio p:last-child {
+  padding-top: 1vh;
 }
 
 .headshot { 
@@ -207,8 +217,9 @@ p {
   width: 100%;
 }
 
-.projects h5 {
-  padding: 0.5vh 0 1vh;
+.projects h5,
+.contact h5 {
+  padding: 1vh 0;
 }
 
 .projects a {
@@ -252,10 +263,6 @@ p {
   width: 80%;
 }
 
-.contact h5 {
-  padding: 0.5vh 0 1vh;
-}
-
 .contact a {
   color: #222;
 }
@@ -290,6 +297,10 @@ p {
 
 .Footer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto auto 0;
 }
 
 .Footer p {
@@ -314,9 +325,46 @@ p {
   height: 100%;
 }
 
-.headshot,
+.headshot {
+  opacity: 0.95;
+}
 .project-image {
   opacity: 0.9;
+}
+
+@media only screen and (min-width: 425px) {
+
+  .headshot {
+    width: 40vw;
+    height: 40vw;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  .App {
+    width: 90%;
+  }
+
+  .Body {
+    width: 90%;
+  }
+
+  .Body p {
+    width: 80%;
+  }
+
+  .headshot {
+    height: 35vw;
+    width: 35vw;
+  }
+
+  .icon {
+    width: 8vw;
+    height: 8vw;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -331,6 +379,10 @@ p {
 
   .Body {
     width: 80%;
+  }
+
+  .Body p {
+    width: 90%;
   }
 
   .headshot {
@@ -355,8 +407,8 @@ p {
   }
 
   .icon {
-    width: 8vw;
-    height: 8vw;
+    width: 7.5vw;
+    height: 7.5vw;
   }
 
 }
@@ -384,6 +436,10 @@ p {
     justify-content: center;
   }
 
+  .Body p {
+    width: 100%;
+  }
+
   .main-app {
     width: 40%
   }
@@ -395,10 +451,6 @@ p {
   
   .projects {
     width: 80%;
-  }
-
-  .projects h5 {
-    padding-top: 1vh;
   }
 
   .projects-underneath {
@@ -424,8 +476,8 @@ p {
   }
 
   .icon {
-    width: 6vw;
-    height: 6vw;
+    width: 5vw;
+    height: 5vw;
   }
 
   .socials {
@@ -444,6 +496,10 @@ p {
     width: 70%;
   }
 
+  .Body p {
+    width: 102.5%;
+  }
+
   .headshot {
     height: 15vw;
     width: 15vw;
@@ -452,14 +508,14 @@ p {
   .project-image {
     height: 10vw;
   }
-  
-  .icon {
-    width: 5vw;
-    height: 5vw;
-  }
 
   .socials {
-    width: 100%;
+    width: 80%;
+  }
+  
+  .icon {
+    width: 4vw;
+    height: 4vw;
   }
 
   .contact p {
@@ -478,6 +534,10 @@ p {
     width: 60%;
   }
 
+  .Body p {
+    width: 100%;
+  }
+
   .headshot {
     height: 10vw;
     width: 10vw;
@@ -487,23 +547,8 @@ p {
     height: 7.5vw;
   }
 
-  .icon {
-    width: 4vw;
-    height: 4vw;
-  }
-
-}
-
-@media only screen and (min-width: 2500px) {
-
-  .Header,
-  .Body {
-    width: 100%;
-  }
-
-  .headshot {
-    height: 7.5vw;
-    width: 7.5vw;
+  .socials {
+    width: 70%;
   }
 
   .icon {
@@ -511,8 +556,30 @@ p {
     height: 3vw;
   }
 
-  .side-app {
-    width: 50%;
+}
+
+@media only screen and (min-width: 2500px) {
+
+  .Header {
+    width: 100%;
+  }
+
+  .Body {
+    width: 80%;
+  }
+
+  .headshot {
+    height: 7.5vw;
+    width: 7.5vw;
+  }
+
+  .socials {
+    width: 60%;
+  }
+
+  .icon {
+    width: 2vw;
+    height: 2vw;
   }
 
 }

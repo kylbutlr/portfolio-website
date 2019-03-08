@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <div className='projects'>
-    <h5>PROJECTS</h5>
+    <h5>RECENT WORK</h5>
     <div className='project1'>
       <a href='https://github.com/kylbutlr/notes-app-react'>
         <div className='project-image'>
