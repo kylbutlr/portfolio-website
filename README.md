@@ -1,2 +1,2 @@
-# kylbutlr.github.io
-### [My personal portfolio website](https://kylbutlr.github.io/)
+# React Portfolio
+### [My portfolio website hosted on Github Pages](https://kylbutlr.github.io/)
