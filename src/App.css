@@ -141,7 +141,7 @@ p {
   align-items: center;
   justify-content: flex-end;
   width: 50%;
-  padding: 1vh 6vw;
+  padding: 1vh 4vw;
 }
 
 .contact-link h4 {
@@ -354,6 +354,10 @@ p {
     font-size: 140%;
   }
 
+  .contact-link {
+    padding: 1vh 5vw;
+  }
+
   .Body {
     width: 80%;
   }
@@ -361,6 +365,10 @@ p {
   .headshot {
     height: 25vw;
     width: 25vw;
+  }
+
+  .bio {
+    width: 95%;
   }
 
   .projects {
@@ -387,6 +395,15 @@ p {
   .App {
     width: 95%;
     font-size: 120%;
+  }
+
+  .Header {
+    width: 90%;
+  }
+
+  .welcome,
+  .bio {
+    width: 100%;
   }
   
   .Body {
