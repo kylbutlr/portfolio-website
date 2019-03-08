@@ -1,30 +1,9 @@
-.project1 .project-image { background-image: url('./images/thumbs/notes-react_75.png'); }
-.project1 .project-image h6 { background: url('./images/thumbs/notes-react_100.png') no-repeat -999px -999px; }
-.project1 .project-image:hover { background-image: url('./images/thumbs/notes-react_100.png'); }
-.project2 .project-image { background-image: url('./images/thumbs/notes-api_75.png'); }
-.project2 .project-image h6 { background: url('./images/thumbs/notes-api_100.png') no-repeat -999px -999px; }
-.project2 .project-image:hover { background-image: url('./images/thumbs/notes-api_100.png'); }
-.project3 .project-image { background-image: url('./images/thumbs/todo-list_75.png'); }
-.project3 .project-image h6 { background: url('./images/thumbs/todo-list_100.png') no-repeat -999px -999px; }
-.project3 .project-image:hover { background-image: url('./images/thumbs/todo-list_100.png'); }
-.project4 .project-image { background-image: url('./images/thumbs/alarm-timer_75.png'); }
-.project4 .project-image h6 { background: url('./images/thumbs/alarm-timer_100.png') no-repeat -999px -999px; }
-.project4 .project-image:hover { background-image: url('./images/thumbs/alarm-timer_100.png'); }
-.project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_75.png'); }
-.project5 .project-image h6 { background: url('./images/thumbs/flex-slideshow_100.png') no-repeat -999px -999px; }
-.project5 .project-image:hover { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
-.project6 .project-image { background-image: url('./images/thumbs/tip-recorder_75.png'); }
-.project6 .project-image h6 { background: url('./images/thumbs/tip-recorder_100.png') no-repeat -999px -999px; }
-.project6 .project-image:hover { background-image: url('./images/thumbs/tip-recorder_100.png'); }
-
-@media only screen and (max-width: 1023px) {
-  .project1 .project-image { background-image: url('./images/thumbs/notes-react_100.png'); }
-  .project2 .project-image { background-image: url('./images/thumbs/notes-api_100.png'); }
-  .project3 .project-image { background-image: url('./images/thumbs/todo-list_100.png'); }
-  .project4 .project-image { background-image: url('./images/thumbs/alarm-timer_100.png'); }
-  .project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
-  .project6 .project-image { background-image: url('./images/thumbs/tip-recorder_100.png'); }
-}
+.project1 .project-image { background-image: url('./images/thumbs/notes-react_100.png'); }
+.project2 .project-image { background-image: url('./images/thumbs/notes-api_100.png'); }
+.project3 .project-image { background-image: url('./images/thumbs/todo-list_100.png'); }
+.project4 .project-image { background-image: url('./images/thumbs/alarm-timer_100.png'); }
+.project5 .project-image { background-image: url('./images/thumbs/flex-slideshow_100.png'); }
+.project6 .project-image { background-image: url('./images/thumbs/tip-recorder_100.png'); }
 
 @font-face {
   font-family: 'Futura';
@@ -245,15 +224,10 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2vh;
-  opacity: 0.95;
-}
-
-.headshot {
-  opacity: 0.95;
 }
 
 .project-info {
-  background: #222222bf;
+  background: #000000bf;
   height: 25%;
   width: 100%;
   padding: 0;
@@ -289,6 +263,10 @@ p {
 .contact p {
   font-size: 90%;
   padding: 1vh 0 1vh;
+}
+
+.contact p a {
+  padding-left: 0.1rem;
 }
 
 .socials {
@@ -334,6 +312,11 @@ p {
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.headshot,
+.project-image {
+  opacity: 0.9;
 }
 
 @media only screen and (max-width: 333px) {
@@ -407,7 +390,7 @@ p {
   }
   
   .Body {
-    width: 80%;
+    width: 75%;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -464,10 +447,6 @@ p {
     width: 100%;
   }
 
-  .project-image {
-    transition: all 0.5s ease;
-  }
-
 }
 
 @media only screen and (min-width: 1440px) {
@@ -498,6 +477,10 @@ p {
 
 @media only screen and (min-width: 1800px) {
 
+  .Header {
+    width: 95%;
+  }
+
   .Body {
     width: 60%;
   }
@@ -520,6 +503,7 @@ p {
 
 @media only screen and (min-width: 2600px) {
 
+  .Header,
   .Body {
     width: 100%;
   }
