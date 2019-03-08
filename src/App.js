@@ -87,7 +87,7 @@ class App extends Component {
                 </a>
               </div>
               <p>
-                To get in touch, write to:{' '}
+                Get in touch at:{' '}
                 <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
               </p>
             </div>
