@@ -88,7 +88,7 @@ p {
 .App {
   font-family: 'Futura';
   letter-spacing: -0.025rem;
-  background: #f3d7cf;
+  background: inherit;
   color: #222;
   display: flex;
   flex-direction: column;
