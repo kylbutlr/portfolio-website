@@ -217,7 +217,7 @@ p {
 
 .project-image {
   background-size: 100%;
-  height: 22.5vh;
+  height: 25vw;
   width: 90%;
   border: 1px #22222240 solid;
   display: flex;
@@ -319,18 +319,6 @@ p {
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 333px) {
-
-  .bio p:first-child {
-    width: 100%;
-  }
-
-  .project-image {
-    height: 20vh;
-  }
-
-}
-
 @media only screen and (min-width: 768px) {
 
   .App {
@@ -355,11 +343,11 @@ p {
   }
 
   .projects {
-    width: 60%;
+    width: 70%;
   }
 
   .project-image {
-    height: 25vh;
+    height: 20vw;
   }
 
   .socials {
@@ -393,6 +381,7 @@ p {
     width: 75%;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
   }
 
   .main-app {
@@ -431,7 +420,7 @@ p {
   }
 
   .project-image {
-    height: 30vh;
+    height: 12.5vw;
   }
 
   .icon {
@@ -458,6 +447,10 @@ p {
   .headshot {
     height: 15vw;
     width: 15vw;
+  }
+
+  .project-image {
+    height: 10vw;
   }
   
   .icon {
@@ -491,7 +484,7 @@ p {
   }
 
   .project-image {
-    height: 20vh;
+    height: 7.5vw;
   }
 
   .icon {
@@ -501,7 +494,7 @@ p {
 
 }
 
-@media only screen and (min-width: 2600px) {
+@media only screen and (min-width: 2500px) {
 
   .Header,
   .Body {
@@ -516,6 +509,10 @@ p {
   .icon {
     width: 3vw;
     height: 3vw;
+  }
+
+  .side-app {
+    width: 50%;
   }
 
 }
