@@ -1,5 +1,5 @@
 # React Portfolio
 ### My portfolio website hosted on Github Pages
-### Preview: [kylbutlr.github.io](https://kylbutlr.github.io)
+### Preview: [https://kylbutlr.com](https://kylbutlr.com)
 
-![alt text](https://i.imgur.com/p1XbIeC.png "Preview of kylbutlr.github.io")
+![alt text](https://i.imgur.com/dINXQaY.jpg "Preview of kylbutlr.com")

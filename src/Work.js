@@ -22,15 +22,24 @@ export default () => (
       </a>
     </div>
     <div className='project3'>
-      <a href='https://github.com/kylbutlr/todo-list'>
+      <a href='https://github.com/kylbutlr/todo-list-react'>
         <div className='project-image'>
           <div className='project-info'>
-            <h6>Todo List App</h6>
+            <h6>Todo List (React)</h6>
           </div>
         </div>
       </a>
     </div>
     <div className='project4'>
+      <a href='https://github.com/kylbutlr/todo-list-api'>
+        <div className='project-image'>
+          <div className='project-info'>
+            <h6>Todo List (API)</h6>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div className='project5'>
       <a href='https://github.com/kylbutlr/alarm-timer'>
         <div className='project-image'>
           <div className='project-info'>
@@ -39,7 +48,7 @@ export default () => (
         </div>
       </a>
     </div>
-    <div className='project5'>
+    <div className='project6'>
       <a href='https://github.com/kylbutlr/flex-slideshow'>
         <div className='project-image'>
           <div className='project-info'>
@@ -48,7 +57,7 @@ export default () => (
         </div>
       </a>
     </div>
-    <div className='project6'>
+    <div className='project7'>
       <a href='https://github.com/kylbutlr/tip-recorder'>
         <div className='project-image'>
           <div className='project-info'>
