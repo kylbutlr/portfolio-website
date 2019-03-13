@@ -4,9 +4,9 @@ export default () => (
   <div className='bio'>
     <p>
       I specialize in using <span className='bold'>React</span>,{' '}
-      <span className='bold'>JavaScript (ES6)</span>, <span className='bold'>CSS/HTML</span>, and{' '}
-      <span className='bold'>Node</span> to build anything from responsive small business and
-      personal websites to rich interactive&nbsp;web&nbsp;applications.
+      <span className='bold'>JavaScript&nbsp;(ES6)</span>, <span className='bold'>CSS/HTML</span>, and{' '}
+      <span className='bold'>Node</span> to&nbsp;build&nbsp;anything from responsive small&nbsp;business&nbsp;and
+      personal websites to rich&nbsp;interactive&nbsp;web&nbsp;applications.
     </p>
     <p>
       I have experience working with <span className='bold'>PostgreSQL</span>,{' '}

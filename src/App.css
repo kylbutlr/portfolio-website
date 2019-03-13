@@ -340,11 +340,47 @@ p {
   height: 100%;
 }
 
+.small-device {
+  width: 100vw;
+  height: calc(89vh);
+  display: none;
+  align-items: center;
+}
+
 .headshot {
   opacity: 0.95;
 }
+
 .project-image {
   opacity: 0.9;
+}
+
+@media only screen and (max-width: 100px) {
+
+  .App > div {
+    display: none;
+  }
+
+  .small-device {
+    display: flex !important;
+  }
+
+}
+
+@media only screen and (max-width: 276px) {
+
+  .Header, .Body {
+    display: none;
+  }
+
+  .first-divider {
+    margin-top: 5vh;
+  }
+
+  .small-device {
+    display: flex;
+  }
+
 }
 
 @media only screen and (min-width: 425px) {
