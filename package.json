@@ -1,5 +1,5 @@
 {
-  "homepage": "https://heuristic-knuth-a4635c.netlify.com",
+  "homepage": "https://kylbutlr.netlify.com",
   "name": "src",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
