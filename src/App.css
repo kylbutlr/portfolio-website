@@ -187,6 +187,7 @@ p {
   margin: 2vh auto;
 }
 
+.bio p:nth-child(2),
 .bio p:last-child {
   padding-top: 1vh;
 }
@@ -475,9 +476,12 @@ p {
     width: 90%;
   }
 
-  .welcome,
-  .bio {
+  .welcome {
     width: 100%;
+  }
+
+  .bio {
+    width: 90%;
   }
   
   .Body {
@@ -492,7 +496,7 @@ p {
   }
 
   .main-app {
-    width: 40%
+    width: 50%
   }
 
   .side-app {
@@ -547,8 +551,16 @@ p {
     width: 70%;
   }
 
-  .Body p {
-    width: 102.5%;
+  .main-app {
+    width: 40%
+  }
+
+  .welcome {
+    width: 100%;
+  }
+
+  .bio {
+    width: 90%;
   }
 
   .headshot {
