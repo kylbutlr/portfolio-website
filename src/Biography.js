@@ -14,8 +14,8 @@ export default () => (
       <span className='bold'>Express</span>, <span className='bold'>Axios</span>,{' '}
       <span className='bold'>Jest</span>, <span className='bold'>Babel</span>,{' '}
       <span className='bold'>Sass</span>, <span className='bold'>Bulma</span>, <span className='bold'>Heroku</span>, and{' '}
-      <span className='bold'>Git</span>, as well as previously used{' '}
-      <span className='bold'>jQuery</span>, <span className='bold'>Java</span>, <span className='bold'>PHP</span>,&nbsp;and&nbsp;
+      <span className='bold'>Git</span>, as&nbsp;well&nbsp;as previously used{' '}
+      <span className='bold'>jQuery</span>, <span className='bold'>Java</span>,&nbsp;<span className='bold'>PHP</span>,&nbsp;and&nbsp;
       <span className='bold'>Python</span>.
     </p>
     <p>

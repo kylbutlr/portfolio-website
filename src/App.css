@@ -545,6 +545,18 @@ p {
 
 }
 
+@media only screen and (min-width: 1280px) {
+
+  .main-app {
+    width: 45%
+  }
+
+  .bio {
+    width: 85%;
+  }
+
+}
+
 @media only screen and (min-width: 1440px) {
 
   .Body {
@@ -553,10 +565,6 @@ p {
 
   .main-app {
     width: 40%
-  }
-
-  .welcome {
-    width: 100%;
   }
 
   .bio {
