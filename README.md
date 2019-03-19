@@ -1,3 +1,5 @@
 # React Portfolio
-### My portfolio website hosted on Github Pages
-### Preview: [https://kylbutlr.com](https://kylbutlr.com)
+
+#### My React portfolio website, hosted on Netlify and Github Pages
+
+### See it live at [https://kylbutlr.com](https://kylbutlr.com)
