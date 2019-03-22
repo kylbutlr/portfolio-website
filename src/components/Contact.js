@@ -3,10 +3,10 @@ import { Element } from 'react-scroll';
 
 export default () => (
   <div className='contact'>
-    <Element name='contact-element' className='element'>
+    <Element name='contact-element' className='element mobile'>
       <h5>CONTACT</h5>
     </Element>
-    <div className='socials'>
+    <div className='socials mobile'>
       <a href='mailto:kylbutlr@gmail.com'>
         <div className='icon social-email' />
       </a>

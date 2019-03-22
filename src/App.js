@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import { scroller } from 'react-scroll';
-import Header from './Header';
-import Welcome from './Welcome';
-import Biography from './Biography';
-import Work from './Work';
-import Contact from './Contact';
-import Footer from './Footer';
+import Header from './components/Header';
+import Welcome from './components/Welcome';
+import Biography from './components/Biography';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
   scrollTo() {
