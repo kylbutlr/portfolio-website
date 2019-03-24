@@ -1,32 +1,41 @@
 {
   "homepage": "https://kylbutlr.netlify.com",
-  "name": "src",
-  "version": "0.1.0",
+  "name": "react-portfolio",
   "private": true,
+  "description": "React Portfolio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
   "dependencies": {
+    "gatsby": "^2.2.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^2.1.8",
     "react-scroll": "^1.7.11"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "React",
+    "Portfolio"
+  ],
+  "author": "Kyle Butler"
 }

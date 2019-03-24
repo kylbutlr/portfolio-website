@@ -20,7 +20,7 @@ export default () => (
           </div>
         </div>
       </a>
-    </div>    
+    </div>
     <div className='project3'>
       <a href='https://github.com/kylbutlr/notes-app-react'>
         <div className='project-image'>
