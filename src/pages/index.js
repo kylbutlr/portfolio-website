@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import '../App.css';
 import { scroller } from 'react-scroll';
 import Header from '../components/Header';
@@ -19,6 +20,11 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Kyle Butler</title>
+          <link rel="canonical" href="https://kylbutlr.com" />
+        </Helmet>
         <Header />
         <div className='divider first-divider' />
         <div className='Body'>

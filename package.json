@@ -17,11 +17,13 @@
     "gatsby": "^2.2.5",
     "gatsby-background-image": "^0.2.73",
     "gatsby-image": "^2.0.34",
+    "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-sharp": "^2.1.17",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
     "react-scripts": "^2.1.8",
     "react-scroll": "^1.7.11"
   },
