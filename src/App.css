@@ -364,17 +364,6 @@ p {
   opacity: 0.9;
 }
 
-.fade1,
-.fade2,
-.fade3 {
-  opacity: 0;
-  transition: opacity 1.25s;
-}
-
-.reveal {
-  opacity: 1 !important;
-}
-
 @media only screen and (max-width: 100px) {
 
   .App > div {

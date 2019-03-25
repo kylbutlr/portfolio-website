@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 export default () => (
-  <div className='Header fade1' id='fade1'>
+  <div className='Header'>
     <div className='title'>
       <h1>kb</h1>
       <h2>|</h2>

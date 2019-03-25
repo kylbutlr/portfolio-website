@@ -10,22 +10,6 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
-
-  /*componentDidMount() {
-    setTimeout(() => {
-      document.getElementById('fade1').classList.add('reveal');
-      console.log('fade1');
-    }, 750);
-    setTimeout(() => {
-      document.getElementById('fade2').classList.add('reveal');
-      console.log('fade2');
-    }, 1500);
-    setTimeout(() => {
-      document.getElementById('fade3').classList.add('reveal');
-      console.log('fade3');
-    }, 2250);
-  }*/
-
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
@@ -36,15 +20,15 @@ class App extends Component {
   
   render() {
     return (
-      <div className='App' id='App'>
+      <div className='App'>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Kyle Butler</title>
           <link rel="canonical" href="https://kylbutlr.com" />
         </Helmet>
         <Header />
-        <div className='divider first-divider fade2' id='fade2' />
-        <div className='Body fade3' id='fade3'>
+        <div className='divider first-divider' />
+        <div className='Body'>
           <div className='main-app'>
             <Welcome />
             <div className='divider' />
