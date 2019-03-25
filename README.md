@@ -1,5 +1,5 @@
 # React Portfolio
 
-#### My React portfolio website, hosted on Netlify and Github Pages
+My personal React portfolio website, hosted on Netlify using Gatsby
 
-### See it live at [https://kylbutlr.com](https://kylbutlr.com)
+### See it live at [kylbutlr.com](https://kylbutlr.com)
