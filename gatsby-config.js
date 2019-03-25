@@ -4,15 +4,7 @@ module.exports = {
     siteUrl: `https://kylbutlr.com`,
     description: `Kyle Butler's Portfolio`,
   },
-
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
