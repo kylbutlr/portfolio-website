@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 
 class App extends Component {
 
-  componentDidMount() {
+  /*componentDidMount() {
     setTimeout(() => {
       document.getElementById('fade1').classList.add('reveal');
       console.log('fade1');
@@ -24,7 +24,7 @@ class App extends Component {
       document.getElementById('fade3').classList.add('reveal');
       console.log('fade3');
     }, 2250);
-  }
+  }*/
 
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
