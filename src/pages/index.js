@@ -15,15 +15,15 @@ class App extends Component {
     setTimeout(() => {
       document.getElementById('fade1').classList.add('reveal');
       console.log('fade1');
-      setTimeout(() => {
-        document.getElementById('fade2').classList.add('reveal');
-        console.log('fade2');
-        setTimeout(() => {
-          console.log('fade3');
-          document.getElementById('fade3').classList.add('reveal');
-        }, 750);
-      }, 750);
     }, 750);
+    setTimeout(() => {
+      document.getElementById('fade2').classList.add('reveal');
+      console.log('fade2');
+    }, 1500);
+    setTimeout(() => {
+      document.getElementById('fade3').classList.add('reveal');
+      console.log('fade3');
+    }, 2250);
   }
 
   scrollTo() {
