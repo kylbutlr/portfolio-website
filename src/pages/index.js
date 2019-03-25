@@ -10,7 +10,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
-  componentDidMount() {
+  fadeIn() {
     setTimeout(() => {
       document.querySelector('.fade1').classList.add('reveal');
       setTimeout(() => {
@@ -29,7 +29,9 @@ class App extends Component {
       smooth: 'easeInOutQuart',
     });
   }
+  
   render() {
+    this.fadeIn();
     return (
       <div className='App' id='App'>
         <Helmet>
