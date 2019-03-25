@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import '../App.css';
@@ -11,8 +10,8 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
-  componentDidMount() {
-    //this.fadeIn();
+  /*componentDidMount() {
+    this.fadeIn();
   }
 
   fadeIn() {
@@ -28,7 +27,7 @@ class App extends Component {
         }, 750);
       }, 750);
     }, 750);
-  }
+  }*/
 
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
