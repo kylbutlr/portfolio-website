@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 import '../App.css';
 import { scroller } from 'react-scroll';
 import Header from '../components/Header';
@@ -10,6 +10,18 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
+  componentDidMount() {
+    setTimeout(() => {
+      document.querySelector('.fade1').classList.add('reveal');
+      setTimeout(() => {
+        document.querySelector('.fade2').classList.add('reveal');
+        setTimeout(() => {
+          document.querySelector('.fade3').classList.add('reveal');
+        }, 750);
+      }, 750);
+    }, 750);
+  }
+
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
@@ -19,15 +31,15 @@ class App extends Component {
   }
   render() {
     return (
-      <div className='App'>
+      <div className='App' id='App'>
         <Helmet>
-          <meta charSet="utf-8" />
+          <meta charSet='utf-8' />
           <title>Kyle Butler</title>
-          <link rel="canonical" href="https://kylbutlr.com" />
+          <link rel='canonical' href='https://kylbutlr.com' />
         </Helmet>
         <Header />
-        <div className='divider first-divider' />
-        <div className='Body'>
+        <div className='divider first-divider fade2' />
+        <div className='Body fade3'>
           <div className='main-app'>
             <Welcome />
             <div className='divider' />
