@@ -45,6 +45,7 @@ class App extends Component {
           <meta charSet='utf-8' />
           <title>Kyle Butler</title>
           <link rel='canonical' href='https://kylbutlr.com' />
+          <link rel="preload" href="../fonts/FuturaPTMedium.otf" as="font" type="font/otf" />
         </Helmet>
         <Header />
         <div className='divider first-divider fade2' />
