@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import '../App.css';
@@ -10,6 +11,10 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
+  componentDidMount() {
+    this.fadeIn();
+  }
+
   fadeIn() {
     setTimeout(() => {
       document.querySelector('.fade1').classList.add('reveal'); 
@@ -34,7 +39,6 @@ class App extends Component {
   }
   
   render() {
-    this.fadeIn();
     return (
       <div className='App' id='App'>
         <Helmet>
