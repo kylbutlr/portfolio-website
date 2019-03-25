@@ -8,7 +8,6 @@
 .project7 .project-image { background-image: url('./images/thumbs/alarm-timer_100_dark_s.png'); }
 .project8 .project-image { background-image: url('./images/thumbs/flex-slideshow_100_dark_s.png'); }
 .project9 .project-image { background-image: url('./images/thumbs/tip-recorder_100_dark_s.png'); }
-.headshot {   background-image: url(./images/headshot_smaller.png); }
 
 @media only screen and (min-width: 768px) {
   .project1 .project-image { background-image: url('./images/thumbs/chat-app_100_dark_l.png'); }
@@ -20,7 +19,10 @@
   .project7 .project-image { background-image: url('./images/thumbs/alarm-timer_100_dark_l.png'); }
   .project8 .project-image { background-image: url('./images/thumbs/flex-slideshow_100_dark_l.png'); }
   .project9 .project-image { background-image: url('./images/thumbs/tip-recorder_100_dark_l.png'); }
-  .headshot {   background-image: url(./images/headshot.png); }
+}
+
+.headshot {   
+  background-image: url(./images/headshot_smaller.png); 
 }
 
 @font-face {
