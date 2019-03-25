@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Futura';
-  src: url('./fonts/FuturaPTMedium.otf');
+  src: url('./fonts/FuturaPT-Medium.woff') format('woff');
 }
 
 /* @media only screen and (max-width: 767px) */
@@ -36,6 +36,8 @@
 }
 
 html {
+  font-family: 'Futura', Trebuchet, Arial, sans-serif;
+  letter-spacing: -0.025rem;
   font-size: 1rem;
   text-align: center;
   overflow-x: hidden;
@@ -89,8 +91,6 @@ p {
 }
 
 .App {
-  font-family: 'Futura', Trebuchet, Arial, sans-serif;
-  letter-spacing: -0.025rem;
   background: inherit;
   color: #222;
   display: flex;
