@@ -12,10 +12,13 @@ import Footer from '../components/Footer';
 class App extends Component {
   fadeIn() {
     setTimeout(() => {
-      document.querySelector('.fade1').classList.add('reveal');
+      document.querySelector('.fade1').classList.add('reveal'); 
+      console.log('fade1');
       setTimeout(() => {
         document.querySelector('.fade2').classList.add('reveal');
+        console.log('fade2');
         setTimeout(() => {
+          console.log('fade3');
           document.querySelector('.fade3').classList.add('reveal');
         }, 750);
       }, 750);
