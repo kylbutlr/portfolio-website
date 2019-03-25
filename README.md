@@ -1,6 +1,6 @@
 # React Portfolio
 
-My personal React portfolio website
+My personal React portfolio static website
 
 Uses: React, Gatsby, Netlify, Heroku
 
