@@ -4,7 +4,7 @@ module.exports = {
     siteUrl: `https://kylbutlr.com`,
     description: `Kyle Butler's Portfolio`,
   },
-  /*plugins: [
+  plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,5 +15,5 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-  ],*/
+  ],
 };

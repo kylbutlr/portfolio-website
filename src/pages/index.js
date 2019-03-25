@@ -10,13 +10,10 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
-  /*componentDidMount() {
-    this.fadeIn();
-  }
 
   fadeIn() {
     setTimeout(() => {
-      document.querySelector('.fade1').classList.add('reveal'); 
+      document.querySelector('.fade1').classList.add('reveal');
       console.log('fade1');
       setTimeout(() => {
         document.querySelector('.fade2').classList.add('reveal');
@@ -27,7 +24,7 @@ class App extends Component {
         }, 750);
       }, 750);
     }, 750);
-  }*/
+  }
 
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
@@ -40,8 +37,11 @@ class App extends Component {
   render() {
     return (
       <div className='App' id='App'>
+        {this.fadeIn()}
         <Helmet>
+          <meta charSet="utf-8" />
           <title>Kyle Butler</title>
+          <link rel="canonical" href="https://kylbutlr.com" />
         </Helmet>
         <Header />
         <div className='divider first-divider fade2' />
