@@ -89,7 +89,7 @@ p {
 }
 
 .App {
-  font-family: 'Futura';
+  font-family: 'Futura', Trebuchet, Arial, sans-serif;
   letter-spacing: -0.025rem;
   background: inherit;
   color: #222;
