@@ -39,6 +39,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -152,12 +153,12 @@ p {
 .contact-link h4 {
   font-size: 150%;
   position: relative;
-  top: 0.2rem;
+  top: 0.25rem;
   cursor: pointer;
-  padding-left: 0.1rem;
-  padding-right: 0.2rem;
+  padding-left: 0.05rem;
+  padding-right: 0.1rem;
   border-bottom: 2px  #222 solid;
-  line-height: 80%;
+  line-height: 85%;
 }
 
 .desktop {
@@ -210,7 +211,7 @@ p {
 .headshot { 
   background-size: 100%;
   border-radius: 100%;
-  border: 1px #BFAAA4 solid;
+  border: 1px hsla(0, 0%, 25%, 0.25) solid;
   height: 50vw;
   width: 50vw;
 }
@@ -258,7 +259,7 @@ p {
   background-size: 100%;
   height: 26vw;
   width: 90%;
-  border: 1px #BFAAA4 solid;
+  outline: 1px hsla(0, 0%, 0%, 0.5) solid;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
