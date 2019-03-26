@@ -11,13 +11,15 @@ export default () => (
     <p>
       I have experience working with a variety of tools and concepts such as{' '}
       <span className='bold'>Redux</span>, <span className='bold'>SQL</span>,{' '}
-      <span className='bold'>Postgres</span>, <span className='bold'>RESTful&nbsp;APIs</span>, HTTP
-      Requests (<span className='bold'>Express</span>,&nbsp;<span className='bold'>Axios</span>),
-      Unit/Integration Tests (<span className='bold'>Jest</span>), Compilers (
-      <span className='bold'>Babel</span>), Preprocessors (<span className='bold'>Sass</span>), and
-      CSS Frameworks (<span className='bold'>Bulma</span>,&nbsp;
-      <span className='bold'>Bootstrap</span>), as&nbsp;well&nbsp;as am previously familiar with{' '}
-      <span className='bold'>jQuery</span>, <span className='bold'>Java</span>,&nbsp;
+      <span className='bold'>Postgres</span>, <span className='bold'>RESTful&nbsp;APIs</span>,{' '}
+      <span className='bold'>Express</span>, <span className='bold'>Axios</span>, Unit & Integration
+      Testing (<span className='bold'>Jest</span>), Compilers (<span className='bold'>Babel</span>),
+      Preprocessors (<span className='bold'>Sass</span>), CSS Frameworks (
+      <span className='bold'>Bulma</span>,&nbsp;
+      <span className='bold'>Bootstrap</span>), and Version-Control Systems (
+      <span className='bold'>Git</span>,&nbsp;<span className='bold'>Github</span>) as well
+      as&nbsp;am&nbsp;previously familiar with <span className='bold'>jQuery</span>,{' '}
+      <span className='bold'>Java</span>,&nbsp;
       <span className='bold'>PHP</span>,&nbsp;and&nbsp;
       <span className='bold'>Python</span>.
     </p>
