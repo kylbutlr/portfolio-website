@@ -60,9 +60,7 @@ export default class Work extends Component {
         <div className='expand-projects'>
           <button
             className='expand-button'
-            onClick={() => {
-              this.expandList();
-            }}>
+            onClick={ this.expandList() }>
             Expand List
           </button>
         </div>
