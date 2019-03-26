@@ -43,7 +43,6 @@
 
 html {
   font-family: 'FuturaPT-Medium', Trebuchet, Arial, sans-serif;
-  letter-spacing: -0.025rem;
   font-size: 1rem;
   text-align: center;
   overflow-x: hidden;
@@ -129,7 +128,7 @@ p {
 .title h2, 
 .title h3,
 .contact-link h4 {
-  letter-spacing: -0.05rem;
+  letter-spacing: -0.025rem;
   padding: 0 0.25vw;
 }
 
