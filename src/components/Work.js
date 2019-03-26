@@ -15,6 +15,7 @@ export default class Work extends Component {
     } else {
       this.setState({ expandedList: false });
     }
+    console.log(this.state.expandedList);
   }
 
   render() {
