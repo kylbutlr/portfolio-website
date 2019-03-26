@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Futura';
   src: url('./fonts/FuturaPT-Medium.woff') format('woff');
+  src: url('./fonts/FuturaPT-Medium.otf') format('otf');
 }
 
 /* @media only screen and (max-width: 767px) */
