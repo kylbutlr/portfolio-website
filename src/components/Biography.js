@@ -4,23 +4,26 @@ export default () => (
   <div className='bio'>
     <p>
       I specialize in using <span className='bold'>JavaScript</span>,{' '}
-      <span className='bold'>React</span>, <span className='bold'>Redux</span>,{' '}
-      <span className='bold'>Node</span>, and <span className='bold'>CSS&nbsp;+&nbsp;HTML</span>{' '}
-      to build anything from responsive small business and personal websites to
-      rich interactive web&nbsp;applications.
+      <span className='bold'>React</span>, <span className='bold'>Node</span>, and{' '}
+      <span className='bold'>CSS</span>/<span className='bold'>HTML</span> to build anything from
+      small business&nbsp;and&nbsp;personal websites to rich interactive&nbsp;web&nbsp;applications.
     </p>
     <p>
-      I have experience working with a variety of tools such as <span className='bold'>REST&nbsp;APIs</span>, <span className='bold'>PostgreSQL</span>,{' '}
-      <span className='bold'>Express</span>, <span className='bold'>Axios</span>,{' '}
-      <span className='bold'>Jest</span>, <span className='bold'>Babel</span>,{' '}
-      <span className='bold'>Sass</span>, <span className='bold'>Bulma</span>, and{' '}
-      <span className='bold'>Git</span>, as&nbsp;well&nbsp;as previously used{' '}
-      <span className='bold'>jQuery</span>, <span className='bold'>Java</span>,&nbsp;<span className='bold'>PHP</span>,&nbsp;and&nbsp;
+      I have experience working with a variety of tools and concepts such as{' '}
+      <span className='bold'>Redux</span>, <span className='bold'>SQL</span>,{' '}
+      <span className='bold'>Postgres</span>, <span className='bold'>RESTful&nbsp;APIs</span>, HTTP
+      Requests (<span className='bold'>Express</span>,&nbsp;<span className='bold'>Axios</span>),
+      Unit/Integration Tests (<span className='bold'>Jest</span>), Compilers (
+      <span className='bold'>Babel</span>), Preprocessors (<span className='bold'>Sass</span>), and
+      CSS Frameworks (<span className='bold'>Bulma</span>,&nbsp;
+      <span className='bold'>Bootstrap</span>), as&nbsp;well&nbsp;as am previously familiar with{' '}
+      <span className='bold'>jQuery</span>, <span className='bold'>Java</span>,&nbsp;
+      <span className='bold'>PHP</span>,&nbsp;and&nbsp;
       <span className='bold'>Python</span>.
     </p>
     <p>
       Web Development is rapidly evolving and I look forward to learning and utilizing many more
-      tools, languages, and frameworks throughout&nbsp;my&nbsp;career.
+      frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
     </p>
   </div>
 );

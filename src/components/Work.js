@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Work extends Component {
-  constructor(props) {
+  /*constructor(props) {
     super(props);
     this.expandList = this.expandList.bind(this);
     this.state = {
@@ -16,13 +16,13 @@ export default class Work extends Component {
       this.setState({ expandedList: false });
     }
     console.log(this.state.expandedList);
-  }
+  }*/
 
   render() {
     return (
       <div className='projects'>
         <h5>RECENT WORK</h5>
-        <div className='project1'>
+        <div className='project9'>
           <a href='https://github.com/kylbutlr/public-chat-app'>
             <div className='project-image'>
               <div className='project-info'>
@@ -31,7 +31,7 @@ export default class Work extends Component {
             </div>
           </a>
         </div>
-        <div className='project2'>
+        <div className='project8'>
           <a href='https://github.com/kylbutlr/public-chat-api'>
             <div className='project-image'>
               <div className='project-info'>
@@ -40,7 +40,7 @@ export default class Work extends Component {
             </div>
           </a>
         </div>
-        <div className='project3'>
+        <div className='project7'>
           <a href='https://github.com/kylbutlr/notes-app-react'>
             <div className='project-image'>
               <div className='project-info'>
@@ -49,7 +49,7 @@ export default class Work extends Component {
             </div>
           </a>
         </div>
-        <div className='project4'>
+        <div className='project6'>
           <a href='https://github.com/kylbutlr/notes-app-api'>
             <div className='project-image'>
               <div className='project-info'>
@@ -58,16 +58,17 @@ export default class Work extends Component {
             </div>
           </a>
         </div>
-        <div className='expand-projects'>
+        {/*<div className='expand-projects'>
           <button
             className='expand-button'
             onClick={() => this.expandList()}>
             Expand List
           </button>
-        </div>
-        <div className='hidden-projects' style={{
-              display: this.state.expandedList === true ? 'block' : 'none',
-            }}>
+        </div>*/}
+        <div
+          className='hidden-projects'> 
+          {/*style={{ display: this.state.expandedList === true 
+          ? 'block' : 'none', }}>*/}
           <div className='project5'>
             <a href='https://github.com/kylbutlr/todo-list-react'>
               <div className='project-image'>
@@ -77,7 +78,7 @@ export default class Work extends Component {
               </div>
             </a>
           </div>
-          <div className='project6'>
+          <div className='project4'>
             <a href='https://github.com/kylbutlr/todo-list-api'>
               <div className='project-image'>
                 <div className='project-info'>
@@ -86,7 +87,7 @@ export default class Work extends Component {
               </div>
             </a>
           </div>
-          <div className='project7'>
+          <div className='project3'>
             <a href='https://github.com/kylbutlr/alarm-timer'>
               <div className='project-image'>
                 <div className='project-info'>
@@ -95,7 +96,7 @@ export default class Work extends Component {
               </div>
             </a>
           </div>
-          <div className='project8'>
+          <div className='project2'>
             <a href='https://github.com/kylbutlr/flex-slideshow'>
               <div className='project-image'>
                 <div className='project-info'>
@@ -104,7 +105,7 @@ export default class Work extends Component {
               </div>
             </a>
           </div>
-          <div className='project9'>
+          <div className='project1'>
             <a href='https://github.com/kylbutlr/tip-recorder'>
               <div className='project-image'>
                 <div className='project-info'>
