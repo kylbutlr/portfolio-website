@@ -593,6 +593,10 @@ p {
     width: 90%;
   }
 
+  .welcome h6 {
+    font-size: 125%;
+  }
+
   .bio {
     width: 90%;
   }
