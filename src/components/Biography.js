@@ -17,15 +17,18 @@ export default () => (
       Preprocessors (<span className='bold'>Sass</span>), CSS Frameworks (
       <span className='bold'>Bulma</span>,&nbsp;
       <span className='bold'>Bootstrap</span>), and Version Control Systems (
-      <span className='bold'>Git</span>,&nbsp;<span className='bold'>Github</span>) as well
-      as&nbsp;am&nbsp;previously familiar with <span className='bold'>jQuery</span>,{' '}
-      <span className='bold'>Java</span>,&nbsp;
-      <span className='bold'>PHP</span>,&nbsp;and&nbsp;
+      <span className='bold'>Git</span>,&nbsp;<span className='bold'>Github</span>).
+      I&nbsp;am&nbsp;also previously familiar with <span className='bold'>jQuery</span>,{' '}
+      <span className='bold'>Java</span>,&nbsp;<span className='bold'>PHP</span>,&nbsp;and&nbsp;
       <span className='bold'>Python</span>.
     </p>
-    <p>
+    <p> {/*style={{ display: 'none' }}>*/}
       Web Development is rapidly evolving and I look forward to learning and utilizing many more
       frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
+    </p>
+    <p> {/*style={{ display: 'none' }}>*/}
+      I am hoping to join an innovative company that is looking for a junior developer that is eager to
+      learn and become a valuable asset&nbsp;to&nbsp;the&nbsp;team.
     </p>
   </div>
 );
