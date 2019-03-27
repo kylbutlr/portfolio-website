@@ -108,7 +108,7 @@ p {
 
 .Header {
   height: auto;
-  width: 100%;
+  width: 97.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,10 +130,10 @@ p {
 .title h3,
 .contact-link h4 {
   letter-spacing: -0.025rem;
-  padding: 0 0.25vw;
 }
 
 .title h2 {
+  margin: 0 -0.1rem;
   position: relative;
   bottom: 0.15rem;
 }
@@ -157,7 +157,7 @@ p {
   cursor: pointer;
   padding-left: 0.05rem;
   padding-right: 0.1rem;
-  border-bottom: 2px  #222 solid;
+  border-bottom: 1.5px  #222 solid;
   line-height: 85%;
 }
 
@@ -422,7 +422,7 @@ p {
   }
 
   .desktop .icon {
-    margin-left: 0.5rem;
+    margin-left: 0.25rem;
   }
 
   .contact-link {
@@ -466,6 +466,15 @@ p {
 
   .App {
     font-size: 140%;
+  }
+
+  .Header {
+    width: 100%;
+  }
+
+  .title {
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .contact-link {
