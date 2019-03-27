@@ -98,8 +98,8 @@ p {
 .App {
   background: linear-gradient(180deg,
    hsla(15, 40%, 50%, 0.375) 0%,
-   hsla(15, 40%, 75%, 0.75) 25%,
-   hsla(15, 40%, 75%, 0.75) 75%, 
+   hsla(15, 40%, 75%, 0.75) 20%,
+   hsla(15, 40%, 75%, 0.75) 80%, 
    hsla(15, 40%, 50%, 0.375) 100%);
   color: #222;
   display: flex;
@@ -484,7 +484,16 @@ p {
 @media only screen and (min-width: 768px) {
 
   .App {
-    font-size: 140%;
+    background: linear-gradient(180deg,
+    hsla(15, 40%, 50%, 0.375) 0%,
+    hsla(15, 40%, 75%, 0.75) 30%,
+    hsla(15, 40%, 75%, 0.75) 70%, 
+    hsla(15, 40%, 50%, 0.375) 100%);
+    font-size: 110%;
+  }
+
+  .Header {
+    width: 100%;
   }
 
   .title {
@@ -497,12 +506,32 @@ p {
     padding-right: 5vw;
   }
 
+  .main-app {
+    width: 50%
+  }
+
+  .side-app {
+    display: flex;
+    width: 50%;
+  }
+
   .Body {
-    width: 80%;
+    width: 90%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .Body p {
     width: 90%;
+  }
+
+  .welcome {
+    width: 100%;
+  }
+
+  .welcome h6 {
+    font-size: 110%;
   }
 
   .bio p:nth-child(2) {
@@ -523,7 +552,20 @@ p {
   }
 
   .projects {
-    width: 70%;
+    width: 80%;
+  }
+
+  .projects-underneath {
+    display: none;
+  }
+
+  .divider {
+    width: 50%;
+  }
+
+  .first-divider,
+  .last-divider {
+    width: 75%;
   }
 
   .project-image {
@@ -551,19 +593,12 @@ p {
     width: 90%;
   }
 
-  .welcome {
-    width: 100%;
-  }
-
   .bio {
     width: 90%;
   }
   
   .Body {
     width: 75%;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
   }
 
   .Body p {
@@ -576,32 +611,6 @@ p {
 
   .bio p:last-child {
     width: 95%;
-  }
-
-  .main-app {
-    width: 50%
-  }
-
-  .side-app {
-    display: flex;
-    width: 50%;
-  }
-  
-  .projects {
-    width: 80%;
-  }
-
-  .projects-underneath {
-    display: none;
-  }
-
-  .divider {
-    width: 50%;
-  }
-
-  .first-divider,
-  .last-divider {
-    width: 75%;
   }
 
   .headshot {
