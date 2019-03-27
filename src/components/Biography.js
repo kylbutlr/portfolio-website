@@ -16,7 +16,7 @@ export default () => (
       Testing (<span className='bold'>Jest</span>), Compilers (<span className='bold'>Babel</span>),
       Preprocessors (<span className='bold'>Sass</span>), CSS Frameworks (
       <span className='bold'>Bulma</span>,&nbsp;
-      <span className='bold'>Bootstrap</span>), and Version-Control Systems (
+      <span className='bold'>Bootstrap</span>), and Version Control Systems (
       <span className='bold'>Git</span>,&nbsp;<span className='bold'>Github</span>) as well
       as&nbsp;am&nbsp;previously familiar with <span className='bold'>jQuery</span>,{' '}
       <span className='bold'>Java</span>,&nbsp;
