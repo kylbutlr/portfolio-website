@@ -10,20 +10,7 @@ import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
-class App extends Component {
-  componentDidMount() {
-    this.runResize();
-  }
-  
-  runResize() {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-    window.addEventListener('resize', () => {
-      let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-    });
-  }
-  
+class App extends Component {  
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
@@ -34,7 +21,7 @@ class App extends Component {
 
   render() {
     return (
-      <Scrollbars autoHide autoHeight autoHeightMax={`calc(var(--vh, 1vh) * 100)`}>
+      <Scrollbars autoHide autoHeight autoHeightMax={`100vh`}>
         <div className='App'>
           <Helmet>
             <meta charSet='utf-8' />
