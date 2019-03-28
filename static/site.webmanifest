@@ -1,6 +1,6 @@
 {
-    "name": "klbutlr",
-    "short_name": "klbutlr",
+    "name": "kylbutlr",
+    "short_name": "kylbutlr",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#111111",
-    "background_color": "#111111",
-    "display": "standalone"
+    "theme_color": "#dcbeb3",
+    "background_color": "#dcbeb3"
 }

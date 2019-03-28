@@ -29,9 +29,9 @@ class App extends Component {
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
           <link rel="manifest" href="/site.webmanifest"/>
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e3ccc4"/>
-          <meta name="msapplication-TileColor" content="#111111"/>
-          <meta name="theme-color" content="#111111"/>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dcbeb3"/>
+          <meta name="msapplication-TileColor" content="#dcbeb3"/>
+          <meta name="theme-color" content="#dcbeb3"/>
         </Helmet>
         <Header />
         <div className='divider first-divider' />
