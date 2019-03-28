@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import '../App.css';
 import { scroller } from 'react-scroll';
-import { Scrollbars } from 'react-custom-scrollbars';
 import Header from '../components/Header';
 import Welcome from '../components/Welcome';
 import Biography from '../components/Biography';
@@ -10,7 +9,7 @@ import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
-class App extends Component {  
+class App extends Component {
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
@@ -21,37 +20,35 @@ class App extends Component {
 
   render() {
     return (
-      <Scrollbars autoHide autoHeight autoHeightMax={`100vh`}>
-        <div className='App'>
-          <Helmet>
-            <meta charSet='utf-8' />
-            <title>Kyle Butler</title>
-            <link rel='canonical' href='https://kylbutlr.com' />
-          </Helmet>
-          <Header />
-          <div className='divider first-divider' />
-          <div className='Body'>
-            <div className='main-app'>
-              <Welcome />
-              <div className='divider' />
-              <Biography />
-              <div className='divider' />
-              <div className='projects-underneath'>
-                <Work />
-                <div className='divider' />
-              </div>
-              <Contact />
-            </div>
-            <div className='side-app'>
+      <div className='App'>
+        <Helmet>
+          <meta charSet='utf-8' />
+          <title>Kyle Butler</title>
+          <link rel='canonical' href='https://kylbutlr.com' />
+        </Helmet>
+        <Header />
+        <div className='divider first-divider' />
+        <div className='Body'>
+          <div className='main-app'>
+            <Welcome />
+            <div className='divider' />
+            <Biography />
+            <div className='divider' />
+            <div className='projects-underneath'>
               <Work />
+              <div className='divider' />
             </div>
+            <Contact />
           </div>
-          <div className='small-device'>
-            <h6>Sorry, this device's screen is too small to view this website properly.</h6>
+          <div className='side-app'>
+            <Work />
           </div>
-          <Footer />
         </div>
-      </Scrollbars>
+        <div className='small-device'>
+          <h6>Sorry, this device's screen is too small to view this website properly.</h6>
+        </div>
+        <Footer />
+      </div>
     );
   }
 }

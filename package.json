@@ -22,7 +22,6 @@
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-sharp": "^2.1.17",
     "react": "^16.8.4",
-    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-scripts": "^2.1.8",
