@@ -14,5 +14,7 @@
         }
     ],
     "theme_color": "#dcbeb3",
-    "background_color": "#dcbeb3"
+    "background_color": "#dcbeb3",
+    "start_url": "https://kylbutlr.com",
+    "display": "standalone"
 }
