@@ -31,7 +31,7 @@ export default () => (
       {' '}
       {/*style={{ display: 'none' }}>*/}I am hoping to join an innovative company that is looking
       for a junior developer who is eager to learn and become a valuable
-      asset&nbsp;to&nbsp;the&nbsp;team.
+      asset&nbsp;to&nbsp;the&nbsp;team!
     </p>
   </div>
 );
