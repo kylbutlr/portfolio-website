@@ -3,7 +3,8 @@ import React from 'react';
 export default () => (
   <div className='bio'>
     <p>
-      I specialize in using <span className='bold'>React</span>, <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and{' '}
+      I specialize in using <span className='bold'>React</span>,{' '}
+      <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and{' '}
       <span className='bold'>CSS</span>+<span className='bold'>HTML</span> to build anything from
       small business&nbsp;and&nbsp;personal websites to rich interactive&nbsp;web&nbsp;applications.
     </p>
@@ -21,16 +22,12 @@ export default () => (
       <span className='bold'>PHP</span>.
     </p>
     <p>
-      {' '}
-      {/*style={{ display: 'none' }}>*/}
       Web Development is rapidly evolving and I look forward to learning and utilizing many more
       frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
     </p>
     <p>
-      {' '}
-      {/*style={{ display: 'none' }}>*/}I am hoping to join an innovative company that is looking
-      for a junior developer who is eager to learn and become a valuable
-      asset&nbsp;to&nbsp;the&nbsp;team!
+      I am hoping to join an innovative company that is looking for a junior developer who is eager
+      to learn and become a valuable asset&nbsp;to&nbsp;the&nbsp;team!
     </p>
   </div>
 );
