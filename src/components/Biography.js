@@ -26,7 +26,7 @@ export default () => (
       frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
     </p>
     <p>
-      I am hoping to join an innovative company that is looking for a junior developer who is eager
+      I am hoping to join an innovative organization that is looking for a web developer who is eager
       to learn and become a valuable asset&nbsp;to&nbsp;the&nbsp;team!
     </p>
   </div>
