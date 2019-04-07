@@ -203,13 +203,17 @@ p {
   padding-top: 1vh;
 }
 
+.welcome h6:first-line {
+  font-size: 110%;
+}
+
 .welcome .bold {
   letter-spacing: 0.025rem;
 }
 
 .welcome .bold:first-of-type {
   letter-spacing: 0.05rem;
-  font-size: 110%;
+  font-size: 120%;
 }
 
 .bio .divider {
