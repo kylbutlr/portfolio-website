@@ -22,7 +22,7 @@ export default () => (
       <span className='bold'>Python</span>,&nbsp;and&nbsp;
       <span className='bold'>PHP</span>.
     </p>
-    <p>
+    <p style={{ display: 'none' }}>
       Web Development is rapidly evolving and I look forward to learning and utilizing many more
       frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
     </p>

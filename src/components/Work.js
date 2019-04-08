@@ -58,26 +58,18 @@ export default class Work extends Component {
             </div>
           </a>
         </div>
-        {/*<div className='expand-projects'>
-          <button
-            className='expand-button'
-            onClick={() => this.expandList()}>
-            Expand List
-          </button>
-        </div>*/}
-        <div
-          className='hidden-projects'> 
-          {/*style={{ display: this.state.expandedList === true 
-          ? 'block' : 'none', }}>*/}
-          <div className='project5'>
-            <a href='https://github.com/kylbutlr/todo-list-react'>
-              <div className='project-image'>
-                <div className='project-info'>
-                  <h6>Todo List App</h6>
-                </div>
+        <div className='project5'>
+          <a href='https://github.com/kylbutlr/todo-list-react'>
+            <div className='project-image'>
+              <div className='project-info'>
+                <h6>Todo List App</h6>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
+        </div>
+        {/*<div
+          className='hidden-projects'
+        style={{ display: this.state.expandedList === true ? 'block' : 'none' }}>*/}
           <div className='project4'>
             <a href='https://github.com/kylbutlr/todo-list-api'>
               <div className='project-image'>
@@ -114,7 +106,12 @@ export default class Work extends Component {
               </div>
             </a>
           </div>
-        </div>
+        {/*</div>
+        <div className='expand-projects'>
+          <button className='expand-button' onClick={() => this.expandList()}>
+            Expand List
+          </button>
+        </div>*/}
       </div>
     );
   }
