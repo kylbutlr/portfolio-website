@@ -1,39 +1,40 @@
+$off-white: #ececec;
+$off-black: #222;
+
 @font-face {
   font-family: 'FuturaPT-Medium';
-  src: url('./fonts/FuturaPT-Medium.eot');
-  src: url('./fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/FuturaPT-Medium.woff') format('woff'),
-       url('./fonts/FuturaPT-Medium.ttf') format('truetype'),
-       url('./fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
+  src: url('../fonts/FuturaPT-Medium.eot');
+  src: url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/FuturaPT-Medium.woff') format('woff'),
+       url('../fonts/FuturaPT-Medium.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-/* @media only screen and (max-width: 767px) */
-.project9 .project-image { background-image: url('./images/thumbs/chat-app_100_dark_s.png'); }
-.project8 .project-image { background-image: url('./images/thumbs/chat-api_100_dark_s.png'); }
-.project7 .project-image { background-image: url('./images/thumbs/notes-react_100_dark_s.png'); }
-.project6 .project-image { background-image: url('./images/thumbs/notes-api_100_dark_s.png'); }
-.project5 .project-image { background-image: url('./images/thumbs/todo-list-react_100_dark_s.png'); }
-.project4 .project-image { background-image: url('./images/thumbs/todo-list-api_100_dark_s.png'); }
-.project3 .project-image { background-image: url('./images/thumbs/alarm-timer_100_dark_s.png'); }
-.project2 .project-image { background-image: url('./images/thumbs/flex-slideshow_100_dark_s.png'); }
-.project1 .project-image { background-image: url('./images/thumbs/tip-recorder_100_dark_s.png'); }
+/* @media only screen and (max-width: 511px) */
+.project9 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
+.project8 .project-image { background-image: url('../images/thumbs/chat-api_100_dark_s.png'); }
+.project7 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
+.project6 .project-image { background-image: url('../images/thumbs/notes-api_100_dark_s.png'); }
+.project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
+.project4 .project-image { background-image: url('../images/thumbs/todo-list-api_100_dark_s.png'); }
+.project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
+.project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
+.project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_s.png'); }
+.headshot { background-image: url(../images/headshot_smaller.png); }
 
-@media only screen and (min-width: 768px) {
-  .project9 .project-image { background-image: url('./images/thumbs/chat-app_100_dark_l.png'); }
-  .project8 .project-image { background-image: url('./images/thumbs/chat-api_100_dark_l.png'); }
-  .project7 .project-image { background-image: url('./images/thumbs/notes-react_100_dark_l.png'); }
-  .project6 .project-image { background-image: url('./images/thumbs/notes-api_100_dark_l.png'); }
-  .project5 .project-image { background-image: url('./images/thumbs/todo-list-react_100_dark_l.png'); }
-  .project4 .project-image { background-image: url('./images/thumbs/todo-list-api_100_dark_l.png'); }
-  .project3 .project-image { background-image: url('./images/thumbs/alarm-timer_100_dark_l.png'); }
-  .project2 .project-image { background-image: url('./images/thumbs/flex-slideshow_100_dark_l.png'); }
-  .project1 .project-image { background-image: url('./images/thumbs/tip-recorder_100_dark_l.png'); }
-}
-
-.headshot { 
-  background-image: url(./images/headshot_smaller.png); 
+@media only screen and (min-width: 512px) {
+  .project9 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
+  .project8 .project-image { background-image: url('../images/thumbs/chat-api_100_dark_l.png'); }
+  .project7 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
+  .project6 .project-image { background-image: url('../images/thumbs/notes-api_100_dark_l.png'); }
+  .project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
+  .project4 .project-image { background-image: url('../images/thumbs/todo-list-api_100_dark_l.png'); }
+  .project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
+  .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
+  .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_l.png'); }
+  .headshot { background-image: url(../images/headshot_small.png); }
 }
 
 * {
@@ -47,7 +48,7 @@ html {
   font-size: 1rem;
   text-align: center;
   overflow-x: hidden;
-  background-image: url('./images/symphony.png');
+  background-image: url('../images/symphony.png');
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -55,12 +56,12 @@ html {
   align-items: center;
 }
 
-h1, h2, h3, h4, h6 {
-  font-weight: normal;
+.title,p,h1,h2,h3,h4,h5 { 
+  cursor: default;
 }
 
-h5 {
-  letter-spacing: 0.05rem;
+h1, h2, h3, h4, h6 {
+  font-weight: normal;
 }
 
 h1 {
@@ -75,16 +76,13 @@ h3 {
   font-size: 150%;
 }
 
-h4 {
+h4, h6 {
   font-size: 125%;
 }
 
 h5 {
   font-size: 150%;
-}
-
-h6 {
-  font-size: 125%;
+  letter-spacing: 0.05rem;
 }
 
 p {
@@ -102,7 +100,7 @@ p {
    hsla(15, 40%, 75%, 0.8) 20%,
    hsla(15, 40%, 75%, 0.8) 80%, 
    hsla(15, 40%, 50%, 0.4) 100%);
-  color: #222;
+  color: $off-black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,32 +118,22 @@ p {
   padding-top: 1vh;
 }
 
-.title,p,h1,h2,h3,h4,h5 { 
-  cursor: default;
-}
-
 .title {
   display: flex;
   align-items: center;
   padding: 1vh 4vw;
-}
-
-.title h1, 
-.title h2, 
-.title h3,
-.contact-link h4 {
-  letter-spacing: -0.025rem;
-}
-
-.title h2 {
-  margin: 0 -0.1rem;
-  position: relative;
-  bottom: 0.15rem;
-}
-
-.title h3 {
-  position: relative;
-  top: 0.15rem;
+  h1, h2, h3 {
+    letter-spacing: -0.025rem;
+  }
+  h2 {
+    margin: 0 -0.1rem;
+    position: relative;
+    bottom: 0.15rem;
+  }
+  h3 {
+    position: relative;
+    top: 0.15rem;
+  }
 }
 
 .contact-link {
@@ -153,17 +141,17 @@ p {
   align-items: center;
   justify-content: flex-end;
   padding: 1vh 4vw;
-}
-
-.contact-link h4 {
-  font-size: 150%;
-  position: relative;
-  top: 0.25rem;
-  cursor: pointer;
-  padding-left: 0.05rem;
-  padding-right: 0.1rem;
-  border-bottom: 1.5px  #222 solid;
-  line-height: 85%;
+  h4 {
+    font-size: 150%;
+    position: relative;
+    top: 0.25rem;
+    cursor: pointer;
+    padding-left: 0.05rem;
+    padding-right: 0.1rem;
+    border-bottom: 1.5px  #222 solid;
+    line-height: 85%;
+    letter-spacing: -0.025rem;
+  }
 }
 
 .desktop {
@@ -175,11 +163,10 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-
-.Body p {
-  width: 85%;
-  margin: 0 auto;
+  p {
+    width: 85%;
+    margin: 0 auto; 
+  }
 }
 
 .bio p:nth-child(2) {
@@ -191,49 +178,45 @@ p {
   flex-direction: column;
   align-items: center;
   width: 80%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  h6 {
+    padding-top: 1vh;
+    &:first-line {
+      font-size: 110%;
+    }
+  }
+  .bold {
+    letter-spacing: 0.025rem;
+    &:first-of-type {
+      letter-spacing: 0.05rem;
+      font-size: 120%;
+    }
+  }
 }
 
-.welcome,
 .bio {
   padding-top: 2vh;
   padding-bottom: 2vh;
-}
-
-.welcome h6 {
-  padding-top: 1vh;
-}
-
-.welcome h6:first-line {
-  font-size: 110%;
-}
-
-.welcome .bold {
-  letter-spacing: 0.025rem;
-}
-
-.welcome .bold:first-of-type {
-  letter-spacing: 0.05rem;
-  font-size: 120%;
-}
-
-.bio .divider {
-  width: 50%;
-  margin: 2vh auto;
-}
-
-.bio p:not(:first-child) {
-  padding-top: 1vh;
-}
-
-.bio p:last-child {
-  width: 85%;
+  .divider {
+    width: 50%;
+    margin: 2vh auto;
+  }
+  p {
+    &:not(:first-child) {
+      padding-top: 1vh;
+    }
+    &:last-child {
+      width: 85%;
+    }
+  }
 }
 
 .headshot { 
   background-size: 100%;
   border-radius: 100%;
-  border: 1px hsla(0, 0%, 0%, 0.25) solid;
-  box-shadow: 0px 3px 15px #22222280;
+  border: 1px rgba($off-black, 0.25) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
   height: 50vw;
   width: 50vw;
 }
@@ -251,38 +234,34 @@ p {
   width: 75%;
 }
 
-.projects-underneath {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
-}
-
-.projects div {
-  width: 100%;
-}
-
-.projects h5 {
-  padding: 1vh 0;
-}
-
-.projects a {
-  text-decoration: none;
+  &-underneath {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  div {
+    width: 100%;
+  }
+  h5 {
+    padding: 1vh 0;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .project-image {
   background-size: 100%;
   height: 26vw;
   width: 90%;
-  outline: 1px hsla(0, 0%, 0%, 0.5) solid;
-  box-shadow: 0px 3px 15px #22222280;
+  outline: 1px rgba($off-black, 0.5) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -294,17 +273,16 @@ p {
   height: 25%;
   width: 100%;
   padding: 0;
-}
-
-.project-info h6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ececec;
-  font-size: 125%;
-  font-weight: normal;
-  letter-spacing: 0.1rem;
-  height: 100%;
+  h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ececec;
+    font-size: 125%;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    height: 100%;
+  }
 }
 
 .contact {
@@ -312,23 +290,19 @@ p {
   flex-direction: column;
   align-items: center;
   width: 80%;
-}
-
-.contact h5 {
-  padding-top: 1vh;
-}
-
-.contact a {
-  color: #222;
-}
-
-.contact p {
-  font-size: 90%;
-  padding: 1vh 0 1vh;
-}
-
-.contact p a {
-  padding-left: 0.1rem;
+  h5 {
+    padding-top: 1vh;
+  }
+  a {
+    color: $off-black;
+  }
+  p {
+    font-size: 90%;
+    padding: 1vh 0 1vh;
+    a {
+      padding-left: 0.1rem;
+    }
+  }
 }
 
 .socials {
@@ -345,10 +319,10 @@ p {
   opacity: 0.86;
 }
 
-.social-email { background-image: url(./images/icons/gmail.png); }
-.social-github { background-image: url(./images/icons/github.png); }
-.social-linkedin { background-image: url(./images/icons/linkedin.png); }
-.social-instagram { background-image: url(./images/icons/instagram.png); }
+.social-email { background-image: url(../images/icons/gmail.png); }
+.social-github { background-image: url(../images/icons/github.png); }
+.social-linkedin { background-image: url(../images/icons/linkedin.png); }
+.social-instagram { background-image: url(../images/icons/instagram.png); }
 
 .Footer {
   width: 100%;
@@ -356,12 +330,11 @@ p {
   flex-direction: column;
   align-items: center;
   margin: auto auto 0;
-}
-
-.Footer p {
-  font-size: 75%;
-  padding: 1vh 0;
-  opacity: 0.75;
+  p {
+    font-size: 75%;
+    padding: 1vh 0;
+    opacity: 0.75;
+  }
 }
 
 .main-app {
@@ -388,7 +361,7 @@ p {
 }
 
 .headshot {
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .project-image {
@@ -396,7 +369,6 @@ p {
 }
 
 @media only screen and (max-width: 100px) {
-
   .App > div {
     display: none;
   }
@@ -404,11 +376,9 @@ p {
   .small-device {
     display: flex !important;
   }
-
 }
 
 @media only screen and (max-width: 276px) {
-
   .Header, .Body {
     display: none;
   }
@@ -420,38 +390,31 @@ p {
   .small-device {
     display: flex;
   }
-
 }
 
 @media only screen and (max-width: 300px) {
-
   .welcome h6 {
     font-size: 110%;
   }
-
 }
 
 @media only screen and (min-width: 425px) {
-
   .headshot {
     width: 40vw;
     height: 40vw;
   }
-
 }
 
 @media only screen and (min-width: 600px) {
-
   .mobile {
     display: none;
   }
 
   .desktop {
     display: flex;
-  }
-
-  .desktop .icon {
-    margin-left: 0.25rem;
+    .icon {
+      margin-left: 0.25rem;
+    }
   }
 
   .contact-link {
@@ -465,18 +428,18 @@ p {
 
   .Body {
     width: 90%;
+    p {
+      width: 80%;
+    }
   }
 
-  .Body p {
-    width: 80%;
-  }
-
-  .bio p:nth-child(2) {
-    width: 75%;
-  }
-
-  .bio p:last-child {
-    width: 80%;
+  .bio p {
+    &:nth-child(2) {
+      width: 75%;
+    }
+    &:last-child {
+      width: 80%;
+    }
   }
 
   .headshot {
@@ -492,11 +455,9 @@ p {
   .project-image {
     height: 21vw;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
-
   .App {
     background: linear-gradient(180deg,
     hsla(15, 40%, 50%, 0.4) 0%,
@@ -534,26 +495,28 @@ p {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-  }
-
-  .Body p {
-    width: 90%;
+    p {
+      width: 90%;
+    }
   }
 
   .welcome {
     width: 100%;
+    h6 {
+      font-size: 110%;
+    }
   }
 
-  .welcome h6 {
-    font-size: 110%;
-  }
-
-  .bio p:nth-child(2) {
-    width: 85%;
-  }
-
-  .bio p:last-child {
-    width: 85%;
+  .bio {
+    width: 95%;
+    p {
+      &:nth-child(2) {
+        width: 85%;
+      }
+      &:last-child {
+        width: 85%;
+      }
+    }
   }
 
   .headshot {
@@ -561,16 +524,11 @@ p {
     width: 25vw;
   }
 
-  .bio {
-    width: 95%;
-  }
-
   .projects {
     width: 80%;
-  }
-
-  .projects-underneath {
-    display: none;
+    &-underneath {
+      display: none;
+    }
   }
 
   .divider {
@@ -594,11 +552,9 @@ p {
     width: 5.5vw;
     height: 5.5vw;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
-
   .App {
     font-size: 120%;
   }
@@ -617,18 +573,18 @@ p {
   
   .Body {
     width: 75%;
+    p {
+      width: 100%;
+    }
   }
 
-  .Body p {
-    width: 100%;
-  }
-
-  .bio p:nth-child(2) {
-    width: 95%;
-  }
-
-  .bio p:last-child {
-    width: 95%;
+  .bio p {
+    &:nth-child(2) {
+      width: 95%;
+    }
+    &:last-child {
+      width: 95%;
+    }
   }
 
   .headshot {
@@ -652,32 +608,27 @@ p {
   .contact p {
     width: 100%;
   }
-
 }
 
 @media only screen and (min-width: 1280px) {
-
   .main-app {
     width: 45%
   }
 
   .bio {
     width: 85%;
-  }
-
-  .bio p:last-child {
-    width: 90%;
+    p:last-child {
+      width: 90%;
+    }
   }
 
   .icon {
     width: 3vw;
     height: 3vw;
   }
-
 }
 
 @media only screen and (min-width: 1440px) {
-
   .Body {
     width: 70%;
   }
@@ -688,10 +639,9 @@ p {
 
   .bio {
     width: 90%;
-  }
-
-  .bio p:last-child {
-    width: 85%;
+    p:last-child {
+      width: 85%;
+    }
   }
 
   .headshot {
@@ -715,21 +665,18 @@ p {
   .contact p {
     width: 100%;
   }
-
 }
 
 @media only screen and (min-width: 1800px) {
-
   .Header {
     width: 95%;
   }
 
   .Body {
     width: 60%;
-  }
-
-  .Body p {
-    width: 100%;
+    p {
+      width: 100%;
+    }
   }
 
   .bio p:last-child {
@@ -753,11 +700,9 @@ p {
     width: 2vw;
     height: 2vw;
   }
-
 }
 
 @media only screen and (min-width: 2500px) {
-
   .Header {
     width: 100%;
   }
@@ -779,5 +724,4 @@ p {
     width: 1.5vw;
     height: 1.5vw;
   }
-
 }

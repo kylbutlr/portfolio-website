@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import { Helmet } from 'react-helmet';
-import '../App.css';
+import '../css/App.css';
 import { scroller } from 'react-scroll';
+import HelmetHeaders from '../components/HelmetHeaders';
 import Header from '../components/Header';
-import Welcome from '../components/Welcome';
-import Biography from '../components/Biography';
-import Work from '../components/Work';
-import Contact from '../components/Contact';
+import Body from '../components/Body';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -21,39 +18,9 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Helmet>
-          <meta charSet='utf-8' />
-          <title>Kyle Butler</title>
-          <link rel='canonical' href='https://kylbutlr.com' />
-          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-          <link rel="manifest" href="/site.webmanifest"/>
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dcbeb3"/>
-          <meta name="msapplication-TileColor" content="#dcbeb3"/>
-          <meta name="theme-color" content="#dcbeb3"/>
-        </Helmet>
+        <HelmetHeaders />
         <Header />
-        <div className='divider first-divider' />
-        <div className='Body'>
-          <div className='main-app'>
-            <Welcome />
-            <div className='divider' />
-            <Biography />
-            <div className='divider' />
-            <div className='projects-underneath'>
-              <Work />
-              <div className='divider' />
-            </div>
-            <Contact />
-          </div>
-          <div className='side-app'>
-            <Work />
-          </div>
-        </div>
-        <div className='small-device'>
-          <h6>Sorry, this device's screen is too small to view this website properly.</h6>
-        </div>
+        <Body />
         <Footer />
       </div>
     );

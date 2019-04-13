@@ -11,16 +11,19 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "build-sass": "node-sass -o src/css src/scss",
+    "sass": "nodemon -e scss -x \"npm run build-sass\""
   },
   "dependencies": {
     "gatsby": "^2.2.5",
     "gatsby-background-image": "^0.2.73",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-plugin-sharp": "^2.0.34",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-sharp": "^2.1.17",
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
