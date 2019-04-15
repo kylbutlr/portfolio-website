@@ -148,7 +148,7 @@ p {
     cursor: pointer;
     padding-left: 0.05rem;
     padding-right: 0.1rem;
-    border-bottom: 1.5px  #222 solid;
+    border-bottom: 1.5px #222 solid;
     line-height: 85%;
     letter-spacing: -0.025rem; }
 
@@ -251,7 +251,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: red;
+    color: #ececec;
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 0.1rem;
@@ -282,7 +282,7 @@ p {
   background-repeat: no-repeat;
   width: 12.5vw;
   height: 12.5vw;
-  opacity: 0.86; }
+  opacity: 0.85; }
 
 .social-email {
   background-image: url(../images/icons/gmail.png); }
@@ -331,7 +331,8 @@ p {
   opacity: 0.9; }
 
 .project-image {
-  opacity: 0.9; }
+  opacity: 0.8;
+  transition: opacity 0.25s; }
 
 @media only screen and (max-width: 100px) {
   .App > div {
@@ -467,7 +468,9 @@ p {
   .socials {
     width: 100%; }
   .contact p {
-    width: 100%; } }
+    width: 100%; }
+  .project-image:hover {
+    opacity: 0.9; } }
 
 @media only screen and (min-width: 1280px) {
   .main-app {
