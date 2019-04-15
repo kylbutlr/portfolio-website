@@ -360,13 +360,9 @@ p {
   align-items: center;
 }
 
-.headshot {
-  opacity: 0.9;
-}
-
+.headshot,
 .project-image {
-  opacity: 0.8;
-  transition: opacity 0.25s;
+  opacity: 0.9;
 }
 
 @media only screen and (max-width: 100px) {
@@ -609,9 +605,13 @@ p {
   .contact p {
     width: 100%;
   }
-  
-  .project-image:hover {
-    opacity: 0.9;
+
+  .project-image {
+    opacity: 0.8;
+    transition: opacity 0.25s;
+    &:hover {
+      opacity: 0.9;
+    }
   }
 }
 
