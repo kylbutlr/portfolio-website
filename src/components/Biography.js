@@ -6,7 +6,7 @@ export default () => (
       I specialize in using <span className='bold'>React</span>,{' '}
       <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and{' '}
       <span className='bold'>CSS</span>+<span className='bold'>HTML</span> to build anything from
-      small business&nbsp;and&nbsp;personal websites to rich interactive&nbsp;web&nbsp;applications.
+      small business&nbsp;and&nbsp;personal websites to intuitive progressive&nbsp;web&nbsp;applications.
     </p>
     <p>
       I have experience working with a variety of tools and concepts such as:{' '}
