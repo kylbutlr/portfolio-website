@@ -327,12 +327,9 @@ p {
   display: none;
   align-items: center; }
 
-.headshot {
-  opacity: 0.9; }
-
+.headshot,
 .project-image {
-  opacity: 0.8;
-  transition: opacity 0.25s; }
+  opacity: 0.9; }
 
 @media only screen and (max-width: 100px) {
   .App > div {
@@ -469,8 +466,11 @@ p {
     width: 100%; }
   .contact p {
     width: 100%; }
-  .project-image:hover {
-    opacity: 0.9; } }
+  .project-image {
+    opacity: 0.8;
+    transition: opacity 0.25s; }
+    .project-image:hover {
+      opacity: 0.9; } }
 
 @media only screen and (min-width: 1280px) {
   .main-app {
