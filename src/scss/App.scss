@@ -148,7 +148,7 @@ p {
     cursor: pointer;
     padding-left: 0.05rem;
     padding-right: 0.1rem;
-    border-bottom: 1.5px  #222 solid;
+    border-bottom: 1.5px  $off-black solid;
     line-height: 85%;
     letter-spacing: -0.025rem;
   }
@@ -222,7 +222,7 @@ p {
 }
 
 .divider {
-  border-top: 1px #222 solid;
+  border-top: 1px $off-black solid;
   padding: 0;
   height: 0%;
   width: 25%;
@@ -277,7 +277,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ececec;
+    color: $off-white;
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 0.1rem;
@@ -316,7 +316,7 @@ p {
   background-repeat: no-repeat;
   width: 12.5vw;
   height: 12.5vw;
-  opacity: 0.86;
+  opacity: 0.85;
 }
 
 .social-email { background-image: url(../images/icons/gmail.png); }
@@ -365,7 +365,8 @@ p {
 }
 
 .project-image {
-  opacity: 0.9;
+  opacity: 0.8;
+  transition: opacity 0.25s;
 }
 
 @media only screen and (max-width: 100px) {
@@ -607,6 +608,10 @@ p {
 
   .contact p {
     width: 100%;
+  }
+  
+  .project-image:hover {
+    opacity: 0.9;
   }
 }
 
