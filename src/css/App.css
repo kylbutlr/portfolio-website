@@ -251,7 +251,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ececec;
+    color: red;
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 0.1rem;
