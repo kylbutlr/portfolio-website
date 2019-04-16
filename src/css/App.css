@@ -212,17 +212,17 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%; }
-  .projects div {
-    width: 100%; }
   .projects h5 {
     padding: 1vh 0; }
   .projects a {
     text-decoration: none; }
 
+.project {
+  width: 100%; }
+
 .project-image {
   background-size: 100%;
   height: 26vw;
-  width: 90%;
   outline: 1px rgba(34, 34, 34, 0.5) solid;
   box-shadow: 0px 3px 15px rgba(34, 34, 34, 0.5);
   display: flex;
@@ -233,6 +233,9 @@ p {
   transition: opacity 0.25s; }
   .project-image:hover {
     opacity: 0.9; }
+    .project-image:hover .arrow {
+      transform: rotate(180deg);
+      opacity: 1; }
     .project-image:hover .project-details {
       visibility: visible;
       opacity: 1; }
@@ -242,7 +245,10 @@ p {
   height: 30%;
   width: 100%;
   padding: 0;
-  cursor: default; }
+  cursor: default;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
   .project-info h6 {
     display: flex;
     align-items: center;
@@ -250,7 +256,17 @@ p {
     color: #ececec;
     font-size: 120%;
     letter-spacing: 0.1rem;
-    height: 100%; }
+    height: 100%;
+    flex: 1; }
+  .project-info div {
+    width: 2.5rem; }
+  .project-info .arrow {
+    width: 2.5rem;
+    color: #ececec;
+    font-size: 100%;
+    margin: auto;
+    opacity: 0.25;
+    transition: all 0.25s; }
 
 .project-details {
   background: rgba(0, 0, 0, 0.75);
@@ -457,7 +473,7 @@ p {
   .last-divider {
     width: 75%; }
   .project-image {
-    height: 16vw; }
+    height: 12vw; }
   .project-info h6 {
     font-size: 125%; }
   .socials {
@@ -469,6 +485,10 @@ p {
     width: 65%; }
   .SingleProject .project-details {
     padding-bottom: 1rem; } }
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  body, body > div, body > div > div {
+    height: 100%; } }
 
 @media only screen and (min-width: 1024px) {
   .App {

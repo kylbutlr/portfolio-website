@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MultipleProject({ number, title, appPreview, appGithub, apiGithub }) {
   return (
-    <div className={'MultipleProject project' + number}>
+    <div className={'MultipleProject project project' + number}>
       <div className='project-image'>
         <div className='project-details'>
           <div>
@@ -22,7 +22,9 @@ export default function MultipleProject({ number, title, appPreview, appGithub, 
           </div>
         </div>
         <div className='project-info'>
+          <div />
           <h6>{title}</h6>
+          <div className='arrow'>V</div>
         </div>
       </div>
     </div>

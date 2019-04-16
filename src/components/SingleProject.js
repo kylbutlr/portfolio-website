@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SingleProject({ number, title, preview, github }) {
   return (
-    <div className={'SingleProject project' + number}>
+    <div className={'SingleProject project project' + number}>
       <div className='project-image'>
         <div className='project-details'>
           <div>
@@ -15,7 +15,9 @@ export default function SingleProject({ number, title, preview, github }) {
           </div>
         </div>
         <div className='project-info'>
+          <div />
           <h6>{title}</h6>
+          <div className='arrow'>V</div>
         </div>
       </div>
     </div>
