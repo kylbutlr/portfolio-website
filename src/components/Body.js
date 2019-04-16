@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import Welcome from '../components/Welcome';
-import Biography from '../components/Biography';
+import Welcome from './Welcome';
+import Biography from './Biography';
 import Projects from './Projects';
-import Contact from '../components/Contact';
-import SmallDevice from '../components/SmallDevice';
+import Contact from './Contact';
+import SmallDevice from './SmallDevice';
 
 export default function Body() {
   return (

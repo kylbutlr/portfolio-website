@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import ContactIcon from '../components/ContactIcon';
+import ContactIcon from './ContactIcon';
 
-export default () => (
+export default function Header() {
+  return (
   <div className='Header'>
     <div className='title'>
       <h1>kb</h1>
@@ -28,3 +29,4 @@ export default () => (
     </div>
   </div>
 );
+}
