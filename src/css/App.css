@@ -384,7 +384,7 @@ p {
     display: none; }
   .desktop {
     display: flex; }
-    .desktop .icon {
+    .desktop a {
       margin-left: 0.25rem; }
   .contact-link {
     padding-top: 1.25vh;
