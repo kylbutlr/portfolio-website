@@ -45,6 +45,7 @@ html {
   background-image: url('../images/symphony.png');
   width: 100vw;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,6 +158,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  flex: 1;
   p {
     width: 85%;
     margin: 0 auto; 
@@ -376,7 +378,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto auto 0;
+  justify-content: flex-end;
   p {
     font-size: 75%;
     padding: 1vh 0;
@@ -437,14 +439,14 @@ p {
   }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 406px) {
   .headshot {
     width: 40vw;
     height: 40vw;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 512px) {
   .mobile {
     display: none;
   }

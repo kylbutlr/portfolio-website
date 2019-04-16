@@ -7,6 +7,19 @@ import Body from '../components/Body';
 import Footer from '../components/Footer';
 
 class App extends Component {
+  componentDidMount() {
+    this.runResize();
+  }
+  
+  runResize() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    window.addEventListener('resize', () => {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+  }
+
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,

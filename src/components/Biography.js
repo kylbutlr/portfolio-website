@@ -5,7 +5,7 @@ export default function Biography() {
     <div className='bio'>
       <p>
         I specialize in using <span className='bold'>React</span>,{' '}
-        <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and{' '}
+        <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and&nbsp;
         <span className='bold'>CSS</span>+<span className='bold'>HTML</span> to build anything from
         small business&nbsp;and&nbsp;personal websites to intuitive
         progressive&nbsp;web&nbsp;applications.
