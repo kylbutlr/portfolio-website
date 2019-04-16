@@ -128,19 +128,19 @@ p {
   .flashing-title {
     position: relative;
     text-align: left;
-    bottom: 1.75rem;
+    bottom: 1.8rem;
     height: 0;
   }
   .kylbutlr {
     position: relative;
     top: 0.95rem;
-    animation: blink1 10s linear infinite;
+    animation: fade1 10s linear infinite;
   }
   .kylebutler {
     position: relative;
     bottom: 0.95rem;
     opacity: 0;
-    animation: blink2 10s linear infinite;
+    animation: fade2 10s linear infinite;
   }
 }
 
@@ -736,6 +736,9 @@ p {
   }
 
   .title {
+    .flashing-title {
+      bottom: 2.2rem;
+    }
     .kylbutlr {
       top: 1.16rem;
     }
@@ -843,7 +846,7 @@ p {
   }
 }
 
-@keyframes blink1 {
+@keyframes fade1 {
   0% {
     opacity: 1;
   }
@@ -858,7 +861,7 @@ p {
   }
 }
 
-@keyframes blink2 {
+@keyframes fade2 {
   45% {
     opacity: 0;
   }
