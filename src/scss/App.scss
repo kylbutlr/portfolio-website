@@ -271,7 +271,7 @@ p {
   height: 30%;
   width: 100%;
   padding: 0;
-  cursor: pointer;
+  cursor: default;
   h6 {
     display: flex;
     align-items: center;
@@ -297,23 +297,21 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 55%;
     cursor: default;
     padding: 0.1rem 0;
-    .project-details-type {
-      padding-right: 4rem;
-    }
     h6 {
       display: flex;
       align-items: center;
       justify-content: center;
       color: $off-white;
-      font-size: 110%;
+      font-size: 100%;
       letter-spacing: 0.05rem;
     }
     a {
       cursor: pointer;
-      text-decoration: underline $off-white;
+      border-bottom: 1.5px $off-white solid;
+      line-height: 105%;
     }
   }
 }
@@ -322,8 +320,8 @@ p {
   padding-bottom: 0.75rem;
   div {
     justify-content: center;
-    h6:last-child { 
-      padding-left: 1rem; 
+    a:last-of-type { 
+      margin-left: 1rem; 
     }
   }
 }
@@ -599,12 +597,12 @@ p {
     height: 5.5vw;
   }
 
-  .SingleProject .project-details {
-    padding-bottom: 1rem;
+  .project-details div {
+    width: 65%;
   }
 
-  .project-details-type {
-    padding-right: 2.5rem !important;
+  .SingleProject .project-details {
+    padding-bottom: 1rem;
   }
 }
 
@@ -620,10 +618,6 @@ p {
   .welcome h6 {
     font-size: 120%;
   }
-
-  .bio {
-    width: 90%;
-  }
   
   .Body {
     width: 75%;
@@ -632,12 +626,15 @@ p {
     }
   }
 
-  .bio p {
-    &:nth-child(2) {
-      width: 95%;
-    }
-    &:last-child {
-      width: 95%;
+  .bio {
+    width: 90%;
+    p {
+      &:nth-child(2) {
+        width: 95%;
+      }
+      &:last-child {
+        width: 95%;
+      }
     }
   }
 
@@ -663,19 +660,21 @@ p {
     width: 100%;
   }
 
-  .project-details div {
-    width: 60%;
-  }
-
-  .project-details-type {
-    padding-right: 3rem !important;
-  }
-
   .project-image {
     opacity: 0.8;
     transition: opacity 0.25s;
     &:hover {
       opacity: 0.9;
+    }
+  }
+
+  .project-details div {
+    width: 60%;
+    a {
+      transition: all 0.25s;
+      &:hover {
+        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
+      }
     }
   }
 }
@@ -695,6 +694,10 @@ p {
   .icon {
     width: 3vw;
     height: 3vw;
+  }
+
+  .project-details div {
+    width: 50%;
   }
 }
 
@@ -735,6 +738,10 @@ p {
   .contact p {
     width: 100%;
   }
+
+  .project-details div {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -770,28 +777,8 @@ p {
     width: 2vw;
     height: 2vw;
   }
-}
 
-@media only screen and (min-width: 2500px) {
-  .Header {
-    width: 100%;
-  }
-
-  .Body {
-    width: 80%;
-  }
-
-  .headshot {
-    height: 7.5vw;
-    width: 7.5vw;
-  }
-
-  .socials {
-    width: 60%;
-  }
-
-  .icon {
-    width: 1.5vw;
-    height: 1.5vw;
+  .project-details div {
+    width: 40%;
   }
 }
