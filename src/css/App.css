@@ -6,23 +6,14 @@
   font-style: normal; }
 
 /* @media only screen and (max-width: 511px) */
-.project9 .project-image {
+.project6 .project-image {
   background-image: url("../images/thumbs/chat-app_100_dark_s.png"); }
 
-.project8 .project-image {
-  background-image: url("../images/thumbs/chat-api_100_dark_s.png"); }
-
-.project7 .project-image {
+.project5 .project-image {
   background-image: url("../images/thumbs/notes-react_100_dark_s.png"); }
 
-.project6 .project-image {
-  background-image: url("../images/thumbs/notes-api_100_dark_s.png"); }
-
-.project5 .project-image {
-  background-image: url("../images/thumbs/todo-list-react_100_dark_s.png"); }
-
 .project4 .project-image {
-  background-image: url("../images/thumbs/todo-list-api_100_dark_s.png"); }
+  background-image: url("../images/thumbs/todo-list-react_100_dark_s.png"); }
 
 .project3 .project-image {
   background-image: url("../images/thumbs/alarm-timer_100_dark_s.png"); }
@@ -37,18 +28,12 @@
   background-image: url(../images/headshot_smaller.png); }
 
 @media only screen and (min-width: 512px) {
-  .project9 .project-image {
-    background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
-  .project8 .project-image {
-    background-image: url("../images/thumbs/chat-api_100_dark_l.png"); }
-  .project7 .project-image {
-    background-image: url("../images/thumbs/notes-react_100_dark_l.png"); }
   .project6 .project-image {
-    background-image: url("../images/thumbs/notes-api_100_dark_l.png"); }
+    background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
   .project5 .project-image {
-    background-image: url("../images/thumbs/todo-list-react_100_dark_l.png"); }
+    background-image: url("../images/thumbs/notes-react_100_dark_l.png"); }
   .project4 .project-image {
-    background-image: url("../images/thumbs/todo-list-api_100_dark_l.png"); }
+    background-image: url("../images/thumbs/todo-list-react_100_dark_l.png"); }
   .project3 .project-image {
     background-image: url("../images/thumbs/alarm-timer_100_dark_l.png"); }
   .project2 .project-image {
@@ -241,21 +226,61 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2vh; }
+  .project-image:hover .project-details {
+    visibility: visible;
+    opacity: 1; }
 
 .project-info {
-  background: #000000bf;
-  height: 25%;
+  background: rgba(0, 0, 0, 0.75);
+  height: 30%;
   width: 100%;
-  padding: 0; }
+  padding: 0;
+  cursor: pointer; }
   .project-info h6 {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ececec;
-    font-size: 125%;
-    font-weight: normal;
+    font-size: 120%;
     letter-spacing: 0.1rem;
     height: 100%; }
+
+.project-details {
+  background: rgba(0, 0, 0, 0.75);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s; }
+  .project-details div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    cursor: default;
+    padding: 0.1rem 0; }
+    .project-details div .project-details-type {
+      padding-right: 4rem; }
+    .project-details div h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ececec;
+      font-size: 110%;
+      letter-spacing: 0.05rem; }
+    .project-details div a {
+      cursor: pointer;
+      text-decoration: underline #ececec; }
+
+.SingleProject .project-details {
+  padding-bottom: 0.75rem; }
+  .SingleProject .project-details div {
+    justify-content: center; }
+    .SingleProject .project-details div h6:last-child {
+      padding-left: 1rem; }
 
 .contact {
   display: flex;
@@ -431,11 +456,17 @@ p {
     width: 75%; }
   .project-image {
     height: 16vw; }
+  .project-info h6 {
+    font-size: 125%; }
   .socials {
     width: 60%; }
   .icon {
     width: 5.5vw;
-    height: 5.5vw; } }
+    height: 5.5vw; }
+  .SingleProject .project-details {
+    padding-bottom: 1rem; }
+  .project-details-type {
+    padding-right: 2.5rem !important; } }
 
 @media only screen and (min-width: 1024px) {
   .App {
@@ -466,6 +497,10 @@ p {
     width: 100%; }
   .contact p {
     width: 100%; }
+  .project-details div {
+    width: 60%; }
+  .project-details-type {
+    padding-right: 3rem !important; }
   .project-image {
     opacity: 0.8;
     transition: opacity 0.25s; }
