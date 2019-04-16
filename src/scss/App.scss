@@ -13,24 +13,18 @@ $off-black: #222;
 }
 
 /* @media only screen and (max-width: 511px) */
-.project9 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
-.project8 .project-image { background-image: url('../images/thumbs/chat-api_100_dark_s.png'); }
-.project7 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
-.project6 .project-image { background-image: url('../images/thumbs/notes-api_100_dark_s.png'); }
-.project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
-.project4 .project-image { background-image: url('../images/thumbs/todo-list-api_100_dark_s.png'); }
+.project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
+.project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
+.project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
 .project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
 .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
 .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_s.png'); }
 .headshot { background-image: url(../images/headshot_smaller.png); }
 
 @media only screen and (min-width: 512px) {
-  .project9 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
-  .project8 .project-image { background-image: url('../images/thumbs/chat-api_100_dark_l.png'); }
-  .project7 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
-  .project6 .project-image { background-image: url('../images/thumbs/notes-api_100_dark_l.png'); }
-  .project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
-  .project4 .project-image { background-image: url('../images/thumbs/todo-list-api_100_dark_l.png'); }
+  .project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
+  .project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
+  .project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
   .project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
   .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
   .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_l.png'); }
@@ -266,22 +260,71 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2vh;
+  &:hover .project-details {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .project-info {
-  background: #000000bf;
-  height: 25%;
+  background: rgba(black, 0.75);
+  height: 30%;
   width: 100%;
   padding: 0;
+  cursor: pointer;
   h6 {
     display: flex;
     align-items: center;
     justify-content: center;
     color: $off-white;
-    font-size: 125%;
-    font-weight: normal;
+    font-size: 120%;
     letter-spacing: 0.1rem;
     height: 100%;
+  }
+}
+
+.project-details {
+  background: rgba(black, 0.75);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    cursor: default;
+    padding: 0.1rem 0;
+    .project-details-type {
+      padding-right: 4rem;
+    }
+    h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $off-white;
+      font-size: 110%;
+      letter-spacing: 0.05rem;
+    }
+    a {
+      cursor: pointer;
+      text-decoration: underline $off-white;
+    }
+  }
+}
+
+.SingleProject .project-details {
+  padding-bottom: 0.75rem;
+  div {
+    justify-content: center;
+    h6:last-child { 
+      padding-left: 1rem; 
+    }
   }
 }
 
@@ -541,6 +584,12 @@ p {
     height: 16vw;
   }
 
+  .project-info {
+    h6 {
+      font-size: 125%;
+    }
+  }
+
   .socials {
     width: 60%;
   }
@@ -548,6 +597,14 @@ p {
   .icon {
     width: 5.5vw;
     height: 5.5vw;
+  }
+
+  .SingleProject .project-details {
+    padding-bottom: 1rem;
+  }
+
+  .project-details-type {
+    padding-right: 2.5rem !important;
   }
 }
 
@@ -604,6 +661,14 @@ p {
 
   .contact p {
     width: 100%;
+  }
+
+  .project-details div {
+    width: 60%;
+  }
+
+  .project-details-type {
+    padding-right: 3rem !important;
   }
 
   .project-image {

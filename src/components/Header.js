@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import ContactIcon from './ContactIcon';
 
-export default () => (
+export default function Header() {
+  return (
   <div className='Header'>
     <div className='title'>
       <h1>kb</h1>
@@ -9,23 +11,22 @@ export default () => (
       <h3>kylbutlr</h3>
     </div>
     <div className='contact-link'>
-      <Link className='mobile' activeClass='active' to='contact-element' spy={true} smooth={true} duration={500}>
+      <Link
+        className='mobile'
+        activeClass='active'
+        to='contact-element'
+        spy={true}
+        smooth={true}
+        duration={500}>
         <h4>contact</h4>
       </Link>
       <div className='desktop'>
-        <a href='mailto:kylbutlr@gmail.com'>
-          <div className='icon social-email' />
-        </a>
-        <a href='https://github.com/kylbutlr'>
-          <div className='icon social-github' />
-        </a>
-        <a href='https://www.linkedin.com/in/kylbutlr/'>
-          <div className='icon social-linkedin' />
-        </a>
-        <a href='https://www.instagram.com/kylbutlr/'>
-          <div className='icon social-instagram' />
-        </a>
+        <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} />
+        <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} />
+        <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} />
+        <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} />
       </div>
     </div>
   </div>
 );
+}
