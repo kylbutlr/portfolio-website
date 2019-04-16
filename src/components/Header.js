@@ -8,7 +8,10 @@ export default function Header() {
     <div className='title'>
       <h1>kb</h1>
       <h2>|</h2>
-      <h3>kylbutlr</h3>
+      <div className='flashing-title'>
+        <h3 className='kylbutlr'>kylbutlr</h3>
+        <h3 className='kylebutler'>kyle butler</h3>
+      </div>
     </div>
     <div className='contact-link'>
       <Link

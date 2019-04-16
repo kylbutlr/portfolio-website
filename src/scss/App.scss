@@ -125,9 +125,22 @@ p {
     position: relative;
     bottom: 0.15rem;
   }
-  h3 {
+  .flashing-title {
     position: relative;
-    top: 0.15rem;
+    text-align: left;
+    bottom: 1.75rem;
+    height: 0;
+  }
+  .kylbutlr {
+    position: relative;
+    top: 0.95rem;
+    animation: blink1 10s linear infinite;
+  }
+  .kylebutler {
+    position: relative;
+    bottom: 0.95rem;
+    opacity: 0;
+    animation: blink2 10s linear infinite;
   }
 }
 
@@ -177,6 +190,7 @@ p {
   padding-top: 2vh;
   padding-bottom: 2vh;
   h6 {
+    cursor: default;
     padding-top: 1vh;
     &:first-line {
       font-size: 110%;
@@ -184,10 +198,6 @@ p {
   }
   .bold {
     letter-spacing: 0.025rem;
-    &:first-of-type {
-      letter-spacing: 0.05rem;
-      font-size: 120%;
-    }
   }
 }
 
@@ -534,6 +544,15 @@ p {
   .title {
     padding-left: 5vw;
     padding-right: 5vw;
+    .flashing-title {
+      bottom: 1.9rem;
+    }
+    .kylbutlr {
+      top: 1.05rem;
+    }
+    .kylebutler {
+      bottom: 1.05rem;
+    }
   }
 
   .contact-link {
@@ -615,8 +634,8 @@ p {
   }
 
   .icon {
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 5vw;
+    height: 5vw;
   }
 
   .project-details div {
@@ -688,6 +707,18 @@ p {
     width: 100%;
   }
 
+  .title {
+    .flashing-title {
+      bottom: 2.1rem;
+    }
+    .kylbutlr {
+      top: 1.15rem;
+    }
+    .kylebutler {
+      bottom: 1.15rem;
+    }
+  }
+
   .project-details div {
     width: 60%;
     a {
@@ -702,6 +733,15 @@ p {
 @media only screen and (min-width: 1280px) {
   .main-app {
     width: 45%
+  }
+
+  .title {
+    .kylbutlr {
+      top: 1.16rem;
+    }
+    .kylebutler {
+      bottom: 1.16rem;
+    }
   }
 
   .bio {
@@ -800,5 +840,35 @@ p {
 
   .project-details div {
     width: 40%;
+  }
+}
+
+@keyframes blink1 {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink2 {
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

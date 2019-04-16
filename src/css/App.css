@@ -118,9 +118,20 @@ p {
     margin: 0 -0.1rem;
     position: relative;
     bottom: 0.15rem; }
-  .title h3 {
+  .title .flashing-title {
     position: relative;
-    top: 0.15rem; }
+    text-align: left;
+    bottom: 1.75rem;
+    height: 0; }
+  .title .kylbutlr {
+    position: relative;
+    top: 0.95rem;
+    animation: blink1 10s linear infinite; }
+  .title .kylebutler {
+    position: relative;
+    bottom: 0.95rem;
+    opacity: 0;
+    animation: blink2 10s linear infinite; }
 
 .contact-link {
   display: flex;
@@ -162,14 +173,12 @@ p {
   padding-top: 2vh;
   padding-bottom: 2vh; }
   .welcome h6 {
+    cursor: default;
     padding-top: 1vh; }
     .welcome h6:first-line {
       font-size: 110%; }
   .welcome .bold {
     letter-spacing: 0.025rem; }
-    .welcome .bold:first-of-type {
-      letter-spacing: 0.05rem;
-      font-size: 120%; }
 
 .bio {
   padding-top: 2vh;
@@ -435,6 +444,12 @@ p {
   .title {
     padding-left: 5vw;
     padding-right: 5vw; }
+    .title .flashing-title {
+      bottom: 1.9rem; }
+    .title .kylbutlr {
+      top: 1.05rem; }
+    .title .kylebutler {
+      bottom: 1.05rem; }
   .contact-link {
     padding-left: 5vw;
     padding-right: 5vw; }
@@ -479,8 +494,8 @@ p {
   .socials {
     width: 60%; }
   .icon {
-    width: 5.5vw;
-    height: 5.5vw; }
+    width: 5vw;
+    height: 5vw; }
   .project-details div {
     width: 65%; }
   .SingleProject .project-details {
@@ -519,6 +534,12 @@ p {
     width: 100%; }
   .contact p {
     width: 100%; }
+  .title .flashing-title {
+    bottom: 2.1rem; }
+  .title .kylbutlr {
+    top: 1.15rem; }
+  .title .kylebutler {
+    bottom: 1.15rem; }
   .project-details div {
     width: 60%; }
     .project-details div a {
@@ -529,6 +550,10 @@ p {
 @media only screen and (min-width: 1280px) {
   .main-app {
     width: 45%; }
+  .title .kylbutlr {
+    top: 1.16rem; }
+  .title .kylebutler {
+    bottom: 1.16rem; }
   .bio {
     width: 85%; }
     .bio p:last-child {
@@ -584,3 +609,23 @@ p {
     height: 2vw; }
   .project-details div {
     width: 40%; } }
+
+@keyframes blink1 {
+  0% {
+    opacity: 1; }
+  45% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  95% {
+    opacity: 0; } }
+
+@keyframes blink2 {
+  45% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
