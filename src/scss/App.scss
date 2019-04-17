@@ -137,7 +137,7 @@ p {
   }
   .kylbutlr {
     position: relative;
-    top: 0.975rem;
+    top: 0.95rem;
     animation: fade1 10s ease infinite;
   }
   .kylebutler {
@@ -332,37 +332,49 @@ p {
   align-items: center;
   justify-content: flex-end;
   visibility: hidden;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
   opacity: 0;
   transition: all 0.25s;
   div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
     cursor: default;
     padding: 0.1rem 0;
-    h6 {
+    div {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $off-white;
-      font-size: 100%;
-      letter-spacing: 0.05rem;
     }
-    a {
-      cursor: pointer;
-      border-bottom: 1.5px $off-white solid;
-      line-height: 105%;
+  }
+  h6 {
+    color: $off-white;
+    font-size: 100%;
+    letter-spacing: 0.05rem;
+  }
+  a {
+    cursor: pointer;
+    border-bottom: 1.5px $off-white solid;
+    line-height: 105%;
+  }
+  .project-details-type {
+    justify-content: space-between;
+    width: 60%;
+  }
+  .project-details-links {
+    justify-content: space-between;
+    width: 95%;
+    div {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      a:nth-child(2) { 
+        margin-left: 0.5rem; 
+      }
     }
   }
 }
 
-.project-details-type {
-  padding: 0 0.5rem;
-}
-
 .SingleProject .project-details {
-  padding-bottom: 0.75rem;
+  padding-left: 0;
   div {
     justify-content: center;
     a:last-of-type { 
@@ -559,7 +571,7 @@ p {
       top: 1.05rem;
     }
     .kylebutler {
-      bottom: 1.05rem;
+      bottom: 1.075rem;
     }
   }
 
@@ -646,12 +658,31 @@ p {
     height: 5vw;
   }
 
-  .project-details div {
-    width: 75%;
+  .project-details {
+    padding-bottom: 0.5rem;
+    .project-details-type {
+      h6:first-of-type {
+        margin-left: 0.5rem;
+      }
+      width: 60%;
+    }
+    .project-details-links {
+      width: 90%;
+      div {
+        a:nth-child(2) { 
+          margin-left: 1rem; 
+        }
+      }
+    }
   }
 
-  .SingleProject .project-details {
-    padding-bottom: 1rem;
+  .SingleProject {
+    .project-details {
+      padding-bottom: 0.5rem;
+    }
+    .project-details-type:first-child {
+      margin-left: 0;
+    }
   }
 }
 
@@ -723,12 +754,17 @@ p {
       top: 1.2rem;
     }
     .kylebutler {
-      bottom: 1.15rem;
+      bottom: 1.1rem;
     }
   }
 
-  .project-details div {
-    width: 70%;
+  .project-details {
+    .project-details-type {
+      width: 55%;
+      h6:first-of-type {
+        margin-left: 0rem;
+      }
+    }
     a {
       transition: all 0.25s;
       &:hover {
@@ -748,7 +784,7 @@ p {
       top: 1.15rem;
     }
     .kylebutler {
-      bottom: 1.2rem;
+      bottom: 1.175rem;
     }
   }
 
@@ -764,8 +800,16 @@ p {
     height: 3vw;
   }
 
-  .project-details div {
-    width: 55%;
+  .project-details {
+    padding-bottom: 0.75rem !important;
+    a:first-of-type,
+    .project-details-type {
+      margin-left: 1rem;
+    }
+  }
+
+  .SingleProject a:first-of-type {
+    margin-left: 0;
   }
 }
 
@@ -806,10 +850,6 @@ p {
   .contact p {
     width: 100%;
   }
-
-  .project-details div {
-    width: 50%;
-  }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -846,8 +886,8 @@ p {
     height: 2vw;
   }
 
-  .project-details div {
-    width: 45%;
+  .project-details {
+    padding-bottom: 1.5rem !important;
   }
 }
 

@@ -128,7 +128,7 @@ p {
     height: 0; }
   .title .kylbutlr {
     position: relative;
-    top: 0.975rem;
+    top: 0.95rem;
     animation: fade1 10s ease infinite; }
   .title .kylebutler {
     position: relative;
@@ -288,32 +288,40 @@ p {
   align-items: center;
   justify-content: flex-end;
   visibility: hidden;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
   opacity: 0;
   transition: all 0.25s; }
   .project-details div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
     cursor: default;
     padding: 0.1rem 0; }
-    .project-details div h6 {
+    .project-details div div {
+      display: flex; }
+  .project-details h6 {
+    color: #ececec;
+    font-size: 100%;
+    letter-spacing: 0.05rem; }
+  .project-details a {
+    cursor: pointer;
+    border-bottom: 1.5px #ececec solid;
+    line-height: 105%; }
+  .project-details .project-details-type {
+    justify-content: space-between;
+    width: 60%; }
+  .project-details .project-details-links {
+    justify-content: space-between;
+    width: 95%; }
+    .project-details .project-details-links div {
       display: flex;
-      align-items: center;
       justify-content: center;
-      color: #ececec;
-      font-size: 100%;
-      letter-spacing: 0.05rem; }
-    .project-details div a {
-      cursor: pointer;
-      border-bottom: 1.5px #ececec solid;
-      line-height: 105%; }
-
-.project-details-type {
-  padding: 0 0.5rem; }
+      flex: 1; }
+      .project-details .project-details-links div a:nth-child(2) {
+        margin-left: 0.5rem; }
 
 .SingleProject .project-details {
-  padding-bottom: 0.75rem; }
+  padding-left: 0; }
   .SingleProject .project-details div {
     justify-content: center; }
     .SingleProject .project-details div a:last-of-type {
@@ -455,7 +463,7 @@ p {
     .title .kylbutlr {
       top: 1.05rem; }
     .title .kylebutler {
-      bottom: 1.05rem; }
+      bottom: 1.075rem; }
   .contact-link {
     padding-left: 5vw;
     padding-right: 5vw; }
@@ -502,10 +510,20 @@ p {
   .icon {
     width: 5vw;
     height: 5vw; }
-  .project-details div {
-    width: 75%; }
+  .project-details {
+    padding-bottom: 0.5rem; }
+    .project-details .project-details-type {
+      width: 60%; }
+      .project-details .project-details-type h6:first-of-type {
+        margin-left: 0.5rem; }
+    .project-details .project-details-links {
+      width: 90%; }
+      .project-details .project-details-links div a:nth-child(2) {
+        margin-left: 1rem; }
   .SingleProject .project-details {
-    padding-bottom: 1rem; } }
+    padding-bottom: 0.5rem; }
+  .SingleProject .project-details-type:first-child {
+    margin-left: 0; } }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
   body, body > div, body > div > div {
@@ -545,13 +563,15 @@ p {
   .title .kylbutlr {
     top: 1.2rem; }
   .title .kylebutler {
-    bottom: 1.15rem; }
-  .project-details div {
-    width: 70%; }
-    .project-details div a {
-      transition: all 0.25s; }
-      .project-details div a:hover {
-        text-shadow: 0px 0px 5px rgba(236, 236, 236, 0.75); } }
+    bottom: 1.1rem; }
+  .project-details .project-details-type {
+    width: 55%; }
+    .project-details .project-details-type h6:first-of-type {
+      margin-left: 0rem; }
+  .project-details a {
+    transition: all 0.25s; }
+    .project-details a:hover {
+      text-shadow: 0px 0px 5px rgba(236, 236, 236, 0.75); } }
 
 @media only screen and (min-width: 1280px) {
   .main-app {
@@ -559,7 +579,7 @@ p {
   .title .kylbutlr {
     top: 1.15rem; }
   .title .kylebutler {
-    bottom: 1.2rem; }
+    bottom: 1.175rem; }
   .bio {
     width: 85%; }
     .bio p:last-child {
@@ -567,8 +587,13 @@ p {
   .icon {
     width: 3vw;
     height: 3vw; }
-  .project-details div {
-    width: 55%; } }
+  .project-details {
+    padding-bottom: 0.75rem !important; }
+    .project-details a:first-of-type,
+    .project-details .project-details-type {
+      margin-left: 1rem; }
+  .SingleProject a:first-of-type {
+    margin-left: 0; } }
 
 @media only screen and (min-width: 1440px) {
   .Body {
@@ -590,9 +615,7 @@ p {
     width: 2.5vw;
     height: 2.5vw; }
   .contact p {
-    width: 100%; }
-  .project-details div {
-    width: 50%; } }
+    width: 100%; } }
 
 @media only screen and (min-width: 1800px) {
   .Header {
@@ -613,8 +636,8 @@ p {
   .icon {
     width: 2vw;
     height: 2vw; }
-  .project-details div {
-    width: 45%; } }
+  .project-details {
+    padding-bottom: 1.5rem !important; } }
 
 @keyframes fade1 {
   0% {

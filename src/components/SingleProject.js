@@ -5,6 +5,9 @@ export default function SingleProject({ number, title, preview, github }) {
     <div className={'SingleProject project project' + number}>
       <div className='project-image'>
         <div className='project-details'>
+          <div className='project-details-type'>
+            <h6>App:</h6>
+          </div>
           <div>
             <a href={preview}>
               <h6>Preview</h6>
