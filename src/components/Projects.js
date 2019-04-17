@@ -5,7 +5,7 @@ import MultipleProject from './MultipleProject';
 export default function Projects() {
   return (
     <div className='projects'>
-      <h5>RECENT WORK</h5>
+      <h5>RECENT PROJECTS</h5>
       <MultipleProject
         number={6}
         title={'Public Chat'}
