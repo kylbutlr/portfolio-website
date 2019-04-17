@@ -29,15 +29,15 @@ export default function Projects() {
       />
       <SingleProject
         number={3}
-        title={'Alarm & Timer'}
-        preview={'https://kylbutlr.github.io/alarm-timer'}
-        github={'https://github.com/kylbutlr/alarm-timer'}
-      />
-      <SingleProject
-        number={2}
         title={'Flexbox Slideshow'}
         preview={'https://kylbutlr.github.io/flex-slideshow'}
         github={'https://github.com/kylbutlr/flex-slideshow'}
+      />
+      <SingleProject
+        number={2}
+        title={'Alarm & Timer'}
+        preview={'https://kylbutlr.github.io/alarm-timer'}
+        github={'https://github.com/kylbutlr/alarm-timer'}
       />
       <SingleProject
         number={1}

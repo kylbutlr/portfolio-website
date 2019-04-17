@@ -16,8 +16,8 @@ $off-black: #222;
 .project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
 .project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
 .project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
-.project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
-.project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
+.project3 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
+.project2 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
 .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_s.png'); }
 .headshot { background-image: url(../images/headshot_smaller.png); }
 
@@ -25,8 +25,8 @@ $off-black: #222;
   .project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
   .project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
   .project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
-  .project3 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
-  .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
+  .project3 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
+  .project2 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
   .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_l.png'); }
   .headshot { background-image: url(../images/headshot_small.png); }
 }
@@ -77,7 +77,7 @@ h4, h6 {
 
 h5 {
   font-size: 150%;
-  letter-spacing: 0.05rem;
+  letter-spacing: .05rem;
 }
 
 p {
@@ -86,15 +86,15 @@ p {
 
 .bold {
   font-weight: bold;
-  letter-spacing: 0.01rem;
+  letter-spacing: .01rem;
 }
 
 .App {
   background: linear-gradient(180deg,
-   hsla(15, 40%, 50%, 0.4) 0%,
-   hsla(15, 40%, 75%, 0.8) 20%,
-   hsla(15, 40%, 75%, 0.8) 80%, 
-   hsla(15, 40%, 50%, 0.4) 100%);
+   hsla(15, 40%, 50%, .4) 0%,
+   hsla(15, 40%, 75%, .8) 20%,
+   hsla(15, 40%, 75%, .8) 80%, 
+   hsla(15, 40%, 50%, .4) 100%);
   color: $off-black;
   display: flex;
   flex-direction: column;
@@ -118,16 +118,16 @@ p {
   align-items: center;
   padding: 1vh 4vw;
   h1, h2, h3 {
-    letter-spacing: -0.025rem;
+    letter-spacing: -.025rem;
   }
   h2 {
-    margin: 0 -0.1rem;
+    margin: 0 -.1rem;
     position: relative;
-    bottom: 0.15rem;
+    bottom: .15rem;
   }
   .kyl {
     position: relative;
-    bottom: -0.12rem;
+    bottom: -.12rem;
   }
   .flashing-title {
     position: relative;
@@ -137,12 +137,12 @@ p {
   }
   .kylbutlr {
     position: relative;
-    top: 0.95rem;
+    top: .95rem;
     animation: fade1 10s ease infinite;
   }
   .kylebutler {
     position: relative;
-    bottom: 0.975rem;
+    bottom: .975rem;
     opacity: 0;
     animation: fade2 10s ease infinite;
   }
@@ -156,13 +156,13 @@ p {
   h4 {
     font-size: 150%;
     position: relative;
-    top: 0.1rem;
+    top: .1rem;
     cursor: pointer;
-    padding-right: 0.05rem;
-    margin-right: 0.05rem;
+    padding-right: .05rem;
+    margin-right: .05rem;
     border-bottom: 1.5px  $off-black solid;
     line-height: 85%;
-    letter-spacing: -0.025rem;
+    letter-spacing: -.025rem;
   }
 }
 
@@ -201,7 +201,7 @@ p {
     }
   }
   .bold {
-    letter-spacing: 0.025rem;
+    letter-spacing: .025rem;
   }
 }
 
@@ -225,11 +225,11 @@ p {
 .headshot { 
   background-size: 100%;
   border-radius: 100%;
-  border: 1px rgba($off-black, 0.25) solid;
-  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
+  border: 1px rgba($off-black, .25) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, .5);
   height: 50vw;
   width: 50vw;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .divider {
@@ -237,7 +237,7 @@ p {
   padding: 0;
   height: 0%;
   width: 25%;
-  opacity: 0.25;
+  opacity: .25;
 }
 
 .first-divider,
@@ -271,16 +271,16 @@ p {
 .project-image {
   background-size: 100%;
   height: 26vw;
-  outline: 1px rgba($off-black, 0.5) solid;
-  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
+  outline: 1px rgba($off-black, .5) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, .5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2vh;
-  opacity: 0.8;
-  transition: opacity 0.25s;
+  opacity: .8;
+  transition: opacity .25s;
   &:hover {
-    opacity: 0.9;
+    opacity: .9;
     .arrow {
       transform: rotate(180deg);
       opacity: 1;
@@ -293,7 +293,7 @@ p {
 }
 
 .project-info {
-  background: rgba(black, 0.75);
+  background: rgba(black, .75);
   height: 30%;
   width: 100%;
   padding: 0;
@@ -307,7 +307,7 @@ p {
     justify-content: center;
     color: $off-white;
     font-size: 120%;
-    letter-spacing: 0.1rem;
+    letter-spacing: .1rem;
     height: 100%;
     flex: 1;
   }
@@ -319,13 +319,13 @@ p {
     color: $off-white;
     font-size: 100%;
     margin: auto;
-    opacity: 0.25;
-    transition: all 0.25s;
+    opacity: .25;
+    transition: all .25s;
   }
 }
 
 .project-details {
-  background: rgba(black, 0.75);
+  background: rgba(black, .75);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -333,14 +333,14 @@ p {
   justify-content: flex-end;
   visibility: hidden;
   padding-left: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
   opacity: 0;
-  transition: all 0.25s;
+  transition: all .25s;
   div {
     display: flex;
     align-items: center;
     cursor: default;
-    padding: 0.1rem 0;
+    padding: .1rem 0;
     div {
       display: flex;
     }
@@ -348,7 +348,7 @@ p {
   h6 {
     color: $off-white;
     font-size: 100%;
-    letter-spacing: 0.05rem;
+    letter-spacing: .05rem;
   }
   a {
     cursor: pointer;
@@ -367,7 +367,7 @@ p {
       justify-content: center;
       flex: 1;
       a:nth-child(2) { 
-        margin-left: 0.5rem; 
+        margin-left: .5rem; 
       }
     }
   }
@@ -398,7 +398,7 @@ p {
     font-size: 90%;
     padding: 1vh 0 1vh;
     a {
-      padding-left: 0.1rem;
+      padding-left: .1rem;
     }
   }
 }
@@ -414,7 +414,7 @@ p {
   background-repeat: no-repeat;
   width: 12.5vw;
   height: 12.5vw;
-  opacity: 0.85;
+  opacity: .85;
 }
 
 .social-email { background-image: url(../images/icons/gmail.png); }
@@ -431,7 +431,7 @@ p {
   p {
     font-size: 75%;
     padding: 1vh 0;
-    opacity: 0.75;
+    opacity: .75;
   }
 }
 
@@ -503,13 +503,13 @@ p {
   .desktop {
     display: flex;
     a {
-      margin-left: 0.25rem;
+      margin-left: .25rem;
     }
   }
 
   .contact-link {
     padding-top: 1.25vh;
-    padding-bottom: 0.75vh;
+    padding-bottom: .75vh;
   }
   
   .Header {
@@ -550,10 +550,10 @@ p {
 @media only screen and (min-width: 768px) {
   .App {
     background: linear-gradient(180deg,
-    hsla(15, 40%, 50%, 0.4) 0%,
-    hsla(15, 40%, 75%, 0.8) 30%,
-    hsla(15, 40%, 75%, 0.8) 70%, 
-    hsla(15, 40%, 50%, 0.4) 100%);
+    hsla(15, 40%, 50%, .4) 0%,
+    hsla(15, 40%, 75%, .8) 30%,
+    hsla(15, 40%, 75%, .8) 70%, 
+    hsla(15, 40%, 50%, .4) 100%);
     font-size: 110%;
   }
 
@@ -659,10 +659,10 @@ p {
   }
 
   .project-details {
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
     .project-details-type {
       h6:first-of-type {
-        margin-left: 0.5rem;
+        margin-left: .5rem;
       }
       width: 60%;
     }
@@ -678,7 +678,7 @@ p {
 
   .SingleProject {
     .project-details {
-      padding-bottom: 0.5rem;
+      padding-bottom: .5rem;
     }
     .project-details-type:first-child {
       margin-left: 0;
@@ -766,9 +766,9 @@ p {
       }
     }
     a {
-      transition: all 0.25s;
+      transition: all .25s;
       &:hover {
-        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
+        text-shadow: 0px 0px 5px rgba($off-white, .75);
       }
     }
   }
@@ -801,7 +801,7 @@ p {
   }
 
   .project-details {
-    padding-bottom: 0.75rem !important;
+    padding-bottom: .75rem !important;
     a:first-of-type,
     .project-details-type {
       margin-left: 1rem;
