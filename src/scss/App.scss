@@ -125,9 +125,9 @@ p {
     position: relative;
     bottom: 0.15rem;
   }
-  h3 {
+  .kyl {
     position: relative;
-    bottom: -0.11715rem;
+    bottom: -0.12rem;
   }
   .flashing-title {
     position: relative;
@@ -137,12 +137,12 @@ p {
   }
   .kylbutlr {
     position: relative;
-    top: 0.95rem;
+    top: 0.975rem;
     animation: fade1 10s ease infinite;
   }
   .kylebutler {
     position: relative;
-    bottom: 0.95rem;
+    bottom: 0.975rem;
     opacity: 0;
     animation: fade2 10s ease infinite;
   }
@@ -338,7 +338,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 55%;
+    width: 60%;
     cursor: default;
     padding: 0.1rem 0;
     h6 {
@@ -355,6 +355,10 @@ p {
       line-height: 105%;
     }
   }
+}
+
+.project-details-type {
+  padding: 0 0.5rem;
 }
 
 .SingleProject .project-details {
@@ -643,7 +647,7 @@ p {
   }
 
   .project-details div {
-    width: 65%;
+    width: 75%;
   }
 
   .SingleProject .project-details {
@@ -716,7 +720,7 @@ p {
       bottom: 2.2rem;
     }
     .kylbutlr {
-      top: 1.15rem;
+      top: 1.2rem;
     }
     .kylebutler {
       bottom: 1.15rem;
@@ -724,7 +728,7 @@ p {
   }
 
   .project-details div {
-    width: 60%;
+    width: 70%;
     a {
       transition: all 0.25s;
       &:hover {
@@ -741,10 +745,10 @@ p {
 
   .title {
     .kylbutlr {
-      top: 1.16rem;
+      top: 1.15rem;
     }
     .kylebutler {
-      bottom: 1.16rem;
+      bottom: 1.2rem;
     }
   }
 
@@ -761,7 +765,7 @@ p {
   }
 
   .project-details div {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -804,7 +808,7 @@ p {
   }
 
   .project-details div {
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -843,7 +847,7 @@ p {
   }
 
   .project-details div {
-    width: 40%;
+    width: 45%;
   }
 }
 
