@@ -7,43 +7,45 @@ export default function Projects() {
     <div className='projects'>
       <h5>RECENT PROJECTS</h5>
       <MultipleProject
-        number={6}
+        number={5}
+        type1={'react'}
+        type2={'node'}
         title={'Public Chat'}
         appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/public-chat-app'}
         apiGithub={'https://github.com/kylbutlr/public-chat-api'}
       />
       <MultipleProject
-        number={5}
+        number={4}
+        type1={'react'}
+        type2={'node'}
         title={'Notes'}
         appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}
       />
       <MultipleProject
-        number={4}
+        number={3}
+        type1={'react'}
+        type2={'node'}
         title={'Todo List'}
         appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/todo-list-react'}
         apiGithub={'https://github.com/kylbutlr/todo-list-api'}
       />
       <SingleProject
-        number={3}
+        number={2}
+        type={'css'}
         title={'Flexbox Slideshow'}
         preview={'https://kylbutlr.github.io/flex-slideshow'}
         github={'https://github.com/kylbutlr/flex-slideshow'}
       />
       <SingleProject
-        number={2}
+        number={1}
+        type={'js'}
         title={'Alarm & Timer'}
         preview={'https://kylbutlr.github.io/alarm-timer'}
         github={'https://github.com/kylbutlr/alarm-timer'}
-      />
-      <SingleProject
-        number={1}
-        title={'Tip Recorder'}
-        preview={'https://kylbutlr.github.io/tip-recorder'}
-        github={'https://github.com/kylbutlr/tip-recorder'}
       />
     </div>
   );

@@ -13,21 +13,19 @@ $off-black: #222;
 }
 
 /* @media only screen and (max-width: 511px) */
-.project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
-.project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
-.project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
-.project3 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
-.project2 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
-.project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_s.png'); }
+.project5 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
+.project4 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
+.project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
+.project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
+.project1 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.png'); }
 .headshot { background-image: url(../images/headshot_smaller.png); }
 
 @media only screen and (min-width: 512px) {
-  .project6 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
-  .project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
-  .project4 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
-  .project3 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
-  .project2 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
-  .project1 .project-image { background-image: url('../images/thumbs/tip-recorder_100_dark_l.png'); }
+  .project5 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
+  .project4 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
+  .project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
+  .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
+  .project1 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.png'); }
   .headshot { background-image: url(../images/headshot_small.png); }
 }
 
@@ -281,6 +279,9 @@ p {
   transition: opacity .25s;
   &:hover {
     opacity: .9;
+    .project-info-icon div {
+      opacity: .8;
+    }
     .arrow {
       transform: rotate(180deg);
       opacity: 1;
@@ -313,12 +314,29 @@ p {
   }
   div {
     width: 2.5rem;
+    margin: auto;
+    &:first-child {
+      height: 1.25rem;
+      margin: auto;
+      div {
+        background-size: 100%;
+        width: 1.25rem;
+        height: 1.25rem;
+        opacity: .4;
+        transition: opacity .25s;
+      }
+    }
+  }
+  .icon-{
+    &react { background-image: url('../images/icons/react.png'); }
+    &node { background-image: url('../images/icons/node.png'); }
+    &css { background-image: url('../images/icons/css.png'); }
+    &js { background-image: url('../images/icons/javascript.png'); }
+    &empty { width: 1.75rem; }
   }
   .arrow {
-    width: 2.5rem;
     color: $off-white;
     font-size: 100%;
-    margin: auto;
     opacity: .25;
     transition: all .25s;
   }
@@ -370,6 +388,15 @@ p {
         margin-left: .5rem; 
       }
     }
+  }
+}
+
+.MultipleProject .project-info-icon {
+  display: flex;
+  justify-content: center;
+  width: 4.25rem;
+  div {
+    margin: auto .125rem;
   }
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MultipleProject({ number, title, appPreview, appGithub, apiGithub }) {
+export default function MultipleProject({ number, type1, type2, title, appPreview, appGithub, apiGithub }) {
   return (
     <div className={'MultipleProject project project' + number}>
       <div className='project-image'>
@@ -26,8 +26,12 @@ export default function MultipleProject({ number, title, appPreview, appGithub, 
           </div>
         </div>
         <div className='project-info'>
-          <div />
+          <div className='project-info-icon'>
+            <div className={'icon-' + type1} />
+            <div className={'icon-' + type2} />
+          </div>
           <h6>{title}</h6>
+          <div className='icon-empty'/>
           <div className='arrow'>V</div>
         </div>
       </div>
