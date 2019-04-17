@@ -118,6 +118,9 @@ p {
     margin: 0 -0.1rem;
     position: relative;
     bottom: 0.15rem; }
+  .title h3 {
+    position: relative;
+    bottom: -0.11715rem; }
   .title .flashing-title {
     position: relative;
     text-align: left;
@@ -126,12 +129,12 @@ p {
   .title .kylbutlr {
     position: relative;
     top: 0.95rem;
-    animation: fade1 10s linear infinite; }
+    animation: fade1 10s ease infinite; }
   .title .kylebutler {
     position: relative;
     bottom: 0.95rem;
     opacity: 0;
-    animation: fade2 10s linear infinite; }
+    animation: fade2 10s ease infinite; }
 
 .contact-link {
   display: flex;
@@ -141,12 +144,12 @@ p {
   .contact-link h4 {
     font-size: 150%;
     position: relative;
-    top: 0.25rem;
+    top: 0.1rem;
     cursor: pointer;
-    padding-left: 0.05rem;
-    padding-right: 0.1rem;
+    padding-right: 0.05rem;
+    margin-right: 0.05rem;
     border-bottom: 1.5px #222 solid;
-    line-height: 85%;
+    line-height: 80%;
     letter-spacing: -0.025rem; }
 
 .desktop {
@@ -445,7 +448,7 @@ p {
     padding-left: 5vw;
     padding-right: 5vw; }
     .title .flashing-title {
-      bottom: 1.9rem; }
+      bottom: 2rem; }
     .title .kylbutlr {
       top: 1.05rem; }
     .title .kylebutler {
@@ -535,7 +538,7 @@ p {
   .contact p {
     width: 100%; }
   .title .flashing-title {
-    bottom: 2.1rem; }
+    bottom: 2.2rem; }
   .title .kylbutlr {
     top: 1.15rem; }
   .title .kylebutler {
@@ -550,8 +553,6 @@ p {
 @media only screen and (min-width: 1280px) {
   .main-app {
     width: 45%; }
-  .title .flashing-title {
-    bottom: 2.2rem; }
   .title .kylbutlr {
     top: 1.16rem; }
   .title .kylebutler {
