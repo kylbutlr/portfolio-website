@@ -5,9 +5,10 @@ export default function Biography() {
     <div className='bio'>
       <p>
         I specialize in using <span className='bold'>React</span>,{' '}
-        <span className='bold'>JavaScript</span>, <span className='bold'>Node</span>, and&nbsp;
-        <span className='bold'>CSS</span>+<span className='bold'>HTML</span> to build anything from
-        small business&nbsp;and&nbsp;personal websites to intuitive
+        <span className='bold'>Node</span>, <span className='bold'>JavaScript</span>,{' '}
+        and&nbsp;<span className='bold'>CSS</span><span className='slant'>/</span>
+        <span className='bold'>HTML</span> to build anything from small
+        business&nbsp;and&nbsp;personal websites to intuitive
         progressive&nbsp;web&nbsp;applications.
       </p>
       <p>
@@ -29,8 +30,8 @@ export default function Biography() {
         frameworks, libraries, and languages throughout&nbsp;my&nbsp;career.
       </p>
       <p>
-        I am hoping to join an innovative organization that is looking for a web developer who is
-        eager to learn and become a valuable asset&nbsp;to&nbsp;the&nbsp;team!
+        I am hoping to join a growing organization that is looking for an innovative web developer
+        who is eager to learn, adapt, and become a valuable asset to&nbsp;the&nbsp;whole&nbsp;team!
       </p>
     </div>
   );

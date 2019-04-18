@@ -210,6 +210,9 @@ p {
     width: 50%;
     margin: 2vh auto;
   }
+  .slant {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+  }
   p {
     &:not(:first-child) {
       padding-top: 1vh;

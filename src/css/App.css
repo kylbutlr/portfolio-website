@@ -184,6 +184,8 @@ p {
   .bio .divider {
     width: 50%;
     margin: 2vh auto; }
+  .bio .slant {
+    font-family: 'Lucida Sans', Verdana, sans-serif; }
   .bio p:not(:first-child) {
     padding-top: 1vh; }
   .bio p:last-child {
