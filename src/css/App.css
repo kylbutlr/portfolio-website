@@ -580,10 +580,9 @@ p {
   .icon {
     width: 3.5vw;
     height: 3.5vw;
-    transition: all 1s;
-    transform: scale(1); }
+    transition: transform .25s; }
     .icon:hover {
-      animation: grow-shrink 1s ease-in-out infinite; }
+      transform: scale(1.1); }
   .socials {
     width: 100%; }
   .contact p {
@@ -688,11 +687,3 @@ p {
     opacity: 1; }
   100% {
     opacity: 0; } }
-
-@keyframes grow-shrink {
-  0% {
-    transform: scale(1); }
-  50% {
-    transform: scale(1.1); }
-  100% {
-    transform: scale(1); } }
