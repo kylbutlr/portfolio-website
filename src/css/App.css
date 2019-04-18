@@ -351,8 +351,7 @@ p {
   .project-details div {
     display: flex;
     align-items: center;
-    cursor: default;
-    padding: .05rem 0; }
+    cursor: default; }
     .project-details div div {
       display: flex; }
   .project-details h6 {
@@ -367,7 +366,8 @@ p {
     letter-spacing: 0; }
   .project-details .project-details-type {
     justify-content: space-between;
-    width: 59%; }
+    width: 59%;
+    padding-bottom: 0.1rem; }
   .project-details .project-details-links {
     justify-content: space-between;
     width: 95%; }

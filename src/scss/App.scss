@@ -400,7 +400,6 @@ p {
     display: flex;
     align-items: center;
     cursor: default;
-    padding: .05rem 0;
     div {
       display: flex;
     }
@@ -420,6 +419,7 @@ p {
   .project-details-type {
     justify-content: space-between;
     width: 59%;
+    padding-bottom: 0.1rem;
   }
   .project-details-links {
     justify-content: space-between;
