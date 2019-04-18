@@ -352,20 +352,22 @@ p {
     display: flex;
     align-items: center;
     cursor: default;
-    padding: .1rem 0; }
+    padding: .05rem 0; }
     .project-details div div {
       display: flex; }
   .project-details h6 {
     color: #ececec;
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: .05rem; }
   .project-details a {
     cursor: pointer;
     border-bottom: 1.5px #ececec solid;
-    line-height: 105%; }
+    line-height: 105%;
+    font-size: 90%;
+    letter-spacing: 0; }
   .project-details .project-details-type {
     justify-content: space-between;
-    width: 60%; }
+    width: 59%; }
   .project-details .project-details-links {
     justify-content: space-between;
     width: 95%; }
@@ -539,7 +541,7 @@ p {
   .project-details {
     padding-bottom: .5rem; }
     .project-details .project-details-type {
-      width: 60%; }
+      width: 64%; }
       .project-details .project-details-type h6:first-of-type {
         margin-left: .5rem; }
     .project-details .project-details-links {
@@ -594,9 +596,9 @@ p {
   .title .kylebutler {
     bottom: 1.1rem; }
   .project-details .project-details-type {
-    width: 55%; }
+    width: 60%; }
     .project-details .project-details-type h6:first-of-type {
-      margin-left: 0rem; }
+      margin-left: 0.25rem; }
   .project-details a {
     transition: all .25s; }
     .project-details a:hover {
@@ -618,9 +620,11 @@ p {
     height: 3vw; }
   .project-details {
     padding-bottom: .75rem !important; }
-    .project-details a:first-of-type,
-    .project-details .project-details-type {
+    .project-details a:first-of-type {
       margin-left: 1rem; }
+    .project-details .project-details-type {
+      margin-left: .75rem;
+      width: 56%; }
   .SingleProject a:first-of-type {
     margin-left: 0; } }
 
@@ -666,7 +670,9 @@ p {
     width: 2vw;
     height: 2vw; }
   .project-details {
-    padding-bottom: 1.5rem !important; } }
+    padding-bottom: 1.5rem !important; }
+    .project-details .project-details-type {
+      width: 51%; } }
 
 @keyframes fade1 {
   0% {
