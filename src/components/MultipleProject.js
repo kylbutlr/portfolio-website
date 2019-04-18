@@ -1,6 +1,9 @@
 import React from 'react';
+import getReadType from './readType';
 
 export default function MultipleProject({ number, type1, type2, title, appPreview, appGithub, apiGithub }) {
+  let readType1 = getReadType(type1);
+  let readType2 = getReadType(type2);
   return (
     <div className={'MultipleProject project project' + number}>
       <div className='project-image'>
@@ -27,8 +30,8 @@ export default function MultipleProject({ number, type1, type2, title, appPrevie
         </div>
         <div className='project-info'>
           <div className='project-info-icon'>
-            <div className={'icon-' + type1} />
-            <div className={'icon-' + type2} />
+            <div className={'icon-' + type1} title={readType1} />
+            <div className={'icon-' + type2} title={readType2} />
           </div>
           <h6>{title}</h6>
           <div className='icon-empty'/>

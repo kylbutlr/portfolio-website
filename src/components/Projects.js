@@ -42,7 +42,7 @@ export default function Projects() {
       />
       <SingleProject
         number={1}
-        type={'js'}
+        type={'javascript'}
         title={'Alarm & Timer'}
         preview={'https://kylbutlr.github.io/alarm-timer'}
         github={'https://github.com/kylbutlr/alarm-timer'}
