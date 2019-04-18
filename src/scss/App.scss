@@ -136,13 +136,13 @@ p {
   .kylbutlr {
     position: relative;
     top: .95rem;
-    animation: fade1 10s ease infinite;
+    animation: fade1 10s ease-in-out infinite;
   }
   .kylebutler {
     position: relative;
     bottom: .975rem;
     opacity: 0;
-    animation: fade2 10s ease infinite;
+    animation: fade2 10s ease-in-out infinite;
   }
 }
 
@@ -163,6 +163,45 @@ p {
     letter-spacing: -.025rem;
   }
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  h5 {
+    padding-top: 1vh;
+  }
+  a {
+    color: $off-black;
+  }
+  p {
+    font-size: 90%;
+    padding: 1vh 0 1vh;
+    a {
+      padding-left: .1rem;
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.icon {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 12.5vw;
+  height: 12.5vw;
+  opacity: .85;
+}
+
+.social-email { background-image: url(../images/icons/gmail.png); }
+.social-github { background-image: url(../images/icons/github.png); }
+.social-linkedin { background-image: url(../images/icons/linkedin.png); }
+.social-instagram { background-image: url(../images/icons/instagram.png); }
 
 .desktop {
   display: none;
@@ -397,9 +436,12 @@ p {
 .MultipleProject .project-info-icon {
   display: flex;
   justify-content: center;
-  width: 4.25rem;
+  width: 4rem;
   div {
-    margin: auto .125rem;
+    margin: auto 0;
+    &:first-of-type {
+      margin-right: .25rem;
+    }
   }
 }
 
@@ -412,45 +454,6 @@ p {
     }
   }
 }
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  h5 {
-    padding-top: 1vh;
-  }
-  a {
-    color: $off-black;
-  }
-  p {
-    font-size: 90%;
-    padding: 1vh 0 1vh;
-    a {
-      padding-left: .1rem;
-    }
-  }
-}
-
-.socials {
-  display: flex;
-  justify-content: space-evenly;
-  width: 60%;
-}
-
-.icon {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 12.5vw;
-  height: 12.5vw;
-  opacity: .85;
-}
-
-.social-email { background-image: url(../images/icons/gmail.png); }
-.social-github { background-image: url(../images/icons/github.png); }
-.social-linkedin { background-image: url(../images/icons/linkedin.png); }
-.social-instagram { background-image: url(../images/icons/instagram.png); }
 
 .Footer {
   width: 100%;
@@ -766,6 +769,11 @@ p {
   .icon {
     width: 3.5vw;
     height: 3.5vw;
+    transition: all 1s;
+    transform: scale(1);
+    &:hover {
+      animation: grow-shrink 1s ease-in-out infinite;
+    }
   }
 
   .socials {
@@ -948,5 +956,17 @@ p {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }

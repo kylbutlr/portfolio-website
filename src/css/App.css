@@ -124,12 +124,12 @@ p {
   .title .kylbutlr {
     position: relative;
     top: .95rem;
-    animation: fade1 10s ease infinite; }
+    animation: fade1 10s ease-in-out infinite; }
   .title .kylebutler {
     position: relative;
     bottom: .975rem;
     opacity: 0;
-    animation: fade2 10s ease infinite; }
+    animation: fade2 10s ease-in-out infinite; }
 
 .contact-link {
   display: flex;
@@ -146,6 +146,45 @@ p {
     border-bottom: 1.5px #222 solid;
     line-height: 85%;
     letter-spacing: -.025rem; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; }
+  .contact h5 {
+    padding-top: 1vh; }
+  .contact a {
+    color: #222; }
+  .contact p {
+    font-size: 90%;
+    padding: 1vh 0 1vh; }
+    .contact p a {
+      padding-left: .1rem; }
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%; }
+
+.icon {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 12.5vw;
+  height: 12.5vw;
+  opacity: .85; }
+
+.social-email {
+  background-image: url(../images/icons/gmail.png); }
+
+.social-github {
+  background-image: url(../images/icons/github.png); }
+
+.social-linkedin {
+  background-image: url(../images/icons/linkedin.png); }
+
+.social-instagram {
+  background-image: url(../images/icons/instagram.png); }
 
 .desktop {
   display: none; }
@@ -340,9 +379,11 @@ p {
 .MultipleProject .project-info-icon {
   display: flex;
   justify-content: center;
-  width: 4.25rem; }
+  width: 4rem; }
   .MultipleProject .project-info-icon div {
-    margin: auto .125rem; }
+    margin: auto 0; }
+    .MultipleProject .project-info-icon div:first-of-type {
+      margin-right: .25rem; }
 
 .SingleProject .project-details {
   padding-left: 0; }
@@ -350,45 +391,6 @@ p {
     justify-content: center; }
     .SingleProject .project-details div a:last-of-type {
       margin-left: 1rem; }
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%; }
-  .contact h5 {
-    padding-top: 1vh; }
-  .contact a {
-    color: #222; }
-  .contact p {
-    font-size: 90%;
-    padding: 1vh 0 1vh; }
-    .contact p a {
-      padding-left: .1rem; }
-
-.socials {
-  display: flex;
-  justify-content: space-evenly;
-  width: 60%; }
-
-.icon {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 12.5vw;
-  height: 12.5vw;
-  opacity: .85; }
-
-.social-email {
-  background-image: url(../images/icons/gmail.png); }
-
-.social-github {
-  background-image: url(../images/icons/github.png); }
-
-.social-linkedin {
-  background-image: url(../images/icons/linkedin.png); }
-
-.social-instagram {
-  background-image: url(../images/icons/instagram.png); }
 
 .Footer {
   width: 100%;
@@ -577,7 +579,11 @@ p {
     height: 9.5vw; }
   .icon {
     width: 3.5vw;
-    height: 3.5vw; }
+    height: 3.5vw;
+    transition: all 1s;
+    transform: scale(1); }
+    .icon:hover {
+      animation: grow-shrink 1s ease-in-out infinite; }
   .socials {
     width: 100%; }
   .contact p {
@@ -682,3 +688,11 @@ p {
     opacity: 1; }
   100% {
     opacity: 0; } }
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
