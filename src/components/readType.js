@@ -10,7 +10,7 @@ export default function readType(type) {
       type.substring(4, 5).toUpperCase() +
       type.substring(5);
   } else if (type === 'css') {
-    readType = type.toUpperCase();
+    readType = type.toUpperCase() + '3';
   } else {
     readType = type.substring(0, 1).toUpperCase() + type.substring(1);
   }
