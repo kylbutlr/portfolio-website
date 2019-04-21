@@ -225,10 +225,12 @@ p {
     margin: 2vh auto; }
   .bio .slant {
     font-family: 'Lucida Sans', Verdana, sans-serif; }
+  .bio p:first-child {
+    width: 80%; }
   .bio p:not(:first-child) {
     padding-top: 1vh; }
   .bio p:last-child {
-    width: 85%; }
+    width: 80%; }
 
 .headshot {
   background-size: 100%;
@@ -464,6 +466,8 @@ p {
     width: 90%; }
     .Body p {
       width: 80%; }
+  .bio p:first-child {
+    width: 80%; }
   .bio p:nth-child(2) {
     width: 75%; }
   .bio p:last-child {
@@ -513,10 +517,12 @@ p {
       font-size: 110%; }
   .bio {
     width: 95%; }
+    .bio p:first-child {
+      width: 100%; }
     .bio p:nth-child(2) {
-      width: 85%; }
+      width: 90%; }
     .bio p:last-child {
-      width: 85%; }
+      width: 100%; }
   .headshot {
     height: 25vw;
     width: 25vw; }
@@ -573,7 +579,7 @@ p {
     .bio p:nth-child(2) {
       width: 95%; }
     .bio p:last-child {
-      width: 95%; }
+      width: 100%; }
   .headshot {
     height: 20vw;
     width: 20vw; }
@@ -611,10 +617,11 @@ p {
     top: 1.15rem; }
   .title .kylebutler {
     bottom: 1.175rem; }
-  .bio {
-    width: 85%; }
-    .bio p:last-child {
-      width: 90%; }
+  .headshot {
+    height: 17.5vw;
+    width: 17.5vw; }
+  .bio p:last-child {
+    width: 90%; }
   .icon {
     width: 3vw;
     height: 3vw; }
@@ -636,7 +643,7 @@ p {
   .bio {
     width: 90%; }
     .bio p:last-child {
-      width: 85%; }
+      width: 100%; }
   .headshot {
     height: 15vw;
     width: 15vw; }
@@ -658,17 +665,17 @@ p {
     .Body p {
       width: 100%; }
   .bio p:last-child {
-    width: 90%; }
+    width: 95%; }
   .headshot {
-    height: 10vw;
-    width: 10vw; }
+    height: 12.5vw;
+    width: 12.5vw; }
   .project-image {
     height: 9.5vw; }
   .socials {
     width: 70%; }
   .icon {
-    width: 2vw;
-    height: 2vw; }
+    width: 2.25vw;
+    height: 2.25vw; }
   .project-details {
     padding-bottom: 1.5rem !important; }
     .project-details .project-details-type {

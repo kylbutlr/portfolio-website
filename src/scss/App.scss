@@ -253,11 +253,14 @@ p {
     font-family: 'Lucida Sans', Verdana, sans-serif;
   }
   p {
+    &:first-child {
+      width: 80%;
+    }
     &:not(:first-child) {
       padding-top: 1vh;
     }
     &:last-child {
-      width: 85%;
+      width: 80%;
     }
   }
 }
@@ -559,6 +562,9 @@ p {
   }
 
   .bio p {
+    &:first-child {
+      width: 80%;
+    }
     &:nth-child(2) {
       width: 75%;
     }
@@ -644,11 +650,14 @@ p {
   .bio {
     width: 95%;
     p {
+      &:first-child {
+        width: 100%;
+      }
       &:nth-child(2) {
-        width: 85%;
+        width: 90%;
       }
       &:last-child {
-        width: 85%;
+        width: 100%;
       }
     }
   }
@@ -754,7 +763,7 @@ p {
         width: 95%;
       }
       &:last-child {
-        width: 95%;
+        width: 100%;
       }
     }
   }
@@ -827,11 +836,13 @@ p {
     }
   }
 
-  .bio {
-    width: 85%;
-    p:last-child {
-      width: 90%;
-    }
+  .headshot {
+    height: 17.5vw;
+    width: 17.5vw;
+  }
+
+  .bio p:last-child {
+    width: 90%;
   }
 
   .icon {
@@ -867,7 +878,7 @@ p {
   .bio {
     width: 90%;
     p:last-child {
-      width: 85%;
+      width: 100%;
     }
   }
 
@@ -907,12 +918,12 @@ p {
   }
 
   .bio p:last-child {
-    width: 90%;
+    width: 95%;
   }
 
   .headshot {
-    height: 10vw;
-    width: 10vw;
+    height: 12.5vw;
+    width: 12.5vw;
   }
 
   .project-image {
@@ -924,8 +935,8 @@ p {
   }
 
   .icon {
-    width: 2vw;
-    height: 2vw;
+    width: 2.25vw;
+    height: 2.25vw;
   }
 
   .project-details {
