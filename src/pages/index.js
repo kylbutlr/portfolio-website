@@ -24,9 +24,9 @@ class App extends Component {
   fadeIn() {
     document.getElementById('App').classList.add('fade-in');
     document.getElementById('background').classList.add('fade-in');
-    setTimeout(() => {
+    window.setTimeout(() => {
       document.getElementById('mainApp').classList.add('fade-in');
-      setTimeout(() => {
+      window.setTimeout(() => {
         document.getElementById('sideApp').classList.add('fade-in');
       }, 1000);
     }, 1000);
