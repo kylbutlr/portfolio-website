@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 class App extends Component {
   componentDidMount() {
     this.runResize();
+    this.fadeIn();
   }
   
   runResize() {
@@ -18,6 +19,17 @@ class App extends Component {
       let vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     });
+  }
+
+  fadeIn() {
+    document.getElementById('App').classList.add('fade-in');
+    document.getElementById('background').classList.add('fade-in');
+    setTimeout(() => {
+      document.getElementById('mainApp').classList.add('fade-in');
+      setTimeout(() => {
+        document.getElementById('sideApp').classList.add('fade-in');
+      }, 1000);
+    }, 1000);
   }
 
   scrollTo() {
@@ -30,11 +42,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className='App'>
-        <HelmetHeaders />
-        <Header />
-        <Body />
-        <Footer />
+      <div className='background' id='background'>
+        <div className='App' id='App'>
+          <HelmetHeaders />
+          <Header />
+          <Body />
+          <Footer />
+        </div>
       </div>
     );
   }

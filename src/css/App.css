@@ -48,13 +48,17 @@ html {
   font-size: 1rem;
   text-align: center;
   overflow-x: hidden;
-  background-image: url("../images/symphony.png");
   width: 100vw;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.background {
+  background-image: url("../images/symphony.png");
+  transition: opacity 1s;
+  opacity: 0; }
 
 .title, p, h1, h2, h3, h4, h5 {
   cursor: default; }
@@ -93,7 +97,9 @@ p {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  transition: opacity 1s;
+  opacity: 0; }
 
 .Header {
   height: auto;
@@ -216,6 +222,9 @@ p {
       font-size: 110%; }
   .welcome .bold {
     letter-spacing: .025rem; }
+  .welcome a {
+    color: #222;
+    text-decoration: none; }
 
 .bio {
   padding-top: 2vh;
@@ -408,24 +417,28 @@ p {
     opacity: .75; }
 
 .main-app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 100%; }
+  display: flex; }
 
 .side-app {
-  display: none;
+  display: none; }
+
+.main-app,
+.side-app {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  transition: opacity 1s;
+  opacity: 0; }
 
 .small-device {
   width: 95vw;
   height: calc(89vh);
   display: none;
   align-items: center; }
+
+.fade-in {
+  opacity: 1; }
 
 @media only screen and (max-width: 100px) {
   .App > div {
@@ -451,6 +464,9 @@ p {
     height: 40vw; } }
 
 @media only screen and (min-width: 512px) {
+  .App {
+    height: 100vh;
+    overflow: hidden; }
   .mobile {
     display: none; }
   .desktop {
@@ -500,10 +516,14 @@ p {
     padding-left: 5vw;
     padding-right: 5vw; }
   .main-app {
-    width: 50%; }
+    width: 40%;
+    justify-content: center;
+    padding-bottom: 15vh; }
   .side-app {
     display: flex;
-    width: 50%; }
+    width: 40%;
+    justify-content: center;
+    padding-bottom: 12.5vh; }
   .Body {
     width: 90%;
     flex-direction: row;
@@ -612,7 +632,9 @@ p {
 
 @media only screen and (min-width: 1280px) {
   .main-app {
-    width: 45%; }
+    width: 35%; }
+  .side-app {
+    width: 35%; }
   .title .kylbutlr {
     top: 1.15rem; }
   .title .kylebutler {
@@ -639,7 +661,7 @@ p {
   .Body {
     width: 70%; }
   .main-app {
-    width: 40%; }
+    width: 30%; }
   .bio {
     width: 90%; }
     .bio p:last-child {

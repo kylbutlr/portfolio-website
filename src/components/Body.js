@@ -10,19 +10,17 @@ export default function Body() {
     <Fragment>
       <div className='divider first-divider' />
       <div className='Body'>
-        <div className='main-app'>
+        <div className='main-app' id='mainApp'>
           <Welcome />
           <div className='divider' />
-          <Biography />
-          <div className='divider' />
           <div className='projects-underneath'>
-            <Projects />
+            <Biography />
             <div className='divider' />
           </div>
           <Contact />
         </div>
-        <div className='side-app'>
-          <Projects />
+        <div className='side-app' id='sideApp'>
+          <Biography />
         </div>
       </div>
       <SmallDevice />
