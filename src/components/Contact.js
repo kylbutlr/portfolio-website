@@ -15,7 +15,7 @@ export default function Contact() {
         <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} />
       </div>
       <p>
-        Get in touch at: <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
+        Get in touch: <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
       </p>
     </div>
   );

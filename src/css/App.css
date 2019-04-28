@@ -85,10 +85,6 @@ h5 {
 p {
   font-size: 100%; }
 
-.bold {
-  font-weight: bold;
-  letter-spacing: .01rem; }
-
 .App {
   background: linear-gradient(180deg, rgba(179, 102, 77, 0.4) 0%, rgba(217, 179, 166, 0.8) 25%, rgba(217, 179, 166, 0.8) 75%, rgba(179, 102, 77, 0.4) 100%);
   color: #222;
@@ -168,7 +164,8 @@ p {
     font-size: 90%;
     padding: 1vh 0 1vh; }
     .contact p a {
-      padding-left: .1rem; }
+      padding-left: .1rem;
+      text-decoration: none; }
 
 .socials {
   display: flex;
@@ -227,6 +224,8 @@ p {
   .welcome a {
     color: #222;
     text-decoration: none; }
+  .welcome strong {
+    letter-spacing: .025rem; }
 
 .bio {
   padding-top: 2vh;
@@ -242,6 +241,8 @@ p {
     padding-top: 1vh; }
   .bio p:last-child {
     width: 80%; }
+  .bio strong {
+    letter-spacing: .01rem; }
 
 .headshot {
   background-size: 100%;
@@ -674,8 +675,6 @@ p {
     width: 70%; }
   .main-app {
     width: 30%; }
-  .contact {
-    width: 110%; }
   .bio {
     width: 90%; }
     .bio p:last-child {

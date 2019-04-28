@@ -87,11 +87,6 @@ p {
   font-size: 100%;
 }
 
-.bold {
-  font-weight: bold;
-  letter-spacing: .01rem;
-}
-
 .App {
   background: linear-gradient(180deg,
    hsla(15, 40%, 50%, .4) 0%,
@@ -189,6 +184,7 @@ p {
     padding: 1vh 0 1vh;
     a {
       padding-left: .1rem;
+      text-decoration: none;
     }
   }
 }
@@ -253,6 +249,9 @@ p {
     color: $off-black;
     text-decoration: none;
   }
+  strong {
+    letter-spacing: .025rem;
+  }
 }
 
 .bio {
@@ -275,6 +274,9 @@ p {
     &:last-child {
       width: 80%;
     }
+  }
+  strong {
+    letter-spacing: .01rem;
   }
 }
 
@@ -915,10 +917,6 @@ p {
 
   .main-app {
     width: 30%
-  }
-
-  .contact {
-    width: 110%;
   }
 
   .bio {

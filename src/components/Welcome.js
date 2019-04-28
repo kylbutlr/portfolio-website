@@ -5,14 +5,14 @@ export default function Welcome() {
     <div className='welcome'>
       <div className='headshot' />
       <h6>
-        I'm&nbsp;<span className='bold'>Kyle&nbsp;Butler</span>,
+        I'm&nbsp;<strong>Kyle&nbsp;Butler</strong>,
         <br />
         a&nbsp;full-stack&nbsp;web&nbsp;developer
         <br />
         working&nbsp;at&nbsp;
-        <span className='bold'>
+        <strong>
           <a href='https://ezadtv.com/'>EZ-AD TV</a>
-        </span>
+        </strong>
       </h6>
     </div>
   );
