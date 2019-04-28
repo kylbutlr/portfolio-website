@@ -532,12 +532,12 @@ p {
   .main-app {
     width: 40%;
     justify-content: center;
-    padding-bottom: 15vh; }
+    padding-bottom: 6.5rem; }
   .side-app {
     display: flex;
     width: 40%;
     justify-content: center;
-    padding-bottom: 13vh; }
+    padding-bottom: 6rem; }
   .Body {
     width: 90%;
     flex-direction: row;
