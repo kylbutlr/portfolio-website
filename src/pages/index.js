@@ -11,8 +11,12 @@ class App extends Component {
   componentDidMount() {
     this.runResize();
     this.fadeIn();
-    console.log(`Location: ${window.location.href}`);
-    console.log(`Location: ${document.location.href}`);
+    if (typeof window !== 'undefined') {
+      console.log(`Location: ${window.location.href}`);
+    }
+    if (typeof document !== 'undefined') {
+      console.log(`Location: ${document.location.href}`);
+    }
   }
   
   runResize() {
