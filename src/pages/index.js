@@ -13,6 +13,8 @@ class App extends Component {
   }
   
   runResize() {
+    console.log(document);
+    console.log(window);
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
     window.addEventListener('resize', () => {
@@ -22,6 +24,8 @@ class App extends Component {
   }
 
   fadeIn() {
+    console.log(document);
+    console.log(window);
     document.getElementById('App').classList.add('fade-in');
     document.getElementById('background').classList.add('fade-in');
     window.setTimeout(() => {
