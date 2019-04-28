@@ -8,8 +8,10 @@ import Footer from '../components/Footer';
 
 class App extends Component {
   componentDidMount() {
-    this.runResize(document, window);
-    this.fadeIn(document, window);
+    const windowGlobal = typeof window !== 'undefined' && window;
+    const documentGlobal = typeof document !== 'undefined' && document;
+    this.runResize(documentGlobal, windowGlobal);
+    this.fadeIn(documentGlobal, windowGlobal);
   }
   
   runResize(document, window) {
