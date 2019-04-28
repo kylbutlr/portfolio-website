@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import Welcome from './Welcome';
 import Biography from './Biography';
-import Projects from './Projects';
 import Contact from './Contact';
 import SmallDevice from './SmallDevice';
 

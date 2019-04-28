@@ -642,16 +642,18 @@ p {
 
   .main-app {
     width: 35%;
-    justify-content: center;
-    padding-bottom: 15vh;
   }
 
   .side-app {
     display: flex;
     width: 45%;
-    justify-content: center;
-    padding-bottom: 15vh;
     margin-left: 1rem;
+  }
+
+  .main-app,
+  .side-app {
+    justify-content: center;
+    padding-bottom: 10vh;
   }
 
   .Body {
@@ -753,9 +755,38 @@ p {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  .main-app {
+    width: 30%
+  }
+
+  .side-app {
+    width: 40%;
+  }
+
+  .icon {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .headshot {
+    height: 22vw;
+    width: 22vw;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .App {
     font-size: 120%;
+  }
+
+  .main-app {
+    width: 35%
+  }
+
+  .side-app {
+    width: 45%;
+    margin-left: 0;
   }
 
   .Header {
@@ -778,8 +809,8 @@ p {
   }
 
   .headshot {
-    height: 20vw;
-    width: 20vw;
+    height: 18vw;
+    width: 18vw;
   }
 
   .project-image {
@@ -832,13 +863,8 @@ p {
 }
 
 @media only screen and (min-width: 1280px) {
-  .main-app {
-    width: 30%
-  }
-
   .side-app {
-    width: 40%;
-    margin-left: 0;
+    margin-left: 1rem;
   }
 
   .title {
@@ -851,12 +877,12 @@ p {
   }
 
   .headshot {
-    height: 17.5vw;
-    width: 17.5vw;
+    height: 15vw;
+    width: 15vw;
   }
 
-  .bio p {
-    width: 95%;
+  .Body {
+    width: 60%;
   }
 
   .icon {
@@ -881,16 +907,9 @@ p {
 }
 
 @media only screen and (min-width: 1440px) {
-  .main-app {
-    width: 25%
-  }
-
   .side-app {
-    width: 35%;
-  }
-
-  .Body {
-    width: 70%;
+    margin-left: 0;
+    width: 40%;
   }
 
   .headshot {
@@ -922,14 +941,14 @@ p {
   }
 
   .Body {
-    width: 60%;
+    width: 55%;
     p {
       width: 100%;
     }
   }
 
   .side-app {
-    width: 30%;
+    width: 35%;
   }
 
   .bio p:last-child {
@@ -964,11 +983,11 @@ p {
 
 @media only screen and (min-width: 2200px) {
   .main-app {
-    width: 20%
+    width: 25%
   }
 
   .side-app {
-    width: 25%;
+    width: 30%;
   }
 
   .headshot {
