@@ -180,8 +180,7 @@ p {
     color: $off-black;
   }
   p {
-    font-size: 90%;
-    padding: 1vh 0 1vh;
+    padding: 1vh 0;
     a {
       padding-left: .1rem;
       text-decoration: none;
@@ -218,6 +217,7 @@ p {
   align-items: center;
   width: 100%;
   flex: 1;
+  font-size: 110%;
   p {
     width: 85%;
     margin: 0 auto; 
@@ -656,17 +656,20 @@ p {
 
   .contact {
     width: 100%;
+    p {
+      font-size: 90%;
+    }
   }
 
   .main-app {
-    width: 40%;
+    width: 35%;
     justify-content: center;
     padding-bottom: 15vh;
   }
 
   .side-app {
     display: flex;
-    width: 40%;
+    width: 45%;
     justify-content: center;
     padding-bottom: 15vh;
   }
@@ -676,6 +679,7 @@ p {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    font-size: 100%;
     p {
       width: 90%;
     }
@@ -865,11 +869,11 @@ p {
 
 @media only screen and (min-width: 1280px) {
   .main-app {
-    width: 35%
+    width: 30%
   }
 
   .side-app {
-    width: 35%;
+    width: 40%;
   }
 
   .title {
@@ -916,10 +920,6 @@ p {
     width: 70%;
   }
 
-  .main-app {
-    width: 30%
-  }
-
   .bio {
     width: 90%;
     p:last-child {
@@ -962,6 +962,14 @@ p {
     }
   }
 
+  .main-app {
+    width: 25%
+  }
+
+  .side-app {
+    width: 35%;
+  }
+
   .bio p:last-child {
     width: 95%;
   }
@@ -989,6 +997,26 @@ p {
     .project-details-type {
       width: 51%;
     }
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .main-app {
+    width: 20%
+  }
+
+  .side-app {
+    width: 30%;
+  }
+
+  .headshot {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .icon {
+    width: 2vw;
+    height: 2vw;
   }
 }
 

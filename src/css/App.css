@@ -161,8 +161,7 @@ p {
   .contact a {
     color: #222; }
   .contact p {
-    font-size: 90%;
-    padding: 1vh 0 1vh; }
+    padding: 1vh 0; }
     .contact p a {
       padding-left: .1rem;
       text-decoration: none; }
@@ -199,7 +198,8 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  flex: 1; }
+  flex: 1;
+  font-size: 110%; }
   .Body p {
     width: 85%;
     margin: 0 auto; }
@@ -529,20 +529,23 @@ p {
     padding-right: 5vw; }
   .contact {
     width: 100%; }
+    .contact p {
+      font-size: 90%; }
   .main-app {
-    width: 40%;
+    width: 35%;
     justify-content: center;
     padding-bottom: 15vh; }
   .side-app {
     display: flex;
-    width: 40%;
+    width: 45%;
     justify-content: center;
     padding-bottom: 15vh; }
   .Body {
     width: 90%;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center; }
+    justify-content: center;
+    font-size: 100%; }
     .Body p {
       width: 90%; }
   .welcome {
@@ -646,9 +649,9 @@ p {
 
 @media only screen and (min-width: 1280px) {
   .main-app {
-    width: 35%; }
+    width: 30%; }
   .side-app {
-    width: 35%; }
+    width: 40%; }
   .title .kylbutlr {
     top: 1.15rem; }
   .title .kylebutler {
@@ -674,8 +677,6 @@ p {
 @media only screen and (min-width: 1440px) {
   .Body {
     width: 70%; }
-  .main-app {
-    width: 30%; }
   .bio {
     width: 90%; }
     .bio p:last-child {
@@ -700,6 +701,10 @@ p {
     width: 60%; }
     .Body p {
       width: 100%; }
+  .main-app {
+    width: 25%; }
+  .side-app {
+    width: 35%; }
   .bio p:last-child {
     width: 95%; }
   .headshot {
@@ -716,6 +721,18 @@ p {
     padding-bottom: 1.5rem !important; }
     .project-details .project-details-type {
       width: 51%; } }
+
+@media only screen and (min-width: 2200px) {
+  .main-app {
+    width: 20%; }
+  .side-app {
+    width: 30%; }
+  .headshot {
+    height: 10vw;
+    width: 10vw; }
+  .icon {
+    width: 2vw;
+    height: 2vw; } }
 
 @keyframes fade1 {
   0% {
