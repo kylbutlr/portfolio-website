@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* @media only screen and (max-width: 511px) */
+/* @media only screen and (max-width: 767px) */
 .project5 .project-image {
   background-image: url("../images/thumbs/chat-app_100_dark_s.png"); }
 
@@ -21,10 +21,13 @@
 .project1 .project-image {
   background-image: url("../images/thumbs/alarm-timer_100_dark_s.png"); }
 
+.body::before {
+  background-image: url(../images/headshot_smaller.png); }
+
 .headshot {
   background-image: url(../images/headshot_smaller.png); }
 
-@media only screen and (min-width: 512px) {
+@media only screen and (min-width: 768px) {
   .project5 .project-image {
     background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
   .project4 .project-image {
@@ -35,6 +38,8 @@
     background-image: url("../images/thumbs/flex-slideshow_100_dark_l.png"); }
   .project1 .project-image {
     background-image: url("../images/thumbs/alarm-timer_100_dark_l.png"); }
+  .body::before {
+    background-image: url(../images/headshot_small.png); }
   .headshot {
     background-image: url(../images/headshot_small.png); } }
 
