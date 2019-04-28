@@ -21,9 +21,6 @@
 .project1 .project-image {
   background-image: url("../images/thumbs/alarm-timer_100_dark_s.png"); }
 
-.body::before {
-  background-image: url(../images/headshot_smaller.png); }
-
 .headshot {
   background-image: url(../images/headshot_smaller.png); }
 
@@ -38,8 +35,6 @@
     background-image: url("../images/thumbs/flex-slideshow_100_dark_l.png"); }
   .project1 .project-image {
     background-image: url("../images/thumbs/alarm-timer_100_dark_l.png"); }
-  .body::before {
-    background-image: url(../images/headshot_small.png); }
   .headshot {
     background-image: url(../images/headshot_small.png); } }
 
