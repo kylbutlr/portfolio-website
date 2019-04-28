@@ -553,7 +553,6 @@ p {
 @media only screen and (min-width: 512px) {
   .App {
     height: 100vh;
-    overflow: hidden;
   }
 
   .mobile {
@@ -613,6 +612,7 @@ p {
 @media only screen and (min-width: 768px) {
   .App {
     font-size: 110%;
+    overflow: hidden;
   }
 
   .Header {
