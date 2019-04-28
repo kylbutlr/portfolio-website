@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import { scroller } from 'react-scroll';
-import { window, document } from 'browser-monads';
 import HelmetHeaders from '../components/HelmetHeaders';
 import Header from '../components/Header';
 import Body from '../components/Body';
@@ -9,17 +8,11 @@ import Footer from '../components/Footer';
 
 class App extends Component {
   componentDidMount() {
-    this.runResize();
-    this.fadeIn();
-    if (typeof window !== 'undefined') {
-      console.log(`Location: ${window.location.href}`);
-    }
-    if (typeof document !== 'undefined') {
-      console.log(`Location: ${document.location.href}`);
-    }
+    this.runResize(document, window);
+    this.fadeIn(document, window);
   }
   
-  runResize() {
+  runResize(document, window) {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
     window.addEventListener('resize', () => {
@@ -28,7 +21,7 @@ class App extends Component {
     });
   }
 
-  fadeIn() {
+  fadeIn(document, window) {
     document.getElementById('App').classList.add('fade-in');
     document.getElementById('background').classList.add('fade-in');
     window.setTimeout(() => {

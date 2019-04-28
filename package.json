@@ -16,7 +16,6 @@
     "sass": "nodemon -e scss -x \"npm run build-sass\""
   },
   "dependencies": {
-    "browser-monads": "^1.0.0",
     "gatsby": "^2.3.23",
     "gatsby-background-image": "^0.2.73",
     "gatsby-image": "^2.0.34",
