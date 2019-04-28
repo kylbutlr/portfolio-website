@@ -212,8 +212,8 @@ p {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  padding-top: 2vh;
-  padding-bottom: 2vh; }
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
   .welcome h6 {
     cursor: default;
     padding-top: 1vh; }
@@ -229,11 +229,11 @@ p {
     letter-spacing: .025rem; }
 
 .bio {
-  padding-top: 2vh;
-  padding-bottom: 2vh; }
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
   .bio .divider {
     width: 50%;
-    margin: 2vh auto; }
+    margin: 1vh auto; }
   .bio .slant {
     font-family: 'Lucida Sans', Verdana, sans-serif; }
   .bio p:first-child {
