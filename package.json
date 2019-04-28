@@ -16,6 +16,7 @@
     "sass": "nodemon -e scss -x \"npm run build-sass\""
   },
   "dependencies": {
+    "browser-monads": "^1.0.0",
     "gatsby": "^2.3.23",
     "gatsby-background-image": "^0.2.73",
     "gatsby-image": "^2.0.34",
@@ -23,7 +24,7 @@
     "gatsby-plugin-sharp": "^2.0.34",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-sharp": "^2.1.17",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
