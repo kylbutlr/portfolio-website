@@ -224,10 +224,6 @@ p {
   }
 }
 
-.bio p:nth-child(2) {
-  width: 80%;
-}
-
 .welcome {
   display: flex;
   flex-direction: column;
@@ -266,14 +262,9 @@ p {
     font-family: 'Lucida Sans', Verdana, sans-serif;
   }
   p {
-    &:first-child {
-      width: 80%;
-    }
+    width: 80%;
     &:not(:first-child) {
       padding-top: 1vh;
-    }
-    &:last-child {
-      width: 80%;
     }
   }
   strong {
@@ -597,18 +588,6 @@ p {
     }
   }
 
-  .bio p {
-    &:first-child {
-      width: 80%;
-    }
-    &:nth-child(2) {
-      width: 75%;
-    }
-    &:last-child {
-      width: 80%;
-    }
-  }
-
   .headshot {
     height: 30vw;
     width: 30vw;
@@ -672,6 +651,7 @@ p {
     width: 45%;
     justify-content: center;
     padding-bottom: 15vh;
+    margin-left: 1rem;
   }
 
   .Body {
@@ -695,15 +675,7 @@ p {
   .bio {
     width: 95%;
     p {
-      &:first-child {
-        width: 100%;
-      }
-      &:nth-child(2) {
-        width: 90%;
-      }
-      &:last-child {
-        width: 100%;
-      }
+      width: 100%;
     }
   }
 
@@ -803,14 +775,6 @@ p {
 
   .bio {
     width: 90%;
-    p {
-      &:nth-child(2) {
-        width: 95%;
-      }
-      &:last-child {
-        width: 100%;
-      }
-    }
   }
 
   .headshot {
@@ -874,6 +838,7 @@ p {
 
   .side-app {
     width: 40%;
+    margin-left: 0;
   }
 
   .title {
@@ -890,8 +855,8 @@ p {
     width: 17.5vw;
   }
 
-  .bio p:last-child {
-    width: 90%;
+  .bio p {
+    width: 95%;
   }
 
   .icon {
@@ -916,15 +881,16 @@ p {
 }
 
 @media only screen and (min-width: 1440px) {
-  .Body {
-    width: 70%;
+  .main-app {
+    width: 25%
   }
 
-  .bio {
-    width: 90%;
-    p:last-child {
-      width: 100%;
-    }
+  .side-app {
+    width: 35%;
+  }
+
+  .Body {
+    width: 70%;
   }
 
   .headshot {
@@ -962,12 +928,8 @@ p {
     }
   }
 
-  .main-app {
-    width: 25%
-  }
-
   .side-app {
-    width: 35%;
+    width: 30%;
   }
 
   .bio p:last-child {
@@ -1006,7 +968,7 @@ p {
   }
 
   .side-app {
-    width: 30%;
+    width: 25%;
   }
 
   .headshot {

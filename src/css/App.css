@@ -204,9 +204,6 @@ p {
     width: 85%;
     margin: 0 auto; }
 
-.bio p:nth-child(2) {
-  width: 80%; }
-
 .welcome {
   display: flex;
   flex-direction: column;
@@ -236,12 +233,10 @@ p {
     margin: 1vh auto; }
   .bio .slant {
     font-family: 'Lucida Sans', Verdana, sans-serif; }
-  .bio p:first-child {
+  .bio p {
     width: 80%; }
-  .bio p:not(:first-child) {
-    padding-top: 1vh; }
-  .bio p:last-child {
-    width: 80%; }
+    .bio p:not(:first-child) {
+      padding-top: 1vh; }
   .bio strong {
     letter-spacing: .01rem; }
 
@@ -493,12 +488,6 @@ p {
     width: 75%; }
     .Body p {
       width: 80%; }
-  .bio p:first-child {
-    width: 80%; }
-  .bio p:nth-child(2) {
-    width: 75%; }
-  .bio p:last-child {
-    width: 80%; }
   .headshot {
     height: 30vw;
     width: 30vw; }
@@ -539,7 +528,8 @@ p {
     display: flex;
     width: 45%;
     justify-content: center;
-    padding-bottom: 15vh; }
+    padding-bottom: 15vh;
+    margin-left: 1rem; }
   .Body {
     width: 90%;
     flex-direction: row;
@@ -554,11 +544,7 @@ p {
       font-size: 110%; }
   .bio {
     width: 95%; }
-    .bio p:first-child {
-      width: 100%; }
-    .bio p:nth-child(2) {
-      width: 90%; }
-    .bio p:last-child {
+    .bio p {
       width: 100%; }
   .headshot {
     height: 25vw;
@@ -613,10 +599,6 @@ p {
       width: 100%; }
   .bio {
     width: 90%; }
-    .bio p:nth-child(2) {
-      width: 95%; }
-    .bio p:last-child {
-      width: 100%; }
   .headshot {
     height: 20vw;
     width: 20vw; }
@@ -651,7 +633,8 @@ p {
   .main-app {
     width: 30%; }
   .side-app {
-    width: 40%; }
+    width: 40%;
+    margin-left: 0; }
   .title .kylbutlr {
     top: 1.15rem; }
   .title .kylebutler {
@@ -659,8 +642,8 @@ p {
   .headshot {
     height: 17.5vw;
     width: 17.5vw; }
-  .bio p:last-child {
-    width: 90%; }
+  .bio p {
+    width: 95%; }
   .icon {
     width: 3vw;
     height: 3vw; }
@@ -675,12 +658,12 @@ p {
     margin-left: 0; } }
 
 @media only screen and (min-width: 1440px) {
+  .main-app {
+    width: 25%; }
+  .side-app {
+    width: 35%; }
   .Body {
     width: 70%; }
-  .bio {
-    width: 90%; }
-    .bio p:last-child {
-      width: 100%; }
   .headshot {
     height: 15vw;
     width: 15vw; }
@@ -701,10 +684,8 @@ p {
     width: 60%; }
     .Body p {
       width: 100%; }
-  .main-app {
-    width: 25%; }
   .side-app {
-    width: 35%; }
+    width: 30%; }
   .bio p:last-child {
     width: 95%; }
   .headshot {
@@ -726,7 +707,7 @@ p {
   .main-app {
     width: 20%; }
   .side-app {
-    width: 30%; }
+    width: 25%; }
   .headshot {
     height: 10vw;
     width: 10vw; }
