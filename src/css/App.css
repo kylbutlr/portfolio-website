@@ -471,7 +471,9 @@ p {
 @media only screen and (min-width: 406px) {
   .headshot {
     width: 40vw;
-    height: 40vw; } }
+    height: 40vw; }
+  .Body {
+    width: 75%; } }
 
 @media only screen and (min-width: 512px) {
   .mobile {
@@ -486,7 +488,7 @@ p {
   .Header {
     width: 95%; }
   .Body {
-    width: 90%; }
+    width: 60%; }
     .Body p {
       width: 80%; }
   .bio p:first-child {
@@ -523,6 +525,8 @@ p {
   .contact-link {
     padding-left: 5vw;
     padding-right: 5vw; }
+  .contact {
+    width: 100%; }
   .main-app {
     width: 40%;
     justify-content: center;
@@ -670,6 +674,8 @@ p {
     width: 70%; }
   .main-app {
     width: 30%; }
+  .contact {
+    width: 110%; }
   .bio {
     width: 90%; }
     .bio p:last-child {

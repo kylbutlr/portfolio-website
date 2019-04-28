@@ -560,6 +560,10 @@ p {
     width: 40vw;
     height: 40vw;
   }
+
+  .Body {
+    width: 75%;
+  }
 }
 
 @media only screen and (min-width: 512px) {
@@ -584,7 +588,7 @@ p {
   }
 
   .Body {
-    width: 90%;
+    width: 60%;
     p {
       width: 80%;
     }
@@ -645,6 +649,10 @@ p {
   .contact-link {
     padding-left: 5vw;
     padding-right: 5vw;
+  }
+
+  .contact {
+    width: 100%;
   }
 
   .main-app {
@@ -907,6 +915,10 @@ p {
 
   .main-app {
     width: 30%
+  }
+
+  .contact {
+    width: 110%;
   }
 
   .bio {

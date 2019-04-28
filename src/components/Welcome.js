@@ -9,13 +9,12 @@ export default function Welcome() {
         <br />
         a&nbsp;full-stack&nbsp;web&nbsp;developer
         <br />
-        currently&nbsp;working&nbsp;at&nbsp;
+        working&nbsp;at&nbsp;
         <span className='bold'>
           <a href='https://ezadtv.com/' target='_blank'>
             EZ-AD TV
           </a>
         </span>
-        .
       </h6>
     </div>
   );
