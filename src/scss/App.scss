@@ -551,10 +551,6 @@ p {
 }
 
 @media only screen and (min-width: 512px) {
-  .App {
-    height: 100vh;
-  }
-
   .mobile {
     display: none;
   }
@@ -612,6 +608,7 @@ p {
 @media only screen and (min-width: 768px) {
   .App {
     font-size: 110%;
+    height: 100vh;
     overflow: hidden;
   }
 

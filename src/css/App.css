@@ -464,8 +464,6 @@ p {
     height: 40vw; } }
 
 @media only screen and (min-width: 512px) {
-  .App {
-    height: 100vh; }
   .mobile {
     display: none; }
   .desktop {
@@ -499,6 +497,7 @@ p {
 @media only screen and (min-width: 768px) {
   .App {
     font-size: 110%;
+    height: 100vh;
     overflow: hidden; }
   .Header {
     width: 100%; }
