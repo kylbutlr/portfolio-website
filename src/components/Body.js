@@ -8,7 +8,7 @@ import SmallDevice from './SmallDevice';
 export default function Body() {
   return (
     <Fragment>
-      <div className='divider first-divider' />
+      <div className='divider first-divider' id='firstDivider' />
       <div className='Body'>
         <div className='main-app' id='mainApp'>
           <Welcome />

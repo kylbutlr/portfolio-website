@@ -28,9 +28,14 @@ class App extends Component {
     documentGlobal.getElementById('App').classList.add('fade-in');
     documentGlobal.getElementById('background').classList.add('fade-in');
     windowGlobal.setTimeout(() => {
-      documentGlobal.getElementById('mainApp').classList.add('fade-in');
+      documentGlobal.getElementById('Header').classList.add('fade-in');
+      documentGlobal.getElementById('firstDivider').classList.add('fade-in25');
+      documentGlobal.getElementById('Footer').classList.add('fade-in');
       windowGlobal.setTimeout(() => {
-        documentGlobal.getElementById('sideApp').classList.add('fade-in');
+        documentGlobal.getElementById('mainApp').classList.add('fade-in');
+        windowGlobal.setTimeout(() => {
+          documentGlobal.getElementById('sideApp').classList.add('fade-in');
+        }, 1000);
       }, 1000);
     }, 1000);
   }

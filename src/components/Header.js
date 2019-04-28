@@ -4,7 +4,7 @@ import ContactIcon from './ContactIcon';
 
 export default function Header() {
   return (
-  <div className='Header'>
+  <div className='Header' id='Header'>
     <div className='title'>
       <h1>kb</h1>
       <h2>|</h2>
