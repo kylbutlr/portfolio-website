@@ -14,7 +14,7 @@ class App extends Component {
     this.runResize(documentGlobal, windowGlobal);
     this.fadeIn(documentGlobal, windowGlobal);
   }
-  
+
   runResize(documentGlobal, windowGlobal) {
     let vh = windowGlobal.innerHeight * 0.01;
     documentGlobal.documentElement.style.setProperty('--vh', `${vh}px`);

@@ -20,8 +20,8 @@ export default function Biography() {
         <span className='bold'>Babel</span>, <span className='bold'>Sass</span>), CSS Frameworks (
         <span className='bold'>Bootstrap</span>, <span className='bold'>Bulma</span>), Version
         Control Systems (<span className='bold'>Git</span>, <span className='bold'>Github</span>
-        ), and more. I am also previously familiar with:{' '}
-        <span className='bold'>jQuery</span>, <span className='bold'>Java</span>
+        ), and more. I am also previously familiar with: <span className='bold'>jQuery</span>,{' '}
+        <span className='bold'>Java</span>
         ,&nbsp;and&nbsp;<span className='bold'>Python</span>.
       </p>
       <p style={{ display: 'none' }}>

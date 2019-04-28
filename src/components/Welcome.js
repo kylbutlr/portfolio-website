@@ -11,9 +11,7 @@ export default function Welcome() {
         <br />
         working&nbsp;at&nbsp;
         <span className='bold'>
-          <a href='https://ezadtv.com/' target='_blank'>
-            EZ-AD TV
-          </a>
+          <a href='https://ezadtv.com/'>EZ-AD TV</a>
         </span>
       </h6>
     </div>
