@@ -386,7 +386,7 @@ p {
   .project-details .project-details-type {
     justify-content: space-between;
     width: 59%;
-    padding-bottom: 0.1rem; }
+    padding-bottom: .1rem; }
   .project-details .project-details-links {
     justify-content: space-between;
     width: 95%; }
@@ -475,7 +475,7 @@ p {
     width: 40vw;
     height: 40vw; }
   .Body {
-    width: 75%; } }
+    width: 90%; } }
 
 @media only screen and (min-width: 512px) {
   .mobile {
@@ -490,7 +490,7 @@ p {
   .Header {
     width: 95%; }
   .Body {
-    width: 60%; }
+    width: 75%; }
     .Body p {
       width: 80%; }
   .bio p:first-child {
@@ -638,7 +638,7 @@ p {
   .project-details .project-details-type {
     width: 60%; }
     .project-details .project-details-type h6:first-of-type {
-      margin-left: 0.25rem; }
+      margin-left: .25rem; }
   .project-details a {
     transition: all .25s; }
     .project-details a:hover {
