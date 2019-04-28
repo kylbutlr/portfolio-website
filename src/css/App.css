@@ -90,7 +90,7 @@ p {
   letter-spacing: .01rem; }
 
 .App {
-  background: linear-gradient(180deg, rgba(179, 102, 77, 0.4) 0%, rgba(217, 179, 166, 0.8) 20%, rgba(217, 179, 166, 0.8) 80%, rgba(179, 102, 77, 0.4) 100%);
+  background: linear-gradient(180deg, rgba(179, 102, 77, 0.4) 0%, rgba(217, 179, 166, 0.8) 25%, rgba(217, 179, 166, 0.8) 75%, rgba(179, 102, 77, 0.4) 100%);
   color: #222;
   display: flex;
   flex-direction: column;
@@ -499,7 +499,6 @@ p {
 
 @media only screen and (min-width: 768px) {
   .App {
-    background: linear-gradient(180deg, rgba(179, 102, 77, 0.4) 0%, rgba(217, 179, 166, 0.8) 30%, rgba(217, 179, 166, 0.8) 70%, rgba(179, 102, 77, 0.4) 100%);
     font-size: 110%; }
   .Header {
     width: 100%; }

@@ -95,8 +95,8 @@ p {
 .App {
   background: linear-gradient(180deg,
    hsla(15, 40%, 50%, .4) 0%,
-   hsla(15, 40%, 75%, .8) 20%,
-   hsla(15, 40%, 75%, .8) 80%, 
+   hsla(15, 40%, 75%, .8) 25%,
+   hsla(15, 40%, 75%, .8) 75%, 
    hsla(15, 40%, 50%, .4) 100%);
   color: $off-black;
   display: flex;
@@ -612,11 +612,6 @@ p {
 
 @media only screen and (min-width: 768px) {
   .App {
-    background: linear-gradient(180deg,
-    hsla(15, 40%, 50%, .4) 0%,
-    hsla(15, 40%, 75%, .8) 30%,
-    hsla(15, 40%, 75%, .8) 70%, 
-    hsla(15, 40%, 50%, .4) 100%);
     font-size: 110%;
   }
 
