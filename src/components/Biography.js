@@ -4,8 +4,8 @@ export default function Biography() {
   return (
     <div className='bio'>
       <p>
-        I use <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong>,{' '}
-        <strong>PHP</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>
+        I use <strong>Vue</strong>, <strong>React</strong>, <strong>PHP</strong>,{' '}
+        <strong>Node</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>
         <span className='slant'>/</span>
         <strong>HTML</strong> to build anything from small business websites to intuitive
         progressive web&nbsp;applications.
