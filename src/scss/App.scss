@@ -652,8 +652,8 @@ p {
 
   .main-app,
   .side-app {
-    justify-content: center;
-    padding-bottom: 10vh;
+    justify-content: flex-end;
+    padding-bottom: 35vh;
   }
 
   .Body {
@@ -762,6 +762,11 @@ p {
 
   .side-app {
     width: 40%;
+  }
+
+  .main-app,
+  .side-app {
+    padding-bottom: 20vh;
   }
 
   .icon {

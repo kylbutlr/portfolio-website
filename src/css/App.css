@@ -528,8 +528,8 @@ p {
     margin-left: 1rem; }
   .main-app,
   .side-app {
-    justify-content: center;
-    padding-bottom: 10vh; }
+    justify-content: flex-end;
+    padding-bottom: 35vh; }
   .Body {
     width: 90%;
     flex-direction: row;
@@ -591,6 +591,9 @@ p {
     width: 30%; }
   .side-app {
     width: 40%; }
+  .main-app,
+  .side-app {
+    padding-bottom: 20vh; }
   .icon {
     width: 4vw;
     height: 4vw; }
