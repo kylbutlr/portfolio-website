@@ -9,7 +9,7 @@ export default function Welcome() {
         <br />
         a&nbsp;full-stack&nbsp;web&nbsp;developer
         <br />
-        working&nbsp;at&nbsp;
+        currently&nbsp;working&nbsp;at&nbsp;
         <strong>
           <a href='https://ezadtv.com/'>EZ-AD TV</a>
         </strong>

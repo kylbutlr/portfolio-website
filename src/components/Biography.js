@@ -4,24 +4,22 @@ export default function Biography() {
   return (
     <div className='bio'>
       <p>
-        I use <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong>,{' '}
-        <strong>PHP</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>
-        <span className='slant'>/</span>
+        I use <strong>JavaScript</strong> (<strong>Vue</strong>, <strong>React</strong>,{' '}
+        <strong>Node</strong>) and <strong>CSS</strong><span className='slant'>/</span>
         <strong>HTML</strong> to build anything from small business websites to intuitive
-        progressive web&nbsp;applications.
+        progressive&nbsp;web&nbsp;apps.
       </p>
       <p>
         I have experience working with a variety of tools and concepts such as:{' '}
-        <strong>RESTful APIs</strong>, <strong>SQL</strong>
-        <span className='slant'>/</span>
-        <strong>Postgres</strong>, <strong>Express</strong>, <strong>Redux</strong>, Unit &
+        <strong>RESTful APIs</strong>, <strong>Postgres</strong>,{' '}
+        <strong>MySQL</strong>, <strong>Express</strong>, <strong>Redux</strong>, <strong>Ajax</strong>, Unit &
         Integration Testing (<strong>Jest</strong>), Compilers & Preprocessors (
         <strong>Babel</strong>, <strong>Sass</strong>), CSS Frameworks (<strong>Bootstrap</strong>,{' '}
         <strong>Bulma</strong>), Version Control Systems (<strong>Git</strong>,{' '}
-        <strong>Github</strong>
-        ), and more. I am also previously familiar with: <strong>jQuery</strong>,{' '}
-        <strong>Java</strong>
-        ,&nbsp;and&nbsp;<strong>Python</strong>.
+        <strong>Github</strong>), <strong>PHP</strong>, <strong>jQuery</strong>,&nbsp;and&nbsp;more. 
+      </p>
+      <p style={{ display: 'none' }}>
+        I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;<strong>Python</strong>.
       </p>
       <p style={{ display: 'none' }}>
         Web Development is rapidly evolving and I look forward to learning and utilizing many more

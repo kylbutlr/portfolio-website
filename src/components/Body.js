@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Welcome from './Welcome';
 import Biography from './Biography';
 import Contact from './Contact';
+import Projects from './Projects';
 import SmallDevice from './SmallDevice';
 
 export default function Body() {
@@ -12,14 +13,16 @@ export default function Body() {
         <div className='main-app' id='mainApp'>
           <Welcome />
           <div className='divider' />
+          <Biography />
+          <div className='divider' />
           <div className='projects-underneath'>
-            <Biography />
+            <Projects />
             <div className='divider' />
           </div>
           <Contact />
         </div>
         <div className='side-app' id='sideApp'>
-          <Biography />
+          <Projects />
         </div>
       </div>
       <SmallDevice />

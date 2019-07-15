@@ -6,6 +6,13 @@ export default function Projects() {
   return (
     <div className='projects'>
       <h5>RECENT PROJECTS</h5>
+      <SingleProject
+        number={6}
+        type={'vue'}
+        title={'Basic Calculator'}
+        preview={'https://kylbutlr-calculator.herokuapp.com'}
+        github={'https://github.com/kylbutlr/vue-calculator'}
+      />
       <MultipleProject
         number={5}
         type1={'react'}
@@ -19,7 +26,7 @@ export default function Projects() {
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Notes'}
+        title={'Notes App'}
         appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}

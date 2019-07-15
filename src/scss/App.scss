@@ -13,6 +13,7 @@ $off-black: #222;
 }
 
 /* @media only screen and (max-width: 767px) */
+.project6 .project-image { background-image: url('../images/thumbs/calculator_100_dark_s.png'); }
 .project5 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
 .project4 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
 .project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
@@ -21,6 +22,7 @@ $off-black: #222;
 .headshot { background-image: url(../images/headshot_smaller.png); }
 
 @media only screen and (min-width: 768px) {
+  .project6 .project-image { background-image: url('../images/thumbs/calculator_100_dark_l.png'); }
   .project5 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
   .project4 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
   .project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
@@ -385,6 +387,7 @@ p {
     }
   }
   .icon-{
+    &vue { background-image: url('../images/icons/vue.png'); }
     &react { background-image: url('../images/icons/react.png'); }
     &node { background-image: url('../images/icons/node.png'); }
     &css { background-image: url('../images/icons/css.png'); }
@@ -450,14 +453,24 @@ p {
   }
 }
 
-.MultipleProject .project-info-icon {
-  display: flex;
-  justify-content: center;
-  width: 4rem;
-  div {
-    margin: auto 0;
+.MultipleProject {
+  .project-details-type {
     &:first-of-type {
-      margin-right: .25rem;
+      padding-left: 0.125rem;
+    }
+    &:nth-of-type(1) {
+      padding-right: 0.125rem;
+    }
+  }
+  .project-info-icon {
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    div {
+      margin: auto 0;
+      &:first-of-type {
+        margin-right: .25rem;
+      }
     }
   }
 }
@@ -606,8 +619,7 @@ p {
 @media only screen and (min-width: 768px) {
   .App {
     font-size: 110%;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
   }
 
   .Header {
@@ -624,7 +636,7 @@ p {
       top: 1.05rem;
     }
     .kylebutler {
-      bottom: 1.075rem;
+      bottom: 1.05rem;
     }
   }
 
@@ -641,19 +653,19 @@ p {
   }
 
   .main-app {
-    width: 35%;
+    width: 45%;
+    padding-top: 5vh;
   }
 
   .side-app {
     display: flex;
-    width: 45%;
+    width: 50%;
     margin-left: 1rem;
   }
 
   .main-app,
   .side-app {
-    justify-content: flex-end;
-    padding-bottom: 35vh;
+    justify-content: flex-start;
   }
 
   .Body {
@@ -757,16 +769,7 @@ p {
 
 @media only screen and (min-width: 900px) {
   .main-app {
-    width: 30%
-  }
-
-  .side-app {
-    width: 40%;
-  }
-
-  .main-app,
-  .side-app {
-    padding-bottom: 20vh;
+    width: 40%
   }
 
   .icon {
@@ -786,11 +789,11 @@ p {
   }
 
   .main-app {
-    width: 35%
+    width: 45%;
   }
 
   .side-app {
-    width: 45%;
+    width: 50%;
     margin-left: 0;
   }
 
@@ -844,10 +847,10 @@ p {
       bottom: 2.2rem;
     }
     .kylbutlr {
-      top: 1.2rem;
+      top: 1.15rem;
     }
     .kylebutler {
-      bottom: 1.1rem;
+      bottom: 1.2rem;
     }
   }
 
@@ -868,7 +871,12 @@ p {
 }
 
 @media only screen and (min-width: 1280px) {
+  .main-app {
+    width: 40%;
+  }
+
   .side-app {
+    width: 55%;
     margin-left: 1rem;
   }
 
@@ -887,7 +895,7 @@ p {
   }
 
   .Body {
-    width: 60%;
+    width: 65%;
   }
 
   .icon {
@@ -914,7 +922,6 @@ p {
 @media only screen and (min-width: 1440px) {
   .side-app {
     margin-left: 0;
-    width: 40%;
   }
 
   .headshot {
@@ -952,10 +959,6 @@ p {
     }
   }
 
-  .side-app {
-    width: 35%;
-  }
-
   .bio p:last-child {
     width: 95%;
   }
@@ -966,7 +969,7 @@ p {
   }
 
   .project-image {
-    height: 9.5vw;
+    height: 8.5vw;
   }
 
   .socials {
@@ -1003,6 +1006,12 @@ p {
   .icon {
     width: 2vw;
     height: 2vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-aspect-ratio:1/1) {
+  .App {
+    height: 100vh;
   }
 }
 
