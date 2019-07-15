@@ -5,7 +5,7 @@ import MultipleProject from './MultipleProject';
 export default function Projects() {
   return (
     <div className='projects'>
-      <h5>RECENT PROJECTS</h5>
+      <h5>SIDE PROJECTS</h5>
       <SingleProject
         number={6}
         type={'vue'}
@@ -17,7 +17,7 @@ export default function Projects() {
         number={5}
         type1={'react'}
         type2={'node'}
-        title={'Note Taking App'}
+        title={'Notepad'}
         appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}
@@ -26,7 +26,7 @@ export default function Projects() {
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Public Chat App'}
+        title={'Public Chat'}
         appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/public-chat-app'}
         apiGithub={'https://github.com/kylbutlr/public-chat-api'}
@@ -35,7 +35,7 @@ export default function Projects() {
         number={3}
         type1={'react'}
         type2={'node'}
-        title={'Todo List App'}
+        title={'Todo List'}
         appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/todo-list-react'}
         apiGithub={'https://github.com/kylbutlr/todo-list-api'}

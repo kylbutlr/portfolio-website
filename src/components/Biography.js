@@ -5,18 +5,17 @@ export default function Biography() {
     <div className='bio'>
       <p>
         I use <strong>JavaScript</strong> (<strong>Vue</strong>, <strong>React</strong>,{' '}
-        <strong>Node</strong>) and <strong>CSS</strong><span className='slant'>/</span>
+        <strong>Node</strong>, <strong>jQuery</strong>), <strong>PHP</strong>, and <strong>CSS</strong><span className='slant'>/</span>
         <strong>HTML</strong> to build anything from small business websites to intuitive
         progressive&nbsp;web&nbsp;apps.
       </p>
       <p>
         I have experience working with a variety of tools and concepts such as:{' '}
-        <strong>RESTful APIs</strong>, <strong>Postgres</strong>,{' '}
-        <strong>MySQL</strong>, <strong>Express</strong>, <strong>Redux</strong>, <strong>Ajax</strong>, Unit &
-        Integration Testing (<strong>Jest</strong>), Compilers & Preprocessors (
-        <strong>Babel</strong>, <strong>Sass</strong>), CSS Frameworks (<strong>Bootstrap</strong>,{' '}
-        <strong>Bulma</strong>), Version Control Systems (<strong>Git</strong>,{' '}
-        <strong>Github</strong>), <strong>PHP</strong>, <strong>jQuery</strong>,&nbsp;and&nbsp;more. 
+        <strong>RESTful APIs</strong>, <strong>Postgres</strong>, <strong>MySQL</strong>,{' '}
+        <strong>Express</strong>, <strong>Redux</strong>, <strong>Ajax</strong>, <strong>RWD</strong>,{' '}
+        CSS Frameworks (<strong>Bootstrap</strong>, <strong>Bulma</strong>), Compilers & Preprocessors{' '}
+        (<strong>Babel</strong>, <strong>Sass</strong>), Unit & Integration Testing (<strong>Jest</strong>),{' '}
+        Version Control Systems (<strong>Git</strong>,&nbsp;<strong>Github</strong>),&nbsp;and&nbsp;more.
       </p>
       <p style={{ display: 'none' }}>
         I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;<strong>Python</strong>.
