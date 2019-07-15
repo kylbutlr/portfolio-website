@@ -9,7 +9,7 @@ export default function Projects() {
       <SingleProject
         number={6}
         type={'vue'}
-        title={'Basic Calculator'}
+        title={'Simple Calculator'}
         preview={'https://kylbutlr-calculator.herokuapp.com'}
         github={'https://github.com/kylbutlr/vue-calculator'}
       />
@@ -17,7 +17,7 @@ export default function Projects() {
         number={5}
         type1={'react'}
         type2={'node'}
-        title={'Notes App'}
+        title={'Note Taking App'}
         appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}
@@ -26,7 +26,7 @@ export default function Projects() {
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Public Chat'}
+        title={'Public Chat App'}
         appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/public-chat-app'}
         apiGithub={'https://github.com/kylbutlr/public-chat-api'}
@@ -35,7 +35,7 @@ export default function Projects() {
         number={3}
         type1={'react'}
         type2={'node'}
-        title={'Todo List'}
+        title={'Todo List App'}
         appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/todo-list-react'}
         apiGithub={'https://github.com/kylbutlr/todo-list-api'}
