@@ -10,10 +10,10 @@
   background-image: url("../images/thumbs/calculator_100_dark_s.png"); }
 
 .project5 .project-image {
-  background-image: url("../images/thumbs/chat-app_100_dark_s.png"); }
+  background-image: url("../images/thumbs/notes-react_100_dark_s.png"); }
 
 .project4 .project-image {
-  background-image: url("../images/thumbs/notes-react_100_dark_s.png"); }
+  background-image: url("../images/thumbs/chat-app_100_dark_s.png"); }
 
 .project3 .project-image {
   background-image: url("../images/thumbs/todo-list-react_100_dark_s.png"); }
@@ -31,9 +31,9 @@
   .project6 .project-image {
     background-image: url("../images/thumbs/calculator_100_dark_l.png"); }
   .project5 .project-image {
-    background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
-  .project4 .project-image {
     background-image: url("../images/thumbs/notes-react_100_dark_l.png"); }
+  .project4 .project-image {
+    background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
   .project3 .project-image {
     background-image: url("../images/thumbs/todo-list-react_100_dark_l.png"); }
   .project2 .project-image {
@@ -477,13 +477,6 @@ p {
 @media only screen and (max-width: 300px) {
   .welcome h6 {
     font-size: 110%; } }
-
-@media only screen and (min-width: 406px) {
-  .headshot {
-    width: 40vw;
-    height: 40vw; }
-  .Body {
-    width: 90%; } }
 
 @media only screen and (min-width: 512px) {
   .mobile {

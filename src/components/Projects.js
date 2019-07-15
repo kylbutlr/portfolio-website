@@ -17,19 +17,19 @@ export default function Projects() {
         number={5}
         type1={'react'}
         type2={'node'}
-        title={'Public Chat'}
-        appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
-        appGithub={'https://github.com/kylbutlr/public-chat-app'}
-        apiGithub={'https://github.com/kylbutlr/public-chat-api'}
+        title={'Notes App'}
+        appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
+        appGithub={'https://github.com/kylbutlr/notes-app-react'}
+        apiGithub={'https://github.com/kylbutlr/notes-app-api'}
       />
       <MultipleProject
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Notes App'}
-        appPreview={'https://kylbutlr-notes-react.herokuapp.com'}
-        appGithub={'https://github.com/kylbutlr/notes-app-react'}
-        apiGithub={'https://github.com/kylbutlr/notes-app-api'}
+        title={'Public Chat'}
+        appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
+        appGithub={'https://github.com/kylbutlr/public-chat-app'}
+        apiGithub={'https://github.com/kylbutlr/public-chat-api'}
       />
       <MultipleProject
         number={3}
