@@ -13,8 +13,8 @@ $off-black: #222;
 }
 
 /* @media only screen and (max-width: 767px) */
-.project6 .project-image { background-image: url('../images/thumbs/calculator_100_dark_s.png'); }
-.project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
+.project6 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.png'); }
+.project5 .project-image { background-image: url('../images/thumbs/calculator_100_dark_s.png'); }
 .project4 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.png'); }
 .project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.png'); }
 .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.png'); }
@@ -22,8 +22,8 @@ $off-black: #222;
 .headshot { background-image: url(../images/headshot_smaller.png); }
 
 @media only screen and (min-width: 768px) {
-  .project6 .project-image { background-image: url('../images/thumbs/calculator_100_dark_l.png'); }
-  .project5 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
+  .project6 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.png'); }
+  .project5 .project-image { background-image: url('../images/thumbs/calculator_100_dark_l.png'); }
   .project4 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.png'); }
   .project3 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.png'); }
   .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.png'); }
@@ -526,9 +526,9 @@ p {
 }
 
 .fade-in {
-  opacity: 1;
+  opacity: 1 !important;
   &25 {
-    opacity: .25;
+    opacity: .25 !important;
   }
 }
 
@@ -643,13 +643,15 @@ p {
 
   .main-app {
     width: 45%;
-    padding-top: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
 
   .side-app {
     display: flex;
     width: 50%;
     margin-left: 1rem;
+    padding-top: 1vh;
   }
 
   .main-app,

@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import SingleProject from './SingleProject';
 import MultipleProject from './MultipleProject';
+import randomize from './randomize';
 
 export default function Projects() {
+  const random = randomize(4, 6);
+
   return (
     <div className='projects'>
-      <h5>SIDE PROJECTS</h5>
-      <SingleProject
-        number={6}
-        type={'vue'}
-        title={'Simple Calculator'}
-        preview={'https://kylbutlr-calculator.herokuapp.com'}
-        github={'https://github.com/kylbutlr/vue-calculator'}
-      />
+      <h5>RANDOM PROJECTS</h5>
       <MultipleProject
-        number={5}
+        show={random.includes(6)}
+        number={6}
         type1={'react'}
         type2={'node'}
         title={'Notepad'}
@@ -22,7 +19,16 @@ export default function Projects() {
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}
       />
+      <SingleProject
+        show={random.includes(5)}
+        number={5}
+        type={'vue'}
+        title={'Simple Calculator'}
+        preview={'https://kylbutlr-calculator.herokuapp.com'}
+        github={'https://github.com/kylbutlr/vue-calculator'}
+      />
       <MultipleProject
+        show={random.includes(4)}
         number={4}
         type1={'react'}
         type2={'node'}
@@ -32,6 +38,7 @@ export default function Projects() {
         apiGithub={'https://github.com/kylbutlr/public-chat-api'}
       />
       <MultipleProject
+        show={random.includes(3)}
         number={3}
         type1={'react'}
         type2={'node'}
@@ -41,6 +48,7 @@ export default function Projects() {
         apiGithub={'https://github.com/kylbutlr/todo-list-api'}
       />
       <SingleProject
+        show={random.includes(2)}
         number={2}
         type={'css'}
         title={'Flexbox Slideshow'}
@@ -48,6 +56,7 @@ export default function Projects() {
         github={'https://github.com/kylbutlr/flex-slideshow'}
       />
       <SingleProject
+        show={random.includes(1)}
         number={1}
         type={'javascript'}
         title={'Alarm & Timer'}
