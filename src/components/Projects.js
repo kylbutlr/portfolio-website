@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import SingleProject from './SingleProject';
 import MultipleProject from './MultipleProject';
-import randomize from './randomize';
+//import randomize from './randomize';
 
 export default function Projects() {
-  const random = randomize(3, 6);
+  //const random = randomize(3, 6);
+  const random = [1,2,3,4,5,6];
 
   return (
     <div className='projects'>
-      <h5>RANDOM PROJECTS</h5>
+      <h5>SIDE PROJECTS</h5>
       <MultipleProject
         show={random.includes(6)}
         number={6}

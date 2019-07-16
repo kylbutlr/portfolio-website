@@ -533,7 +533,7 @@ p {
     display: flex;
     width: 50%;
     margin-left: 1rem;
-    padding-top: 1vh; }
+    padding-top: 0vh; }
   .main-app,
   .side-app {
     justify-content: flex-start; }
