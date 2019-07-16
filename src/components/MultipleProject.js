@@ -43,6 +43,6 @@ export default function MultipleProject({ number, type1, type2, title, appPrevie
       </div>
     );
   } else {
-    return false;
+    return null;
   }
 }

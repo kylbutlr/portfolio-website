@@ -4,7 +4,7 @@ import MultipleProject from './MultipleProject';
 import randomize from './randomize';
 
 export default function Projects() {
-  const random = randomize(4, 6);
+  const random = randomize(3, 6);
 
   return (
     <div className='projects'>
