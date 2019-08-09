@@ -20,13 +20,15 @@ export default function Projects() {
         appGithub={'https://github.com/kylbutlr/notes-app-react'}
         apiGithub={'https://github.com/kylbutlr/notes-app-api'}
       />
-      <SingleProject
+      <MultipleProject
         show={random.includes(5)}
         number={5}
-        type={'vue'}
-        title={'Simple Calculator'}
-        preview={'https://kylbutlr-calculator.herokuapp.com'}
-        github={'https://github.com/kylbutlr/vue-calculator'}
+        type1={'react'}
+        type2={'node'}
+        title={'Todo List'}
+        appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
+        appGithub={'https://github.com/kylbutlr/todo-list-react'}
+        apiGithub={'https://github.com/kylbutlr/todo-list-api'}
       />
       <MultipleProject
         show={random.includes(4)}
@@ -38,15 +40,13 @@ export default function Projects() {
         appGithub={'https://github.com/kylbutlr/public-chat-app'}
         apiGithub={'https://github.com/kylbutlr/public-chat-api'}
       />
-      <MultipleProject
+      <SingleProject
         show={random.includes(3)}
         number={3}
-        type1={'react'}
-        type2={'node'}
-        title={'Todo List'}
-        appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
-        appGithub={'https://github.com/kylbutlr/todo-list-react'}
-        apiGithub={'https://github.com/kylbutlr/todo-list-api'}
+        type={'vue'}
+        title={'Simple Calculator'}
+        preview={'https://kylbutlr-calculator.herokuapp.com'}
+        github={'https://github.com/kylbutlr/vue-calculator'}
       />
       <SingleProject
         show={random.includes(2)}
