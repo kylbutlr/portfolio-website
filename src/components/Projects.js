@@ -9,7 +9,7 @@ export default function Projects() {
 
   return (
     <div className='projects'>
-      <h5>SIDE PROJECTS</h5>
+      <h5>PUBLIC PROJECTS</h5>
       <MultipleProject
         show={random.includes(6)}
         number={6}
