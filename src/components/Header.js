@@ -25,10 +25,10 @@ export default function Header() {
           <h4>contact</h4>
         </Link>
         <div className='desktop'>
-          <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} />
-          <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} />
-          <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} />
-          <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} />
+          <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} desc={'Send me an email'} />
+          <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} desc={'Go to my GitHub'} />
+          <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} desc={'Go to my LinkedIn'} />
+          <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} desc={'Go to my Instagram'} />
         </div>
       </div>
     </div>

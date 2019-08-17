@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 export default function HelmetHeaders() {
   return (
     <Helmet>
+      <html lang="en" amp />
       <meta charSet='utf-8' />
       <title>Kyle Butler</title>
       <link rel='canonical' href='https://kylbutlr.com' />

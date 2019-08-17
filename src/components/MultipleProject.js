@@ -16,15 +16,15 @@ export default function MultipleProject({ number, type1, type2, title, appPrevie
             </div>
             <div className='project-details-links'>
               <div>
-                <a href={appPreview}>
+                <a href={appPreview} aria-label='Preview a live demo'>
                   <h6>Preview</h6>
                 </a>
-                <a href={appGithub}>
+                <a href={appGithub} aria-label='View the source code'>
                   <h6>Github</h6>
                 </a>
               </div>
               <div>
-                <a href={apiGithub}>
+                <a href={apiGithub} aria-label='View the source code'>
                   <h6>Github</h6>
                 </a>
               </div>

@@ -9,13 +9,13 @@ export default function Contact() {
         <h5>CONTACT</h5>
       </Element>
       <div className='socials mobile'>
-        <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} />
-        <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} />
-        <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} />
-        <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} />
+        <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} desc={'Send me an email'} />
+        <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} desc={'Go to my GitHub'} />
+        <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} desc={'Go to my LinkedIn'} />
+        <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} desc={'Go to my Instagram'} />
       </div>
       <p>
-        Get in touch: <a href='mailto:kylbutlr@gmail.com'>kylbutlr@gmail.com</a>
+        Get in touch: <a href='mailto:kylbutlr@gmail.com' aria-label='Send me an email'>kylbutlr@gmail.com</a>
       </p>
     </div>
   );

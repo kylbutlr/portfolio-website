@@ -13,10 +13,10 @@ export default function SingleProject({ number, type, title, preview, github, sh
               <h6>App:</h6>
             </div>
             <div>
-              <a href={preview}>
+              <a href={preview} aria-label='Preview a live demo'>
                 <h6>Preview</h6>
               </a>
-              <a href={github}>
+              <a href={github} aria-label='View the source code'>
                 <h6>Github</h6>
               </a>
             </div>
