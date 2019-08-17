@@ -35,9 +35,9 @@ class App extends Component {
         documentGlobal.getElementById('mainApp').classList.add('fade-in');
         windowGlobal.setTimeout(() => {
           documentGlobal.getElementById('sideApp').classList.add('fade-in');
-        }, 750);
-      }, 750);
-    }, 750);
+        }, 500);
+      }, 500);
+    }, 500);
   }
 
   scrollTo() {
