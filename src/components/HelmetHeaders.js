@@ -14,6 +14,7 @@ export default function HelmetHeaders() {
       <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#dcbeb3' />
       <meta name='msapplication-TileColor' content='#dcbeb3' />
       <meta name='theme-color' content='#dcbeb3' />
+      <meta name="Description" content="Kyle Butler's Portfolio Website">
     </Helmet>
   );
 }
