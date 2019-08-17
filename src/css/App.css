@@ -7,41 +7,41 @@
 
 /* @media only screen and (max-width: 767px) */
 .project6 .project-image {
-  background-image: url("../images/thumbs/notes-react_100_dark_s.png"); }
+  background-image: url("../images/thumbs/notes-react_100_dark_s.webp"); }
 
 .project5 .project-image {
-  background-image: url("../images/thumbs/todo-list-react_100_dark_s.png"); }
+  background-image: url("../images/thumbs/todo-list-react_100_dark_s.webp"); }
 
 .project4 .project-image {
-  background-image: url("../images/thumbs/chat-app_100_dark_s.png"); }
+  background-image: url("../images/thumbs/chat-app_100_dark_s.webp"); }
 
 .project3 .project-image {
-  background-image: url("../images/thumbs/calculator_100_dark_s.png"); }
+  background-image: url("../images/thumbs/calculator_100_dark_s.webp"); }
 
 .project2 .project-image {
-  background-image: url("../images/thumbs/flex-slideshow_100_dark_s.png"); }
+  background-image: url("../images/thumbs/flex-slideshow_100_dark_s.webp"); }
 
 .project1 .project-image {
-  background-image: url("../images/thumbs/alarm-timer_100_dark_s.png"); }
+  background-image: url("../images/thumbs/alarm-timer_100_dark_s.webp"); }
 
 .headshot {
-  background-image: url(../images/headshot_smaller.png); }
+  background-image: url(../images/headshot_smaller.webp); }
 
 @media only screen and (min-width: 768px) {
   .project6 .project-image {
-    background-image: url("../images/thumbs/notes-react_100_dark_l.png"); }
+    background-image: url("../images/thumbs/notes-react_100_dark_l.webp"); }
   .project5 .project-image {
-    background-image: url("../images/thumbs/todo-list-react_100_dark_l.png"); }
+    background-image: url("../images/thumbs/todo-list-react_100_dark_l.webp"); }
   .project4 .project-image {
-    background-image: url("../images/thumbs/chat-app_100_dark_l.png"); }
+    background-image: url("../images/thumbs/chat-app_100_dark_l.webp"); }
   .project3 .project-image {
-    background-image: url("../images/thumbs/calculator_100_dark_l.png"); }
+    background-image: url("../images/thumbs/calculator_100_dark_l.webp"); }
   .project2 .project-image {
-    background-image: url("../images/thumbs/flex-slideshow_100_dark_l.png"); }
+    background-image: url("../images/thumbs/flex-slideshow_100_dark_l.webp"); }
   .project1 .project-image {
-    background-image: url("../images/thumbs/alarm-timer_100_dark_l.png"); }
+    background-image: url("../images/thumbs/alarm-timer_100_dark_l.webp"); }
   .headshot {
-    background-image: url(../images/headshot_small.png); } }
+    background-image: url(../images/headshot_small.webp); } }
 
 * {
   margin: 0;
@@ -61,7 +61,7 @@ html {
   align-items: center; }
 
 .background {
-  background-image: url("../images/symphony.png");
+  background-image: url("../images/symphony.webp");
   transition: opacity 1s;
   opacity: 0; }
 
