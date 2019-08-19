@@ -27,6 +27,7 @@ class App extends Component {
   fadeIn(documentGlobal, windowGlobal) {
     documentGlobal.getElementById('App').classList.add('fade-in');
     documentGlobal.getElementById('background').classList.add('fade-in');
+    documentGlobal.getElementById('backgroundCover').classList.add('fade-in');
     windowGlobal.setTimeout(() => {
       documentGlobal.getElementById('Header').classList.add('fade-in');
       documentGlobal.getElementById('firstDivider').classList.add('fade-in25');
@@ -51,11 +52,13 @@ class App extends Component {
   render() {
     return (
       <div className='background' id='background'>
-        <div className='App' id='App'>
-          <HelmetHeaders />
-          <Header />
-          <Body />
-          <Footer />
+        <div className='background-cover' id='backgroundCover'>
+          <div className='App' id='App'>
+            <HelmetHeaders />
+            <Header />
+            <Body />
+            <Footer />
+          </div>
         </div>
       </div>
     );
