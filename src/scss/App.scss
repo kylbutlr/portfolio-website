@@ -14,36 +14,13 @@ $off-black: #222;
   font-display: swap;
 }
 
-/* @media only screen and (max-width: 767px) */
-/*.project6 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_s.webp'); }
-.project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_s.webp'); }
-.project4 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_s.webp'); }
-.project3 .project-image { background-image: url('../images/thumbs/calculator_100_dark_s.webp'); }
-.project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_s.webp'); }
-.project1 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_s.webp'); }*/
-.project6 .project-image { background-image: url('../images/thumbs/notes-react.webp'); }
-.project5 .project-image { background-image: url('../images/thumbs/todo-list-react.webp'); }
-.project4 .project-image { background-image: url('../images/thumbs/chat-app.webp'); }
-.project3 .project-image { background-image: url('../images/thumbs/vue-calculator.webp'); }
-.project2 .project-image { background-image: url('../images/thumbs/flex-slideshow.webp'); }
-.project1 .project-image { background-image: url('../images/thumbs/alarm-timer.webp'); }
-.headshot { background-image: url(../images/headshot_smaller.webp); }
-
-@media only screen and (min-width: 768px) {
-  /*.project6 .project-image { background-image: url('../images/thumbs/notes-react_100_dark_l.webp'); }
-  .project5 .project-image { background-image: url('../images/thumbs/todo-list-react_100_dark_l.webp'); }
-  .project4 .project-image { background-image: url('../images/thumbs/chat-app_100_dark_l.webp'); }
-  .project3 .project-image { background-image: url('../images/thumbs/calculator_100_dark_l.webp'); }
-  .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow_100_dark_l.webp'); }
-  .project1 .project-image { background-image: url('../images/thumbs/alarm-timer_100_dark_l.webp'); }*/
-  .project6 .project-image { background-image: url('../images/thumbs/notes-react.webp'); }
-  .project5 .project-image { background-image: url('../images/thumbs/todo-list-react.webp'); }
-  .project4 .project-image { background-image: url('../images/thumbs/chat-app.webp'); }
-  .project3 .project-image { background-image: url('../images/thumbs/vue-calculator.webp'); }
-  .project2 .project-image { background-image: url('../images/thumbs/flex-slideshow.webp'); }
-  .project1 .project-image { background-image: url('../images/thumbs/alarm-timer.webp'); }
-  .headshot { background-image: url(../images/headshot_small.webp); }
-}
+.project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/notes-react.webp'); }
+.project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/todo-list-react.webp'); }
+.project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/chat-app.webp'); }
+.project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/vue-calculator.webp'); }
+.project2 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/flex-slideshow.webp'); }
+.project1 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/alarm-timer.webp'); }
+.headshot { background-image: url(../images/headshot_small.webp); }
 
 * {
   margin: 0;
