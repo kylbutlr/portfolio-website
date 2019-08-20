@@ -11,6 +11,7 @@ export default function Contact() {
       <div className='socials mobile'>
         <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} desc={'Send me an email'} />
         <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} desc={'Go to my GitHub'} />
+        <ContactIcon type={'resume'} link={'https://kylbutlr.github.io/my-resume/'} desc={'See my Resume/Cv'} />
         <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} desc={'Go to my LinkedIn'} />
         <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} desc={'Go to my Instagram'} />
       </div>

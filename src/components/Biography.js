@@ -5,17 +5,16 @@ export default function Biography() {
     <div className='bio'>
       <p>
         I use <strong>JavaScript</strong> (<strong>React</strong>, <strong>Vue</strong>,{' '}
-        <strong>Node</strong>, <strong>jQuery</strong>), <strong>PHP</strong>, <strong>CSS</strong>, and{' '}
-        <strong>HTML</strong> to build anything from small business websites to intuitive
-        progressive&nbsp;web&nbsp;apps.
+        <strong>Node</strong>, <strong>jQuery</strong>), <strong>PHP</strong>, <strong>SQL</strong>,{' '}
+        <strong>CSS</strong>, and <strong>HTML</strong> to build anything from small business websites  
+        to intuitive progressive&nbsp;web&nbsp;apps.
       </p>
       <p>
-        I have experience working with a variety of tools and concepts such as:{' '}
-        <strong>RESTful APIs</strong>, <strong>Postgres</strong>, <strong>MySQL</strong>,{' '}
-        <strong>Express</strong>, <strong>Redux</strong>, <strong>Ajax</strong>, <strong>RWD</strong>,{' '}
-        CSS Frameworks (<strong>Bootstrap</strong>, <strong>Bulma</strong>), Compilers & Preprocessors{' '}
-        (<strong>Babel</strong>, <strong>Sass</strong>), Unit & Integration Testing (<strong>Jest</strong>),{' '}
-        Version Control Systems (<strong>Git</strong>,&nbsp;<strong>Github</strong>),&nbsp;and&nbsp;more.
+        I have experience working with a variety of tools and concepts such as: <strong>RESTful APIs</strong>,{' '}
+        <strong>Postgres</strong>, <strong>MySQL</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>Express</strong>,{' '}
+        <strong>UI</strong><span className='slant'>/</span><strong>UX Design</strong>, <strong>RWD</strong>,{' '}
+        <strong>Bootstrap</strong>, <strong>Bulma</strong>, <strong>Sass</strong>, <strong>Babel</strong>, <strong>Webpack</strong>,{' '}
+        <strong>SEO</strong>, <strong>NPM</strong>,&nbsp;<strong>Git</strong>,&nbsp;and&nbsp;more.
       </p>
       <p style={{ display: 'none' }}>
         I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;<strong>Python</strong>.

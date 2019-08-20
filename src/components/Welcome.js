@@ -11,7 +11,7 @@ export default function Welcome() {
         <br />
         currently&nbsp;working&nbsp;at&nbsp;
         <strong>
-          <a href='https://ezadtv.com/' aria-label='Go to: ezadtv.com'>EZ-AD TV</a>
+          <a href='https://ezadtv.com/' target='_blank' aria-label='Go to: ezadtv.com'>EZ-AD TV</a>
         </strong>
       </h6>
     </div>
