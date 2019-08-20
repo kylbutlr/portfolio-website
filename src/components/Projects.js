@@ -25,20 +25,20 @@ export default function Projects() {
         number={5}
         type1={'react'}
         type2={'node'}
-        title={'Todo List'}
-        appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
-        appGithub={'https://github.com/kylbutlr/todo-list-react'}
-        apiGithub={'https://github.com/kylbutlr/todo-list-api'}
+        title={'Public Chat'}
+        appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
+        appGithub={'https://github.com/kylbutlr/public-chat-app'}
+        apiGithub={'https://github.com/kylbutlr/public-chat-api'}
       />
       <MultipleProject
         show={random.includes(4)}
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Public Chat'}
-        appPreview={'https://kylbutlr-chat-app.herokuapp.com'}
-        appGithub={'https://github.com/kylbutlr/public-chat-app'}
-        apiGithub={'https://github.com/kylbutlr/public-chat-api'}
+        title={'Todo List'}
+        appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
+        appGithub={'https://github.com/kylbutlr/todo-list-react'}
+        apiGithub={'https://github.com/kylbutlr/todo-list-api'}
       />
       <SingleProject
         show={random.includes(3)}
