@@ -5,26 +5,43 @@
   font-style: normal;
   font-display: swap; }
 
+/* @media only screen and (max-width: 767px) */
 .project6 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/notes-react.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/notepad-sml.webp"); }
 
 .project5 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/todo-list-react.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/todo-list-sml.webp"); }
 
 .project4 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/chat-app.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/chat-sml.webp"); }
 
 .project3 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/vue-calculator.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/calculator-sml.webp"); }
 
 .project2 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/flex-slideshow.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/slideshow-sml.webp"); }
 
 .project1 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/alarm-timer.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/alarm-timer-sml.webp"); }
 
 .headshot {
-  background-image: url(../images/headshot_small.webp); }
+  background-image: url(../images/headshot_smaller.webp); }
+
+@media only screen and (min-width: 768px) {
+  .project6 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/notepad-lrg.webp"); }
+  .project5 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/todo-list-lrg.webp"); }
+  .project4 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/chat-lrg.webp"); }
+  .project3 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/calculator-lrg.webp"); }
+  .project2 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/slideshow-lrg.webp"); }
+  .project1 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/thumbs/alarm-timer-lrg.webp"); }
+  .headshot {
+    background-image: url(../images/headshot_small.webp); } }
 
 * {
   margin: 0;
