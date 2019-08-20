@@ -15,22 +15,23 @@ $off-black: #222;
 }
 
 /* @media only screen and (max-width: 767px) */
-.project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/notepad-sml.webp'); }
-.project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/todo-list-sml.webp'); }
-.project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/chat-sml.webp'); }
-.project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/calculator-sml.webp'); }
-.project2 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/slideshow-sml.webp'); }
-.project1 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/alarm-timer-sml.webp'); }
-.headshot { background-image: url(../images/headshot_smaller.webp); }
+.project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-sml.webp'); }
+.project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/todo-list-sml.webp'); }
+.project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/chat-sml.webp'); }
+.project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/calculator-sml.webp'); }
+.project2 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/slideshow-sml.webp'); }
+.project1 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/alarm-timer-sml.webp'); }
+.headshot { background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../images/headshot_smaller.webp'); }
+
 
 @media only screen and (min-width: 768px) {
-  .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/notepad-lrg.webp'); }
-  .project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/todo-list-lrg.webp'); }
-  .project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/chat-lrg.webp'); }
-  .project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/calculator-lrg.webp'); }
-  .project2 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/slideshow-lrg.webp'); }
-  .project1 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/thumbs/alarm-timer-lrg.webp'); }
-  .headshot { background-image: url(../images/headshot_small.webp); }
+  .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-lrg.webp'); }
+  .project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/todo-list-lrg.webp'); }
+  .project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/chat-lrg.webp'); }
+  .project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/calculator-lrg.webp'); }
+  .project2 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/slideshow-lrg.webp'); }
+  .project1 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/alarm-timer-lrg.webp'); }
+  .headshot { background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../images/headshot_small.webp'); }
 }
 
 * {
@@ -96,7 +97,7 @@ h4, h6 {
 
 h5 {
   font-size: 150%;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 p {
@@ -136,7 +137,7 @@ p {
   h2 {
     margin: 0 -.1rem;
     position: relative;
-    bottom: .15rem;
+    bottom: 0.15rem;
   }
   .kyl {
     position: relative;
@@ -150,12 +151,12 @@ p {
   }
   .kylbutlr {
     position: relative;
-    top: .95rem;
+    top: 0.95rem;
     animation: fade1 10s ease-in-out infinite;
   }
   .kylebutler {
     position: relative;
-    bottom: .975rem;
+    bottom: 0.975rem;
     opacity: 0;
     animation: fade2 10s ease-in-out infinite;
   }
@@ -169,10 +170,10 @@ p {
   h4 {
     font-size: 150%;
     position: relative;
-    top: .1rem;
+    top: 0.1rem;
     cursor: pointer;
-    padding-right: .05rem;
-    margin-right: .05rem;
+    padding-right: 0.05rem;
+    margin-right: 0.05rem;
     border-bottom: 1.5px  $off-black solid;
     line-height: 85%;
     letter-spacing: -.025rem;
@@ -194,7 +195,7 @@ p {
   p {
     padding: 1vh 0;
     a {
-      padding-left: .1rem;
+      padding-left: 0.1rem;
       text-decoration: none;
     }
   }
@@ -211,7 +212,7 @@ p {
   background-repeat: no-repeat;
   width: 12.5vw;
   height: 12.5vw;
-  opacity: .85;
+  opacity: 0.85;
 }
 
 .social-email { background-image: url(../images/icons/gmail.png); }
@@ -252,7 +253,7 @@ p {
     }
   }
   .bold {
-    letter-spacing: .025rem;
+    letter-spacing: 0.025rem;
   }
   a {
     color: $off-black;
@@ -260,7 +261,7 @@ p {
   }
   strong {
     font-weight: bold;
-    letter-spacing: .025rem;
+    letter-spacing: 0.025rem;
   }
 }
 
@@ -281,18 +282,18 @@ p {
     }
   }
   strong {
-    letter-spacing: .01rem;
+    letter-spacing: 0.01rem;
   }
 }
 
 .headshot { 
   background-size: 100%;
   border-radius: 100%;
-  border: 1px rgba($off-black, .25) solid;
-  box-shadow: 0px 3px 15px rgba($off-black, .5);
+  border: 1px rgba($off-black, 0.25) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
   height: 50vw;
   width: 50vw;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .divider {
@@ -300,7 +301,7 @@ p {
   padding: 0;
   height: 0%;
   width: 25%;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 .first-divider {
@@ -339,18 +340,18 @@ p {
 .project-image {
   background-size: 100%;
   height: 26vw;
-  outline: 1px rgba($off-black, .5) solid;
-  box-shadow: 0px 3px 15px rgba($off-black, .5);
+  outline: 1px rgba($off-black, 0.5) solid;
+  box-shadow: 0px 3px 15px rgba($off-black, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2vh;
-  opacity: .8;
-  transition: opacity .25s;
+  opacity: 0.85;
+  transition: opacity 0.25s;
   &:hover {
-    opacity: .9;
+    opacity: 0.95;
     .project-info-icon div {
-      opacity: .8;
+      opacity: 0.85;
     }
     .arrow {
       transform: rotate(180deg);
@@ -364,7 +365,7 @@ p {
 }
 
 .project-info {
-  background: rgba(black, .75);
+  background: rgba(black, 0.75);
   height: 30%;
   width: 100%;
   padding: 0;
@@ -378,7 +379,7 @@ p {
     justify-content: center;
     color: $off-white;
     font-size: 120%;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     height: 100%;
     flex: 1;
   }
@@ -392,8 +393,8 @@ p {
         background-size: 100%;
         width: 1.25rem;
         height: 1.25rem;
-        opacity: .4;
-        transition: opacity .25s;
+        opacity: 0.4;
+        transition: opacity 0.25s;
       }
     }
   }
@@ -408,13 +409,13 @@ p {
   .arrow {
     color: $off-white;
     font-size: 100%;
-    opacity: .25;
-    transition: all .25s;
+    opacity: 0.25;
+    transition: all 0.25s;
   }
 }
 
 .project-details {
-  background: rgba(black, .75);
+  background: rgba(black, 0.75);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -422,9 +423,9 @@ p {
   justify-content: flex-end;
   visibility: hidden;
   padding-left: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   opacity: 0;
-  transition: all .25s;
+  transition: all 0.25s;
   div {
     display: flex;
     align-items: center;
@@ -436,7 +437,7 @@ p {
   h6 {
     color: $off-white;
     font-size: 110%;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
   }
   a {
     cursor: pointer;
@@ -448,7 +449,7 @@ p {
   .project-details-type {
     justify-content: space-between;
     width: 59%;
-    padding-bottom: .1rem;
+    padding-bottom: 0.1rem;
   }
   .project-details-links {
     justify-content: space-between;
@@ -458,7 +459,7 @@ p {
       justify-content: center;
       flex: 1;
       a:nth-child(2) { 
-        margin-left: .5rem; 
+        margin-left: 0.5rem; 
       }
     }
   }
@@ -480,7 +481,7 @@ p {
     div {
       margin: auto 0;
       &:first-of-type {
-        margin-right: .25rem;
+        margin-right: 0.25rem;
       }
     }
   }
@@ -507,7 +508,7 @@ p {
   p {
     font-size: 75%;
     padding: 1vh 0;
-    opacity: .75;
+    opacity: 0.75;
   }
 }
 
@@ -539,7 +540,7 @@ p {
 .fade-in {
   opacity: 1 !important;
   &25 {
-    opacity: .25 !important;
+    opacity: 0.25 !important;
   }
 }
 
@@ -581,13 +582,13 @@ p {
   .desktop {
     display: flex;
     a {
-      margin-left: .25rem;
+      margin-left: 0.25rem;
     }
   }
 
   .contact-link {
     padding-top: 1.25vh;
-    padding-bottom: .75vh;
+    padding-bottom: 0.75vh;
   }
   
   .Header {
@@ -736,11 +737,11 @@ p {
   }
 
   .project-details {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     .project-details-type {
       width: 64%;
       h6:first-of-type {
-        margin-left: .5rem;
+        margin-left: 0.5rem;
       }
     }
     .project-details-links {
@@ -755,7 +756,7 @@ p {
 
   .SingleProject {
     .project-details {
-      padding-bottom: .5rem;
+      padding-bottom: 0.5rem;
     }
     .project-details-type:first-child {
       margin-left: 0;
@@ -830,7 +831,7 @@ p {
   .icon {
     width: 3.5vw;
     height: 3.5vw;
-    transition: transform .25s;
+    transition: transform 0.25s;
     &:hover {
       transform: scale(1.1);
     }
@@ -860,13 +861,13 @@ p {
     .project-details-type {
       width: 60%;
       h6:first-of-type {
-        margin-left: .25rem;
+        margin-left: 0.25rem;
       }
     }
     a {
-      transition: all .25s;
+      transition: all 0.25s;
       &:hover {
-        text-shadow: 0px 0px 5px rgba($off-white, .75);
+        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
       }
     }
   }
@@ -906,12 +907,12 @@ p {
   }
 
   .project-details {
-    padding-bottom: .75rem !important;
+    padding-bottom: 0.75rem !important;
     a:first-of-type {
       margin-left: 1rem;
     }
     .project-details-type {
-      margin-left: .75rem;
+      margin-left: 0.75rem;
       width: 56%;
     }
   }
