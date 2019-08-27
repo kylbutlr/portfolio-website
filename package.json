@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
+    "url": "git+https://github.com/kylbutlr/portfolio-website.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/kylbutlr/portfolio-website/issues"
   },
   "main": "index.js",
   "keywords": [
