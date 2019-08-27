@@ -167,11 +167,11 @@ p {
   align-items: center;
   width: 100%; }
   .contact h5 {
-    padding-top: 1vh; }
+    padding-top: 0.5vh; }
   .contact a {
     color: #222; }
   .contact p {
-    padding: 1vh 0 0.5vh; }
+    padding: 0.5vh 0; }
     .contact p a {
       padding-left: 0.1rem;
       text-decoration: none; }
@@ -532,7 +532,8 @@ p {
   .contact {
     width: 100%; }
     .contact p {
-      font-size: 90%; }
+      font-size: 90%;
+      padding: 1vh 0 0.5vh; }
   .main-app {
     width: 45%;
     padding-top: 1vh;

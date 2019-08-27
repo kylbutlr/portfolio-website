@@ -187,13 +187,13 @@ p {
   //width: 80%; // <- for 4 icons
   width: 100%; // <- for 5 icons
   h5 {
-    padding-top: 1vh;
+    padding-top: 0.5vh;
   }
   a {
     color: $off-black;
   }
   p {
-    padding: 1vh 0 0.5vh;
+    padding: 0.5vh 0;
     a {
       padding-left: 0.1rem;
       text-decoration: none;
@@ -650,6 +650,7 @@ p {
     width: 100%;
     p {
       font-size: 90%;
+      padding: 1vh 0 0.5vh;
     }
   }
 
