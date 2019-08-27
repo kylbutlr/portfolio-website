@@ -193,7 +193,7 @@ p {
     color: $off-black;
   }
   p {
-    padding: 1vh 0;
+    padding: 1vh 0 0.5vh;
     a {
       padding-left: 0.1rem;
       text-decoration: none;
@@ -243,7 +243,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  padding-top: 1vh;
+  padding-top: 0.5vh;
   padding-bottom: 1vh;
   h6 {
     cursor: default;
@@ -266,8 +266,7 @@ p {
 }
 
 .bio {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding: 1vh 0;
   .divider {
     width: 50%;
     margin: 1vh auto;
@@ -307,6 +306,7 @@ p {
 .first-divider {
   transition: opacity 1s;
   opacity: 0;
+  padding-bottom: 0.5vh;
 }
 
 .first-divider,
@@ -326,7 +326,7 @@ p {
     width: 100%;
   }
   h5 {
-    padding: 1vh 0;
+    padding: 0.5vh 0;
   }
   a {
     text-decoration: none;
@@ -657,6 +657,8 @@ p {
     width: 45%;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    position: sticky;
+    top: 0;
   }
 
   .side-app {

@@ -171,7 +171,7 @@ p {
   .contact a {
     color: #222; }
   .contact p {
-    padding: 1vh 0; }
+    padding: 1vh 0 0.5vh; }
     .contact p a {
       padding-left: 0.1rem;
       text-decoration: none; }
@@ -222,7 +222,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  padding-top: 1vh;
+  padding-top: 0.5vh;
   padding-bottom: 1vh; }
   .welcome h6 {
     cursor: default;
@@ -239,8 +239,7 @@ p {
     letter-spacing: 0.025rem; }
 
 .bio {
-  padding-top: 1vh;
-  padding-bottom: 1vh; }
+  padding: 1vh 0; }
   .bio .divider {
     width: 50%;
     margin: 1vh auto; }
@@ -271,7 +270,8 @@ p {
 
 .first-divider {
   transition: opacity 1s;
-  opacity: 0; }
+  opacity: 0;
+  padding-bottom: 0.5vh; }
 
 .first-divider,
 .last-divider {
@@ -288,7 +288,7 @@ p {
     align-items: center;
     width: 100%; }
   .projects h5 {
-    padding: 1vh 0; }
+    padding: 0.5vh 0; }
   .projects a {
     text-decoration: none; }
 
@@ -536,7 +536,9 @@ p {
   .main-app {
     width: 45%;
     padding-top: 1vh;
-    padding-bottom: 1vh; }
+    padding-bottom: 1vh;
+    position: sticky;
+    top: 0; }
   .side-app {
     display: flex;
     width: 50%;
