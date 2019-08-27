@@ -12,7 +12,6 @@ const documentGlobal = typeof document !== 'undefined' && document;
 class App extends Component {
   componentDidMount() {
     this.runResize(documentGlobal, windowGlobal);
-    this.checkSafari();
     this.fadeIn(documentGlobal, windowGlobal);
   }
 
@@ -23,15 +22,6 @@ class App extends Component {
       let vh = windowGlobal.innerHeight * 0.01;
       documentGlobal.documentElement.style.setProperty('--vh', `${vh}px`);
     });
-  }
-
-  checkSafari(documentGlobal) {
-    const ua = navigator.userAgent.toLowerCase(); 
-    if (ua.indexOf('safari') != -1) {
-      Object.keys(documentGlobal.getElementsByClassName('project-image')).forEach((i)=> {
-        documentGlobal.getElementsByClassName('project-image')[i].add('jp2');
-      });
-    }
   }
 
   fadeIn(documentGlobal, windowGlobal) {
