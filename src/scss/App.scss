@@ -16,6 +16,9 @@ $off-black: #222;
 
 /* @media only screen and (max-width: 767px) */
 .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-sml.webp'); }
+_::-webkit-full-page-media, _:future, :root .safari_only {
+  .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-sml.jp2'); }
+}
 .project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/chat-sml.webp'); }
 .project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/todo-list-sml.webp'); }
 .project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/calculator-sml.webp'); }
@@ -25,7 +28,10 @@ $off-black: #222;
 
 
 @media only screen and (min-width: 768px) {
-  .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-lrg.webp'), url('../images/thumbs/notepad-lrg.jp2'); }
+  .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-lrg.webp'); }
+  _::-webkit-full-page-media, _:future, :root .safari_only {
+    .project6 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/notepad-lrg.jp2'); }
+  }
   .project5 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/chat-lrg.webp'); }
   .project4 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/todo-list-lrg.webp'); }
   .project3 .project-image { background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../images/thumbs/calculator-lrg.webp'); }

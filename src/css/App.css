@@ -9,6 +9,9 @@
 .project6 .project-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-sml.webp"); }
 
+_::-webkit-full-page-media .project6 .project-image, _:future .project6 .project-image, :root .safari_only .project6 .project-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-sml.jp2"); }
+
 .project5 .project-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-sml.webp"); }
 
@@ -29,7 +32,9 @@
 
 @media only screen and (min-width: 768px) {
   .project6 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-lrg.webp"), url("../images/thumbs/notepad-lrg.jp2"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-lrg.webp"); }
+  _::-webkit-full-page-media .project6 .project-image, _:future .project6 .project-image, :root .safari_only .project6 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-lrg.jp2"); }
   .project5 .project-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-lrg.webp"); }
   .project4 .project-image {
