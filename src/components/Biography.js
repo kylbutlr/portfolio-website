@@ -6,18 +6,23 @@ export default function Biography() {
       <p>
         I use <strong>JavaScript</strong> (<strong>React</strong>, <strong>Vue</strong>,{' '}
         <strong>Node</strong>, <strong>jQuery</strong>), <strong>PHP</strong>, <strong>SQL</strong>,{' '}
-        <strong>CSS</strong>, and <strong>HTML</strong> to build anything from small business websites  
-        to intuitive progressive&nbsp;web&nbsp;apps.
+        <strong>CSS</strong>, and <strong>HTML</strong> to build anything from small business
+        websites to intuitive progressive&nbsp;web&nbsp;apps.
       </p>
       <p>
-        I have experience working with a variety of tools and concepts such as: <strong>RESTful APIs</strong>,{' '}
-        <strong>Postgres</strong>, <strong>MySQL</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>Express</strong>,{' '}
-        <strong>UI</strong><span className='slant'>/</span><strong>UX Design</strong>, <strong>RWD</strong>,{' '}
-        <strong>Bootstrap</strong>, <strong>Bulma</strong>, <strong>Sass</strong>, <strong>Babel</strong>, <strong>Webpack</strong>,{' '}
-        <strong>SEO</strong>, <strong>NPM</strong>,&nbsp;<strong>Git</strong>,&nbsp;and&nbsp;more.
+        I have experience working with a variety of tools and concepts such as:{' '}
+        <strong>RESTful APIs</strong>, <strong>PostgreSQL</strong>, <strong>MySQL</strong>,{' '}
+        <strong>Redux</strong>, <strong>Jest</strong>, <strong>JSON</strong>,{' '}
+        <strong>Express</strong>, <strong>Axios</strong>, <strong>Ajax</strong>, <strong>UI</strong>
+        <span className='slant'>/</span>
+        <strong>UX</strong>, <strong>RWD</strong>, <strong>Bootstrap</strong>,{' '}
+        <strong>Bulma</strong>, <strong>Sass</strong>, <strong>Babel</strong>,{' '}
+        <strong>Webpack</strong>, <strong>SEO</strong>, <strong>NPM</strong>,&nbsp;
+        <strong>Git</strong>,&nbsp;and&nbsp;more.
       </p>
       <p style={{ display: 'none' }}>
-        I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;<strong>Python</strong>.
+        I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;
+        <strong>Python</strong>.
       </p>
       <p style={{ display: 'none' }}>
         Web Development is rapidly evolving and I look forward to learning and utilizing many more

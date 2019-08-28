@@ -174,8 +174,8 @@ p {
     cursor: pointer;
     padding-right: 0.05rem;
     margin-right: 0.05rem;
-    border-bottom: 1.5px  $off-black solid;
-    line-height: 85%;
+    border-bottom: 1px solid rgba($off-black, 0.25);
+    line-height: calc(80% + 0.1rem);
     letter-spacing: -.025rem;
   }
 }
@@ -189,14 +189,15 @@ p {
   h5 {
     padding-top: 0.5vh;
   }
-  a {
-    color: $off-black;
-  }
   p {
     padding: 0.5vh 0;
     a {
+      color: $off-black;
       padding-left: 0.1rem;
       text-decoration: none;
+      display: inline-block;
+      line-height: 90%;
+      border-bottom: 1px solid rgba($off-black, 0.25);
     }
   }
 }
@@ -233,7 +234,6 @@ p {
   flex: 1;
   font-size: 110%;
   p {
-    width: 85%;
     margin: 0 auto; 
   }
 }
@@ -258,6 +258,9 @@ p {
   a {
     color: $off-black;
     text-decoration: none;
+    display: inline-block;
+    line-height: 90%;
+    border-bottom: 1px solid rgba($off-black, 0.25);
   }
   strong {
     font-weight: bold;
@@ -330,6 +333,15 @@ p {
   }
   a {
     text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    line-height: 90%;
+    border-bottom: 1px solid rgba($off-black, 0.25);
+  }
+  p {
+    font-size: 90%;
+    text-decoration: none;
+    padding-bottom: 1vh;
   }
 }
 
@@ -441,14 +453,13 @@ p {
   }
   a {
     cursor: pointer;
-    border-bottom: 1.5px $off-white solid;
-    line-height: 105%;
     font-size: 90%;
     letter-spacing: 0;
+    border-bottom: 1.5px solid rgba($off-white, 0.25);
   }
   .project-details-type {
     justify-content: space-between;
-    width: 59%;
+    width: 60%;
     padding-bottom: 0.1rem;
   }
   .project-details-links {
@@ -690,6 +701,14 @@ p {
     h6 {
       font-size: 110%;
     }
+    a {
+      transition: all 0.25s;
+      line-height: 92.5%;
+      &:hover {
+        border-bottom: 1px solid rgba($off-black, 0.5);
+        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+      }
+    }
   }
 
   .bio {
@@ -704,10 +723,32 @@ p {
     width: 25vw;
   }
 
+  .contact {
+    a {
+      transition: all 0.25s;
+      line-height: 90%;
+      &:hover {
+        border-bottom: 1px solid rgba($off-black, 0.5);
+        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+      }
+    }
+  }
+
   .projects {
     width: 80%;
     &-underneath {
       display: none;
+    }
+    p {
+      padding-bottom: 1.5vh;
+    }
+    a {
+      transition: all 0.25s;
+      line-height: 90%;
+      &:hover {
+        border-bottom: 1px solid rgba($off-black, 0.5);
+        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+      }
     }
   }
 
@@ -746,6 +787,9 @@ p {
       h6:first-of-type {
         margin-left: 0.5rem;
       }
+      h6:last-of-type {
+        margin-right: 0.5rem;
+      }
     }
     .project-details-links {
       width: 90%;
@@ -753,6 +797,14 @@ p {
         a:nth-child(2) { 
           margin-left: 1rem; 
         }
+      }
+    }
+    a {
+      line-height: 105%;
+      transition: all 0.25s;
+      &:hover {
+        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
+        border-bottom: 1.5px solid rgba($off-white, 0.75);
       }
     }
   }
@@ -786,6 +838,14 @@ p {
   .headshot {
     height: 22vw;
     width: 22vw;
+  }
+
+  .MultipleProject {
+    .project-details-type {
+      h6:last-of-type {
+        margin-right: 0.75rem;
+      }
+    }
   }
 }
 
@@ -867,11 +927,19 @@ p {
         margin-left: 0.25rem;
       }
     }
-    a {
-      transition: all 0.25s;
-      &:hover {
-        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
+  }
+
+  .SingleProject {
+    .project-details-type {
+      h6:first-of-type {
+        margin-left: 0.5rem;
       }
+    }
+  }
+
+  .MultipleProject {
+    .project-details-type h6:last-of-type {
+      margin-right: 0.25rem;
     }
   }
 }
@@ -922,6 +990,17 @@ p {
 
   .SingleProject a:first-of-type {
     margin-left: 0;
+  }
+
+  .MultipleProject {
+    .project-details-type {
+      h6:first-of-type {
+        margin-left: 0;
+      }
+      h6:last-of-type {
+        margin-right: 0;
+      }
+    }
   }
 }
 

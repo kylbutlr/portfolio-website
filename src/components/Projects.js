@@ -5,7 +5,7 @@ import MultipleProject from './MultipleProject';
 
 export default function Projects() {
   //const random = randomize(3, 6);
-  const random = [1,2,3,4,5,6];
+  const random = [1, 2, 3, 4, 5, 6];
 
   return (
     <div className='projects'>
@@ -64,6 +64,18 @@ export default function Projects() {
         preview={'https://kylbutlr.github.io/alarm-timer'}
         github={'https://github.com/kylbutlr/alarm-timer'}
       />
+      <p>
+        See more, including{' '}
+        <a
+          href='https://github.com/kylbutlr/portfolio-website'
+          aria-label="View this website's code">
+          this website
+        </a>
+        , on{' '}
+        <a href='https://github.com/kylbutlr/' aria-label='Go to my GitHub'>
+          GitHub
+        </a>
+      </p>
     </div>
   );
 }

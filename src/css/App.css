@@ -157,8 +157,8 @@ p {
     cursor: pointer;
     padding-right: 0.05rem;
     margin-right: 0.05rem;
-    border-bottom: 1.5px #222 solid;
-    line-height: 85%;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.25);
+    line-height: calc(80% + 0.1rem);
     letter-spacing: -.025rem; }
 
 .contact {
@@ -168,13 +168,15 @@ p {
   width: 100%; }
   .contact h5 {
     padding-top: 0.5vh; }
-  .contact a {
-    color: #222; }
   .contact p {
     padding: 0.5vh 0; }
     .contact p a {
+      color: #222;
       padding-left: 0.1rem;
-      text-decoration: none; }
+      text-decoration: none;
+      display: inline-block;
+      line-height: 90%;
+      border-bottom: 1px solid rgba(34, 34, 34, 0.25); }
 
 .socials {
   display: flex;
@@ -214,7 +216,6 @@ p {
   flex: 1;
   font-size: 110%; }
   .Body p {
-    width: 85%;
     margin: 0 auto; }
 
 .welcome {
@@ -233,7 +234,10 @@ p {
     letter-spacing: 0.025rem; }
   .welcome a {
     color: #222;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block;
+    line-height: 90%;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.25); }
   .welcome strong {
     font-weight: bold;
     letter-spacing: 0.025rem; }
@@ -290,7 +294,15 @@ p {
   .projects h5 {
     padding: 0.5vh 0; }
   .projects a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    line-height: 90%;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.25); }
+  .projects p {
+    font-size: 90%;
+    text-decoration: none;
+    padding-bottom: 1vh; }
 
 .project {
   width: 100%; }
@@ -389,13 +401,12 @@ p {
     letter-spacing: 0.05rem; }
   .project-details a {
     cursor: pointer;
-    border-bottom: 1.5px #ececec solid;
-    line-height: 105%;
     font-size: 90%;
-    letter-spacing: 0; }
+    letter-spacing: 0;
+    border-bottom: 1.5px solid rgba(236, 236, 236, 0.25); }
   .project-details .project-details-type {
     justify-content: space-between;
-    width: 59%;
+    width: 60%;
     padding-bottom: 0.1rem; }
   .project-details .project-details-links {
     justify-content: space-between;
@@ -560,6 +571,12 @@ p {
     width: 100%; }
     .welcome h6 {
       font-size: 110%; }
+    .welcome a {
+      transition: all 0.25s;
+      line-height: 92.5%; }
+      .welcome a:hover {
+        border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+        text-shadow: 0px 0px 5px rgba(34, 34, 34, 0.5); }
   .bio {
     width: 95%; }
     .bio p {
@@ -567,10 +584,24 @@ p {
   .headshot {
     height: 25vw;
     width: 25vw; }
+  .contact a {
+    transition: all 0.25s;
+    line-height: 90%; }
+    .contact a:hover {
+      border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+      text-shadow: 0px 0px 5px rgba(34, 34, 34, 0.5); }
   .projects {
     width: 80%; }
     .projects-underneath {
       display: none; }
+    .projects p {
+      padding-bottom: 1.5vh; }
+    .projects a {
+      transition: all 0.25s;
+      line-height: 90%; }
+      .projects a:hover {
+        border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+        text-shadow: 0px 0px 5px rgba(34, 34, 34, 0.5); }
   .divider {
     width: 50%; }
   .first-divider,
@@ -591,10 +622,18 @@ p {
       width: 64%; }
       .project-details .project-details-type h6:first-of-type {
         margin-left: 0.5rem; }
+      .project-details .project-details-type h6:last-of-type {
+        margin-right: 0.5rem; }
     .project-details .project-details-links {
       width: 90%; }
       .project-details .project-details-links div a:nth-child(2) {
         margin-left: 1rem; }
+    .project-details a {
+      line-height: 105%;
+      transition: all 0.25s; }
+      .project-details a:hover {
+        text-shadow: 0px 0px 5px rgba(236, 236, 236, 0.75);
+        border-bottom: 1.5px solid rgba(236, 236, 236, 0.75); }
   .SingleProject .project-details {
     padding-bottom: 0.5rem; }
   .SingleProject .project-details-type:first-child {
@@ -612,7 +651,9 @@ p {
     height: 4vw; }
   .headshot {
     height: 22vw;
-    width: 22vw; } }
+    width: 22vw; }
+  .MultipleProject .project-details-type h6:last-of-type {
+    margin-right: 0.75rem; } }
 
 @media only screen and (min-width: 1024px) {
   .App {
@@ -657,10 +698,10 @@ p {
     width: 60%; }
     .project-details .project-details-type h6:first-of-type {
       margin-left: 0.25rem; }
-  .project-details a {
-    transition: all 0.25s; }
-    .project-details a:hover {
-      text-shadow: 0px 0px 5px rgba(236, 236, 236, 0.75); } }
+  .SingleProject .project-details-type h6:first-of-type {
+    margin-left: 0.5rem; }
+  .MultipleProject .project-details-type h6:last-of-type {
+    margin-right: 0.25rem; } }
 
 @media only screen and (min-width: 1280px) {
   .main-app {
@@ -688,7 +729,11 @@ p {
       margin-left: 0.75rem;
       width: 56%; }
   .SingleProject a:first-of-type {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .MultipleProject .project-details-type h6:first-of-type {
+    margin-left: 0; }
+  .MultipleProject .project-details-type h6:last-of-type {
+    margin-right: 0; } }
 
 @media only screen and (min-width: 1440px) {
   .side-app {
