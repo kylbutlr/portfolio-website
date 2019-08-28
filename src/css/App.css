@@ -7,6 +7,7 @@
 
 /* @media only screen and (max-width: 767px) */
 .project6 .project-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/png/notepad-sml.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-sml.webp"); }
 
 .project5 .project-image {
@@ -29,6 +30,7 @@
 
 @media only screen and (min-width: 768px) {
   .project6 .project-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/png/notepad-lrg.png");
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-lrg.webp"); }
   .project5 .project-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-lrg.webp"); }
