@@ -10,38 +10,38 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-sml.webp"), url("../images/thumbs/png/notepad-sml.png"); }
 
 .project5 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-sml.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-sml.webp"), url("../images/thumbs/png/chat-sml.png"); }
 
 .project4 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/todo-list-sml.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/todo-list-sml.webp"), url("../images/thumbs/png/todo-list-sml.png"); }
 
 .project3 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/calculator-sml.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/calculator-sml.webp"), url("../images/thumbs/png/calculator-sml.png"); }
 
 .project2 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/slideshow-sml.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/slideshow-sml.webp"), url("../images/thumbs/png/slideshow-sml.png"); }
 
 .project1 .project-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-sml.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-sml.webp"), url("../images/thumbs/png/alarm-timer-sml.png"); }
 
 .headshot {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_smaller.webp"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_smaller.webp"), url("../images/png/headshot_smaller.png"); }
 
 @media only screen and (min-width: 768px) {
   .project6 .project-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/notepad-lrg.webp"), url("../images/thumbs/png/notepad-lrg.png"); }
   .project5 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-lrg.webp"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/chat-lrg.webp"), url("../images/thumbs/png/chat-lrg.png"); }
   .project4 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/todo-list-lrg.webp"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/todo-list-lrg.webp"), url("../images/thumbs/png/todo-list-lrg.png"); }
   .project3 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/calculator-lrg.webp"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/calculator-lrg.webp"), url("../images/thumbs/png/calculator-lrg.png"); }
   .project2 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/slideshow-lrg.webp"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/slideshow-lrg.webp"), url("../images/thumbs/png/slideshow-lrg.png"); }
   .project1 .project-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-lrg.webp"); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-lrg.webp"), url("../images/thumbs/png/alarm-timer-lrg.png"); }
   .headshot {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_small.webp"); } }
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_small.webp"), url("../images/png/headshot_small.png"); } }
 
 * {
   margin: 0;
