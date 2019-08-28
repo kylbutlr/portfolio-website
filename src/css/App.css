@@ -25,7 +25,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-sml.webp"), url("../images/thumbs/png/alarm-timer-sml.png"); }
 
 .headshot {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_smaller.webp"), url("../images/png/headshot_smaller.png"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot/headshot_smaller.webp"), url("../images/headshot/png/headshot_smaller.png"); }
 
 @media only screen and (min-width: 768px) {
   .project6 .project-image {
@@ -41,7 +41,7 @@
   .project1 .project-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/thumbs/alarm-timer-lrg.webp"), url("../images/thumbs/png/alarm-timer-lrg.png"); }
   .headshot {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot_small.webp"), url("../images/png/headshot_small.png"); } }
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/headshot/headshot_small.webp"), url("../images/headshot/png/headshot_small.png"); } }
 
 * {
   margin: 0;
