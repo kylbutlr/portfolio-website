@@ -44,7 +44,7 @@ export default function Projects() {
         show={random.includes(3)}
         number={3}
         type={'vue'}
-        title={'Simple Calculator'}
+        title={'Calculator'}
         preview={'https://kylbutlr-calculator.herokuapp.com'}
         github={'https://github.com/kylbutlr/vue-calculator'}
       />
@@ -52,7 +52,7 @@ export default function Projects() {
         show={random.includes(2)}
         number={2}
         type={'css'}
-        title={'Flexbox Slideshow'}
+        title={'Flex Slideshow'}
         preview={'https://kylbutlr.github.io/flex-slideshow'}
         github={'https://github.com/kylbutlr/flex-slideshow'}
       />
