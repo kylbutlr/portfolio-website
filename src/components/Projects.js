@@ -35,7 +35,7 @@ export default function Projects() {
         number={4}
         type1={'react'}
         type2={'node'}
-        title={'Todo List'}
+        title={'To-do List'}
         appPreview={'https://kylbutlr-todos-react.herokuapp.com'}
         appGithub={'https://github.com/kylbutlr/todo-list-react'}
         apiGithub={'https://github.com/kylbutlr/todo-list-api'}
