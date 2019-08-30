@@ -3,13 +3,13 @@ $off-black: #222;
 
 @font-face {
   font-family: 'FuturaPT-Medium';
-  src: local('FuturaPT-Medium'),
-       url('../fonts/FuturaPT-Medium.eot'),
-       url('../fonts/FuturaPT-Medium.woff') format('woff'),
-       url('../fonts/FuturaPT-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  src: local('FuturaPT-Medium'),
+       url('../fonts/FuturaPT-Medium.woff') format('woff'),
+       url('../fonts/FuturaPT-Medium.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Medium.eot') format('embedded-opentype');
 }
 
 /* @media only screen and (max-width: 767px) */
