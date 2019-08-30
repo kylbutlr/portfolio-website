@@ -406,7 +406,7 @@ p {
     border-bottom: 1.5px solid rgba(236, 236, 236, 0.25); }
   .project-details .project-details-type {
     justify-content: space-between;
-    width: 60%;
+    width: 61%;
     padding-bottom: 0.1rem; }
   .project-details .project-details-links {
     justify-content: space-between;
@@ -624,11 +624,9 @@ p {
   .project-details {
     padding-bottom: 0.5rem; }
     .project-details .project-details-type {
-      width: 64%; }
+      width: 65%; }
       .project-details .project-details-type h6:first-of-type {
         margin-left: 0.5rem; }
-      .project-details .project-details-type h6:last-of-type {
-        margin-right: 0.5rem; }
     .project-details .project-details-links {
       width: 90%; }
       .project-details .project-details-links div a:nth-child(2) {
@@ -702,9 +700,7 @@ p {
   .project-details .project-details-type {
     width: 60%; }
     .project-details .project-details-type h6:first-of-type {
-      margin-left: 0.25rem; }
-  .SingleProject .project-details-type h6:first-of-type {
-    margin-left: 0.5rem; }
+      margin-left: 0.1rem; }
   .MultipleProject .project-details-type h6:last-of-type {
     margin-right: 0.25rem; } }
 
@@ -731,14 +727,13 @@ p {
     .project-details a:first-of-type {
       margin-left: 1rem; }
     .project-details .project-details-type {
-      margin-left: 0.75rem;
-      width: 56%; }
+      margin-left: 0.75rem; }
   .SingleProject a:first-of-type {
     margin-left: 0; }
-  .MultipleProject .project-details-type h6:first-of-type {
-    margin-left: 0; }
-  .MultipleProject .project-details-type h6:last-of-type {
-    margin-right: 0; } }
+  .MultipleProject .project-details-type {
+    width: 60%; }
+    .MultipleProject .project-details-type h6:first-of-type {
+      margin-left: 0.25rem; } }
 
 @media only screen and (min-width: 1440px) {
   .side-app {
@@ -754,7 +749,21 @@ p {
     width: 2.5vw;
     height: 2.5vw; }
   .contact p {
-    width: 100%; } }
+    width: 100%; }
+  .MultipleProject .project-details-type {
+    width: 58.5%; }
+    .MultipleProject .project-details-type h6:first-of-type {
+      margin-left: 0.25rem; }
+    .MultipleProject .project-details-type h6:last-of-type {
+      margin-right: 0.25rem; } }
+
+@media only screen and (min-width: 1660px) {
+  .MultipleProject .project-details-type {
+    width: 57%; }
+    .MultipleProject .project-details-type h6:first-of-type {
+      margin-left: 0.5rem; }
+    .MultipleProject .project-details-type h6:last-of-type {
+      margin-right: 0.5rem; } }
 
 @media only screen and (min-width: 1800px) {
   .Header {
@@ -775,10 +784,10 @@ p {
   .icon {
     width: 2.25vw;
     height: 2.25vw; }
-  .project-details {
-    padding-bottom: 1.5rem !important; }
-    .project-details .project-details-type {
-      width: 51%; } }
+  .MultipleProject .project-details-type h6:first-of-type {
+    margin-left: 0.25rem; }
+  .MultipleProject .project-details-type h6:last-of-type {
+    margin-right: 0.25rem; } }
 
 @media only screen and (min-width: 2200px) {
   .main-app {
