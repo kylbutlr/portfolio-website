@@ -16,6 +16,9 @@ export default function HelmetHeaders() {
       <meta name='msapplication-TileColor' content='#dcbeb3' />
       <meta name='theme-color' content='#dcbeb3' />
       <meta name="Description" content="Kyle Butler's Portfolio Website" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.eot" type="font/eot" crossorigin="anonymous" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.woff" type="font/woff" crossorigin="anonymous" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.ttf" type="font/ttf" crossorigin="anonymous" />
     </Helmet>
   );
 }
