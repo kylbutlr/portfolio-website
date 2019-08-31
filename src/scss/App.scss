@@ -108,7 +108,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   margin: 0 auto;
   transition: opacity 1s;
@@ -988,7 +988,7 @@ p {
 
   .MultipleProject {
     .project-details-type {
-      width: 60%;
+      width: 59%;
       h6:first-of-type {
         margin-left: 0.25rem;
       }
@@ -1025,12 +1025,12 @@ p {
 
   .MultipleProject {
     .project-details-type {
-      width: 58.5%;
+      width: 58%;
       h6:first-of-type {
-        margin-left: 0.25rem;
+        margin-left: 0.375rem;
       }
       h6:last-of-type {
-        margin-right: 0.25rem;
+        margin-right: 0.125rem;
       }
     }
   }
@@ -1044,7 +1044,7 @@ p {
         margin-left: 0.5rem;
       }
       h6:last-of-type {
-        margin-right: 0.5rem;
+        margin-right: 0.25rem;
       }
     }
   }
@@ -1086,33 +1086,14 @@ p {
 
   .MultipleProject {
     .project-details-type {
+      width: 56%;
       h6:first-of-type {
-        margin-left: 0.25rem;
+        margin-left: 0.125rem;
       }
       h6:last-of-type {
-        margin-right: 0.25rem;
+        margin-right: 0;
       }
     }
-  }
-}
-
-@media only screen and (min-width: 2200px) {
-  .main-app {
-    width: 25%
-  }
-
-  .side-app {
-    width: 30%;
-  }
-
-  .headshot {
-    height: 10vw;
-    width: 10vw;
-  }
-
-  .icon {
-    width: 2vw;
-    height: 2vw;
   }
 }
 
