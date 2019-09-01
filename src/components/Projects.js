@@ -68,11 +68,17 @@ export default function Projects() {
         See more, including{' '}
         <a
           href='https://github.com/kylbutlr/portfolio-website'
+          target='_blank'
+          rel='noreferrer'
           aria-label="View this website's code">
           this website
         </a>
         , on{' '}
-        <a href='https://github.com/kylbutlr/' aria-label='Go to my GitHub'>
+        <a
+          href='https://github.com/kylbutlr/'
+          aria-label='Go to my GitHub'
+          target='_blank'
+          rel='noreferrer'>
           GitHub
         </a>
       </p>
