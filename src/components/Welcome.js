@@ -19,7 +19,7 @@ export default function Welcome() {
         <br />
         a&nbsp;full-stack&nbsp;web&nbsp;developer
         <br />
-        working&nbsp;out&nbsp;of&nbsp;<strong>Los&nbsp;Angeles</strong>,&nbsp;CA
+        working&nbsp;out&nbsp;of&nbsp;<strong>Los&nbsp;Angeles</strong>
       </h6>
     </div>
   );
