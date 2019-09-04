@@ -12,13 +12,14 @@ export default function Biography() {
       <p>
         I have experience working with a variety of tools and concepts such as:{' '}
         <strong>RESTful APIs</strong>, <strong>PostgreSQL</strong>, <strong>MySQL</strong>,{' '}
-        <strong>Redux</strong>, <strong>Jest</strong>, <strong>JSON</strong>,{' '}
-        <strong>Express</strong>, <strong>Axios</strong>, <strong>Ajax</strong>, <strong>UI</strong>
+        <strong>Express</strong>, <strong>Axios</strong>
         <span className='slant'>/</span>
-        <strong>UX</strong>, <strong>RWD</strong>, <strong>Bootstrap</strong>,{' '}
-        <strong>Bulma</strong>, <strong>Sass</strong>, <strong>Babel</strong>,{' '}
-        <strong>Webpack</strong>, <strong>SEO</strong>, <strong>NPM</strong>,&nbsp;
-        <strong>Git</strong>,&nbsp;and&nbsp;more.
+        <strong>Ajax</strong>, <strong>Redux</strong>, <strong>UX</strong>
+        <span className='slant'>/</span>
+        <strong>UI Design</strong>, <strong>RWD</strong>, <strong>Bootstrap</strong>,{' '}
+        <strong>Bulma</strong>, <strong>Sass</strong>, <strong>Jest</strong>, <strong>JSON</strong>,{' '}
+        <strong>Babel</strong>, <strong>Webpack</strong>, <strong>SEO</strong>, <strong>NPM</strong>
+        ,&nbsp;<strong>Git</strong>,&nbsp;and&nbsp;more.
       </p>
       <p style={{ display: 'none' }}>
         I am also previously familiar with <strong>Java</strong>&nbsp;and&nbsp;
