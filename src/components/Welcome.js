@@ -4,17 +4,17 @@ export default function Welcome() {
   return (
     <div className='welcome'>
       <div className='headshot' />
-      <h6 hidden>
-        I'm&nbsp;<strong>Kyle&nbsp;Butler</strong>,
+      <h6>
+        I'm&nbsp;<strong>Kyle&nbsp;Butler</strong>,&nbsp;a
         <br />
-        a&nbsp;full-stack&nbsp;web&nbsp;developer
+        Front-End&nbsp;Web&nbsp;Developer
         <br />
         currently&nbsp;working&nbsp;at&nbsp;
         <strong>
-          <a href='https://ezadtv.com/' target='_blank' rel='noreferrer' aria-label='Go to: ezadtv.com'>EZ-AD TV</a>
+          <a href='https://sdg.la/' target='_blank' rel='noreferrer' aria-label='Go to: SDG.la'>SDG</a>
         </strong>
       </h6>
-      <h6>
+      <h6 hidden>
         I'm&nbsp;<strong>Kyle&nbsp;Butler</strong>,
         <br />
         a&nbsp;full-stack&nbsp;web&nbsp;developer

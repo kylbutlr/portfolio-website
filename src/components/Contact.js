@@ -12,8 +12,8 @@ export default function Contact() {
         <ContactIcon type={'email'} link={'mailto:kylbutlr@gmail.com'} desc={'Send me an email'} />
         <ContactIcon type={'github'} link={'https://github.com/kylbutlr'} desc={'Go to my GitHub'} />
         <ContactIcon type={'linkedin'} link={'https://www.linkedin.com/in/kylbutlr/'} desc={'Go to my LinkedIn'} />
-        <ContactIcon type={'resume'} link={'https://kylbutlr.github.io/my-resume/'} desc={'See my Resume/Cv'} />
-        {/*<ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} desc={'Go to my Instagram'} />*/}
+        {/*<ContactIcon type={'resume'} link={'https://kylbutlr.github.io/my-resume/'} desc={'See my Resume/Cv'} />*/}
+        <ContactIcon type={'instagram'} link={'https://www.instagram.com/kylbutlr/'} desc={'Go to my Instagram'} />
       </div>
       <p>
         Get in touch: <a href='mailto:kylbutlr@gmail.com' aria-label='Send me an email'>kylbutlr@gmail.com</a>
