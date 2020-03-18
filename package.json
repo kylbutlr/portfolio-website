@@ -28,7 +28,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.0.0",
     "react-scroll": "^1.7.11"
   },
   "devDependencies": {
