@@ -1,52 +1,49 @@
 {
-  "homepage": "https://kylbutlr.netlify.com",
-  "name": "react-portfolio",
+  "name": "gatsby-starter-default",
   "private": true,
-  "description": "React Portfolio",
-  "version": "1.0.0",
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.20.12",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-scroll": "^1.7.16"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "build-sass": "node-sass -o src/css src/scss",
     "sass": "nodemon -e scss -x \"npm run build-sass\""
   },
-  "dependencies": {
-    "gatsby": "^2.3.23",
-    "gatsby-background-image": "^0.2.73",
-    "gatsby-image": "^2.0.34",
-    "gatsby-plugin-offline": "^2.2.6",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.34",
-    "gatsby-source-filesystem": "^2.0.28",
-    "gatsby-transformer-sharp": "^2.1.17",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0",
-    "react-scripts": "^2.1.8",
-    "react-scroll": "^1.7.11"
-  },
-  "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylbutlr/portfolio-website.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
-    "url": "https://github.com/kylbutlr/portfolio-website/issues"
-  },
-  "main": "index.js",
-  "keywords": [
-    "React",
-    "Portfolio"
-  ],
-  "author": "Kyle Butler"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }

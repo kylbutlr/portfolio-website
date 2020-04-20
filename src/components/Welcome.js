@@ -13,13 +13,9 @@ export default function Welcome() {
         <strong>
           <a href='https://sdg.la/' target='_blank' rel='noreferrer' aria-label='Go to: SDG.la'>SDG</a>
         </strong>
-      </h6>
-      <h6 hidden>
-        I'm&nbsp;<strong>Kyle&nbsp;Butler</strong>,
-        <br />
-        a&nbsp;full-stack&nbsp;web&nbsp;developer
-        <br />
-        working&nbsp;out&nbsp;of&nbsp;<strong>Los&nbsp;Angeles</strong>
+        <span hidden>
+          working&nbsp;out&nbsp;of&nbsp;<strong>Los&nbsp;Angeles</strong>
+        </span>
       </h6>
     </div>
   );
