@@ -7,9 +7,9 @@ export default function HelmetHeaders() {
       <html lang="en" amp />
       <meta charSet='utf-8' />
       <title>Kyle Butler</title>
-      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.woff" type="font/woff" crossorigin="anonymous" />
-      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.ttf" type="font/ttf" crossorigin="anonymous" />
-      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.eot" type="font/eot" crossorigin="anonymous" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.woff" crossorigin="anonymous" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.ttf" crossorigin="anonymous" />
+      <link rel="preload" as="font" href="../fonts/FuturaPT-Medium.eot" crossorigin="anonymous" />
       <link rel='canonical' href='https://kylbutlr.com' />
       <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
       <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
