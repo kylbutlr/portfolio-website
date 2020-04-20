@@ -28,9 +28,15 @@ module.exports = {
         icon: `static/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-preload-fonts`,
+    {
+      resolve: `gatsby-plugin-preload-fonts`,
+      options: {
+        crossOrigin: `use-credentials`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-preload-fonts`,
   ],
 }
