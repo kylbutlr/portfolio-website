@@ -186,8 +186,8 @@ p {
 .icon {
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 9vw;
-  height: 9vw;
+  width: 8.5vw;
+  height: 8.5vw;
   opacity: 0.85; }
 
 .social-email {
@@ -271,7 +271,7 @@ p {
   border-top: 1px #222 solid;
   padding: 0;
   height: 0%;
-  width: 25%;
+  width: 37.5%;
   opacity: 0.25; }
 
 .first-divider {
@@ -532,8 +532,8 @@ p {
     height: 30vw;
     width: 30vw; }
   .icon {
-    width: 6vw;
-    height: 6vw; }
+    width: 5.5vw;
+    height: 5.5vw; }
   .project-image {
     height: 21vw; } }
 
@@ -541,6 +541,8 @@ p {
   .App {
     font-size: 110%;
     height: 100%; }
+    .App p {
+      font-size: 105%; }
   .Header {
     width: 100%; }
   .title {
@@ -632,8 +634,8 @@ p {
   .socials {
     width: 60%; }
   .icon {
-    width: 5vw;
-    height: 5vw; }
+    width: 4.5vw;
+    height: 4.5vw; }
   .project-details {
     padding-bottom: 0.5rem; }
     .project-details .project-details-type {
@@ -666,8 +668,8 @@ p {
   .side-app {
     margin-bottom: 5vh; }
   .icon {
-    width: 4vw;
-    height: 4vw; }
+    width: 3.5vw;
+    height: 3.5vw; }
   .headshot {
     height: 22vw;
     width: 22vw; }
@@ -698,8 +700,8 @@ p {
   .project-image {
     height: 9.5vw; }
   .icon {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 3.25vw;
+    height: 3.25vw;
     transition: transform 0.25s; }
     .icon:hover {
       transform: scale(1.1); }
@@ -736,8 +738,8 @@ p {
   .Body {
     width: 65%; }
   .icon {
-    width: 3vw;
-    height: 3vw; }
+    width: 2.75vw;
+    height: 2.75vw; }
   .project-details {
     padding-bottom: 0.75rem !important; }
     .project-details a:first-of-type {
@@ -762,8 +764,8 @@ p {
   .socials {
     width: 80%; }
   .icon {
-    width: 2.5vw;
-    height: 2.5vw; }
+    width: 2.25vw;
+    height: 2.25vw; }
   .contact p {
     width: 100%; }
   .MultipleProject .project-details-type {
@@ -798,8 +800,8 @@ p {
   .socials {
     width: 70%; }
   .icon {
-    width: 2.25vw;
-    height: 2.25vw; }
+    width: 2vw;
+    height: 2vw; }
   .MultipleProject .project-details-type {
     width: 56%; }
     .MultipleProject .project-details-type h6:first-of-type {
