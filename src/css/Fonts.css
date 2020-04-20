@@ -3,4 +3,4 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: local("FuturaPT-Medium"), url("../../fonts/FuturaPT-Medium.woff") format("woff"), url("../../fonts/FuturaPT-Medium.ttf") format("truetype"), url("../../fonts/FuturaPT-Medium.eot") format("embedded-opentype"); }
+  src: local("FuturaPT-Medium"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype"), url("../fonts/FuturaPT-Medium.eot") format("embedded-opentype"); }
