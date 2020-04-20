@@ -30,7 +30,7 @@ module.exports = {
         background_color: `#e2c4b5`,
         theme_color: `#e2c4b5`,
         display: `minimal-ui`,
-        icon: `static/android-chrome-512x512.png`, // This path is relative to the root of the site.
+        icon: `static/android-chrome-512x512.png`,
       },
     },
     `gatsby-plugin-preload-fonts`,
@@ -40,8 +40,6 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

@@ -32,18 +32,14 @@ class App extends Component {
       documentGlobal.getElementById('Header').classList.add('fade-in');
       documentGlobal.getElementById('firstDivider').classList.add('fade-in25');
       documentGlobal.getElementById('Footer').classList.add('fade-in');
-      windowGlobal.setTimeout(() => {
-        documentGlobal.getElementById('mainApp').classList.add('fade-in');
-        windowGlobal.setTimeout(() => {
-          documentGlobal.getElementById('sideApp').classList.add('fade-in');
-        }, 250);
-      }, 250);
-    }, 250);
+      documentGlobal.getElementById('mainApp').classList.add('fade-in');
+      documentGlobal.getElementById('sideApp').classList.add('fade-in');
+    }, 200);
   }
 
   scrollTo() {
     scroller.scrollTo('scroll-to-element', {
-      duration: 800,
+      duration: 600,
       delay: 0,
       smooth: 'easeInOutQuart',
     });
