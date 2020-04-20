@@ -600,13 +600,13 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 105%;
+  }
+  
   .App {
     font-size: 110%;
     height: 100%;
-
-    p {
-      font-size: 105%;
-    }
   }
 
   .Header {
