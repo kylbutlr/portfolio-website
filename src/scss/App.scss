@@ -142,6 +142,7 @@ p {
     padding-top: 0.5vh;
   }
   p {
+    font-size: 90%;
     padding: 0.5vh 0;
     a {
       color: $off-black;
@@ -235,7 +236,7 @@ p {
     font-family: 'Lucida Sans', Verdana, sans-serif;
   }
   p {
-    width: 75%;
+    width: 80%;
     &:not(:first-child) {
       padding-top: 1vh;
     }
@@ -557,6 +558,14 @@ p {
     width: calc(100% + 40px);
     margin-left: -20px;
   }
+
+  .bio p {
+    font-size: 90%;
+  }
+
+  .contact p {
+    font-size: 80%;
+  }
 }
 
 @media only screen and (min-width: 512px) {
@@ -587,6 +596,10 @@ p {
     }
   }
 
+  .bio p {
+    width: 75%;
+  }
+
   .headshot {
     height: 30vw;
     width: 30vw;
@@ -603,9 +616,6 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  p {
-    font-size: 105%;
-  }
 
   .App {
     font-size: 110%;
