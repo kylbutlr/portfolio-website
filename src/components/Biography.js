@@ -5,8 +5,8 @@ export default function Biography() {
     <div className='bio'>
       <p>
         I use <strong>JavaScript</strong> (<strong>ES6</strong>, <strong>React</strong>, <strong>Vue</strong>),{' '}
-        <strong>Liquid</strong>, <strong>CSS</strong>, and <strong>HTML</strong> to build beautiful and intuitive{' '}
-        <span className="no-wrap">ecommerce</span> websites&nbsp;on&nbsp;<strong>Shopify</strong>.
+        <strong>Liquid</strong>, <strong>CSS</strong>, and <strong>HTML</strong> to build intuitive and beautiful{' '}
+        ecommerce websites integrated&nbsp;with&nbsp;<strong>Shopify</strong>.
       </p>
       <p hidden>
         I use <strong>JavaScript</strong> (<strong>React</strong>, <strong>Vue</strong>,{' '}
