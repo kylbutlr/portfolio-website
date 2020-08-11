@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactIcon from './ContactIcon';
 
 export default function Contact() {
   return (
@@ -11,7 +10,7 @@ export default function Contact() {
         </a>{' '}
         I work with{' '}
         <br />
-        or get in touch:{' '} 
+        or get in touch:{' '}
         <a href='mailto:kylbutlr@gmail.com' aria-label='Send me an email'>
           kylbutlr@gmail.com
         </a>
