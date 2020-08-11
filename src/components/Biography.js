@@ -6,7 +6,7 @@ export default function Biography() {
       <p>
         I use <strong>JavaScript</strong> (<strong>ES6</strong>, <strong>React</strong>, <strong>Vue</strong>),{' '}
         <strong>Liquid</strong>, <strong>CSS</strong>, and <strong>HTML</strong> to build intuitive and beautiful{' '}
-        ecommerce websites fully integrated&nbsp;with&nbsp;<strong>Shopify</strong>&nbsp;and&nbsp;<strong>Contentful</strong>.
+        ecommerce websites integrated&nbsp;with&nbsp;<strong>Shopify</strong>&nbsp;and&nbsp;<strong>Contentful</strong>.
       </p>
       <p hidden>
         I use <strong>JavaScript</strong> (<strong>React</strong>, <strong>Vue</strong>,{' '}
