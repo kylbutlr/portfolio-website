@@ -4,6 +4,13 @@ export default function Biography() {
   return (
     <div className='bio'>
       <p>
+        I'm a Web Developer who specializes in{' '}
+        building advanced <strong>Shopify</strong> e-commerce stores using{' '}
+        <strong>JavaScript</strong>, <strong>Vue</strong>, <strong>React</strong>, <strong>Liquid</strong>,{' '}
+        <strong>CSS</strong>,&nbsp;and&nbsp;<strong>HTML</strong>
+      </p>
+
+      <p hidden>
         I use <strong>JavaScript</strong> (<strong>ES6</strong>, <strong>React</strong>, <strong>Vue</strong>),{' '}
         <strong>Liquid</strong>, <strong>CSS</strong>, and <strong>HTML</strong> to build intuitive and beautiful{' '}
         ecommerce websites integrated&nbsp;with&nbsp;<strong>Shopify</strong>&nbsp;and&nbsp;<strong>Contentful</strong>.

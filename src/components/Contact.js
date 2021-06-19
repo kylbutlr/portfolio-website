@@ -6,7 +6,7 @@ export default function Contact() {
       <p>
         Check out{' '}
         <a href='https://sdg.la/' target='_blank' rel='noreferrer' aria-label='Go to: SDG.la'>
-          some of the clients
+          some more clients
         </a>{' '}
         I work with{' '}
         <br />

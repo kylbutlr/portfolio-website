@@ -64,7 +64,7 @@ p {
   height: 100%;
   min-height: 100vh;
   margin: 0 auto;
-  transition: opacity 600ms;
+  transition: opacity 600ms ease;
   opacity: 1;
 }
 
@@ -75,7 +75,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding-top: 1vh;
-  transition: opacity 600ms;
+  transition: opacity 600ms ease;
   opacity: 0;
 }
 
@@ -166,7 +166,7 @@ p {
   background-repeat: no-repeat;
   width: 8.5vw;
   height: 8.5vw;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .social-email { background-image: url(../images/icons/gmail.png); }
@@ -253,7 +253,7 @@ p {
   box-shadow: 0px 3px 15px rgba($off-black, 0.5);
   height: 50vw;
   width: 50vw;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .divider {
@@ -265,7 +265,7 @@ p {
 }
 
 .first-divider {
-  transition: opacity 600ms;
+  transition: opacity 600ms ease;
   opacity: 0;
   padding-bottom: 0.5vh;
 }
@@ -317,7 +317,7 @@ p {
   justify-content: flex-end;
   margin-bottom: 2vh;
   opacity: 0.85;
-  transition: opacity 200ms;
+  transition: opacity 200ms ease;
   &:hover {
     opacity: 0.95;
     .project-info-icon div {
@@ -364,7 +364,7 @@ p {
         width: 1.25rem;
         height: 1.25rem;
         opacity: 0.4;
-        transition: opacity 200ms;
+        transition: opacity 200ms ease;
       }
     }
   }
@@ -380,7 +380,7 @@ p {
     color: $off-white;
     font-size: 100%;
     opacity: 0.25;
-    transition: all 200ms;
+    transition: all 200ms ease;
   }
 }
 
@@ -395,7 +395,7 @@ p {
   padding-left: 1rem;
   padding-bottom: 0.5rem;
   opacity: 0;
-  transition: all 200ms;
+  transition: all 200ms ease;
   div {
     display: flex;
     align-items: center;
@@ -472,7 +472,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  transition: opacity 600ms;
+  transition: opacity 600ms ease;
   opacity: 0;
   p {
     font-size: 75%;
@@ -496,7 +496,7 @@ p {
   align-items: center;
   width: 100%;
   height: 100%;
-  transition: opacity 600ms;
+  transition: opacity 600ms ease;
   opacity: 0;
   margin-bottom: 5vh;
 
@@ -696,11 +696,11 @@ p {
       margin-top: 0.5rem;
     }
     a {
-      transition: all 200ms;
+      transition: all 200ms ease;
       line-height: 92.5%;
       &:hover {
-        border-bottom: 1px solid rgba($off-black, 0.5);
-        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+        border-bottom: 1px solid rgba($off-black, 0.33);
+        text-shadow: 0px 0px 5px rgba($off-black, 0.33);
       }
     }
   }
@@ -716,11 +716,11 @@ p {
 
   .contact {
     a {
-      transition: all 200ms;
+      transition: all 200ms ease;
       line-height: 90%;
       &:hover {
-        border-bottom: 1px solid rgba($off-black, 0.5);
-        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+        border-bottom: 1px solid rgba($off-black, 0.33);
+        text-shadow: 0px 0px 2.5px rgba($off-black, 0.33);
       }
     }
   }
@@ -734,11 +734,11 @@ p {
       padding-bottom: 1.5vh;
     }
     a {
-      transition: all 200ms;
+      transition: all 200ms ease;
       line-height: 90%;
       &:hover {
-        border-bottom: 1px solid rgba($off-black, 0.5);
-        text-shadow: 0px 0px 5px rgba($off-black, 0.5);
+        border-bottom: 1px solid rgba($off-black, 0.33);
+        text-shadow: 0px 0px 2.5px rgba($off-black, 0.33);
       }
     }
   }
@@ -789,9 +789,9 @@ p {
     }
     a {
       line-height: 105%;
-      transition: all 200ms;
+      transition: all 200ms ease;
       &:hover {
-        text-shadow: 0px 0px 5px rgba($off-white, 0.75);
+        text-shadow: 0px 0px 2.5px rgba($off-white, 0.75);
         border-bottom: 1.5px solid rgba($off-white, 0.75);
       }
     }
@@ -887,10 +887,6 @@ p {
   .icon {
     width: 3.25vw;
     height: 3.25vw;
-    transition: transform 200ms;
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 
   .socials {
